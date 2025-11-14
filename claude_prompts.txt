@@ -1,0 +1,1212 @@
+SYSTEMATIC PROMPTS FOR BUILDING RELATIONSHIPS
+==================================================
+
+PART 1: DISABILITY → ACCOMMODATIONS
+----------------------------------------
+
+Prompt 1:
+For these disabilities, identify which accommodations from the list would help each one.
+Consider the nature of each disability and match appropriate accommodations.
+
+Disabilities:
+- D001: ADHD
+- D002: Autism Spectrum Disorder
+- D003: Dyslexia
+- D004: Dyscalculia
+- D005: Dysgraphia
+- D006: Dyspraxia
+- D007: Learning disabilities
+- D008: Intellectual disability
+- D009: Traumatic brain injury
+- D010: Stroke
+
+Accommodation IDs to consider: A001-A160
+
+Output format:
+{
+  "D001": ["A001", "A005", "A012", ...],
+  "D002": ["A001", "A005", "A012", ...],
+  "D003": ["A001", "A005", "A012", ...],
+  "D004": ["A001", "A005", "A012", ...],
+  "D005": ["A001", "A005", "A012", ...],
+  "D006": ["A001", "A005", "A012", ...],
+  "D007": ["A001", "A005", "A012", ...],
+  "D008": ["A001", "A005", "A012", ...],
+  "D009": ["A001", "A005", "A012", ...],
+  "D010": ["A001", "A005", "A012", ...],
+}
+
+----------------------------------------
+
+Prompt 2:
+For these disabilities, identify which accommodations from the list would help each one.
+Consider the nature of each disability and match appropriate accommodations.
+
+Disabilities:
+- D011: Epilepsy
+- D012: Tourette syndrome
+- D013: Alzheimer's disease
+- D014: Dementia
+- D015: Parkinson's disease
+- D016: Multiple sclerosis
+- D017: ALS (Lou Gehrig's disease)
+- D018: Huntington's disease
+- D019: Cerebral palsy
+- D020: Muscular dystrophy
+
+Accommodation IDs to consider: A001-A160
+
+Output format:
+{
+  "D011": ["A001", "A005", "A012", ...],
+  "D012": ["A001", "A005", "A012", ...],
+  "D013": ["A001", "A005", "A012", ...],
+  "D014": ["A001", "A005", "A012", ...],
+  "D015": ["A001", "A005", "A012", ...],
+  "D016": ["A001", "A005", "A012", ...],
+  "D017": ["A001", "A005", "A012", ...],
+  "D018": ["A001", "A005", "A012", ...],
+  "D019": ["A001", "A005", "A012", ...],
+  "D020": ["A001", "A005", "A012", ...],
+}
+
+----------------------------------------
+
+Prompt 3:
+For these disabilities, identify which accommodations from the list would help each one.
+Consider the nature of each disability and match appropriate accommodations.
+
+Disabilities:
+- D021: Myasthenia gravis
+- D022: Depression
+- D023: Anxiety disorders
+- D024: Bipolar disorder
+- D025: PTSD
+- D026: OCD
+- D027: Panic disorder
+- D028: Social anxiety disorder
+- D029: Schizophrenia
+- D030: Borderline personality disorder
+
+Accommodation IDs to consider: A001-A160
+
+Output format:
+{
+  "D021": ["A001", "A005", "A012", ...],
+  "D022": ["A001", "A005", "A012", ...],
+  "D023": ["A001", "A005", "A012", ...],
+  "D024": ["A001", "A005", "A012", ...],
+  "D025": ["A001", "A005", "A012", ...],
+  "D026": ["A001", "A005", "A012", ...],
+  "D027": ["A001", "A005", "A012", ...],
+  "D028": ["A001", "A005", "A012", ...],
+  "D029": ["A001", "A005", "A012", ...],
+  "D030": ["A001", "A005", "A012", ...],
+}
+
+----------------------------------------
+
+Prompt 4:
+For these disabilities, identify which accommodations from the list would help each one.
+Consider the nature of each disability and match appropriate accommodations.
+
+Disabilities:
+- D031: Eating disorders
+- D032: Substance use disorder
+- D033: Adjustment disorder
+- D034: Dissociative disorders
+- D035: Sleep disorders
+- D036: Blindness
+- D037: Low vision
+- D038: Color blindness
+- D039: Deafness
+- D040: Hard of hearing
+
+Accommodation IDs to consider: A001-A160
+
+Output format:
+{
+  "D031": ["A001", "A005", "A012", ...],
+  "D032": ["A001", "A005", "A012", ...],
+  "D033": ["A001", "A005", "A012", ...],
+  "D034": ["A001", "A005", "A012", ...],
+  "D035": ["A001", "A005", "A012", ...],
+  "D036": ["A001", "A005", "A012", ...],
+  "D037": ["A001", "A005", "A012", ...],
+  "D038": ["A001", "A005", "A012", ...],
+  "D039": ["A001", "A005", "A012", ...],
+  "D040": ["A001", "A005", "A012", ...],
+}
+
+----------------------------------------
+
+Prompt 5:
+For these disabilities, identify which accommodations from the list would help each one.
+Consider the nature of each disability and match appropriate accommodations.
+
+Disabilities:
+- D041: Deaf-blindness
+- D042: Auditory processing disorder
+- D043: Tinnitus
+- D044: Vestibular disorders
+- D045: Sensory processing disorder
+- D046: Amputation
+- D047: Paralysis
+- D048: Spinal cord injury
+- D049: Back injury
+- D050: Repetitive strain injury
+
+Accommodation IDs to consider: A001-A160
+
+Output format:
+{
+  "D041": ["A001", "A005", "A012", ...],
+  "D042": ["A001", "A005", "A012", ...],
+  "D043": ["A001", "A005", "A012", ...],
+  "D044": ["A001", "A005", "A012", ...],
+  "D045": ["A001", "A005", "A012", ...],
+  "D046": ["A001", "A005", "A012", ...],
+  "D047": ["A001", "A005", "A012", ...],
+  "D048": ["A001", "A005", "A012", ...],
+  "D049": ["A001", "A005", "A012", ...],
+  "D050": ["A001", "A005", "A012", ...],
+}
+
+----------------------------------------
+
+Prompt 6:
+For these disabilities, identify which accommodations from the list would help each one.
+Consider the nature of each disability and match appropriate accommodations.
+
+Disabilities:
+- D051: Carpal tunnel syndrome
+- D052: Arthritis
+- D053: Rheumatoid arthritis
+- D054: Osteoarthritis
+- D055: Fibromyalgia
+- D056: Chronic fatigue syndrome
+- D057: Ehlers-Danlos syndrome
+- D058: Lupus
+- D059: Spina bifida
+- D060: Scoliosis
+
+Accommodation IDs to consider: A001-A160
+
+Output format:
+{
+  "D051": ["A001", "A005", "A012", ...],
+  "D052": ["A001", "A005", "A012", ...],
+  "D053": ["A001", "A005", "A012", ...],
+  "D054": ["A001", "A005", "A012", ...],
+  "D055": ["A001", "A005", "A012", ...],
+  "D056": ["A001", "A005", "A012", ...],
+  "D057": ["A001", "A005", "A012", ...],
+  "D058": ["A001", "A005", "A012", ...],
+  "D059": ["A001", "A005", "A012", ...],
+  "D060": ["A001", "A005", "A012", ...],
+}
+
+----------------------------------------
+
+Prompt 7:
+For these disabilities, identify which accommodations from the list would help each one.
+Consider the nature of each disability and match appropriate accommodations.
+
+Disabilities:
+- D061: Dwarfism
+- D062: Limb difference
+- D063: Diabetes
+- D064: Heart disease
+- D065: Asthma
+- D066: COPD
+- D067: Crohn's disease
+- D068: Ulcerative colitis
+- D069: IBS
+- D070: Celiac disease
+
+Accommodation IDs to consider: A001-A160
+
+Output format:
+{
+  "D061": ["A001", "A005", "A012", ...],
+  "D062": ["A001", "A005", "A012", ...],
+  "D063": ["A001", "A005", "A012", ...],
+  "D064": ["A001", "A005", "A012", ...],
+  "D065": ["A001", "A005", "A012", ...],
+  "D066": ["A001", "A005", "A012", ...],
+  "D067": ["A001", "A005", "A012", ...],
+  "D068": ["A001", "A005", "A012", ...],
+  "D069": ["A001", "A005", "A012", ...],
+  "D070": ["A001", "A005", "A012", ...],
+}
+
+----------------------------------------
+
+Prompt 8:
+For these disabilities, identify which accommodations from the list would help each one.
+Consider the nature of each disability and match appropriate accommodations.
+
+Disabilities:
+- D071: Food allergies
+- D072: Multiple chemical sensitivity
+- D073: Chronic migraines
+- D074: Chronic pain
+- D075: Endometriosis
+- D076: PCOS
+- D077: Thyroid disorders
+- D078: Addison's disease
+- D079: Cushing's syndrome
+- D080: Kidney disease
+
+Accommodation IDs to consider: A001-A160
+
+Output format:
+{
+  "D071": ["A001", "A005", "A012", ...],
+  "D072": ["A001", "A005", "A012", ...],
+  "D073": ["A001", "A005", "A012", ...],
+  "D074": ["A001", "A005", "A012", ...],
+  "D075": ["A001", "A005", "A012", ...],
+  "D076": ["A001", "A005", "A012", ...],
+  "D077": ["A001", "A005", "A012", ...],
+  "D078": ["A001", "A005", "A012", ...],
+  "D079": ["A001", "A005", "A012", ...],
+  "D080": ["A001", "A005", "A012", ...],
+}
+
+----------------------------------------
+
+Prompt 9:
+For these disabilities, identify which accommodations from the list would help each one.
+Consider the nature of each disability and match appropriate accommodations.
+
+Disabilities:
+- D081: Liver disease
+- D082: Cancer
+- D083: HIV/AIDS
+- D084: Hepatitis
+- D085: Sickle cell disease
+- D086: Hemophilia
+- D087: Cystic fibrosis
+- D088: Lyme disease
+- D089: Long COVID
+- D090: ME/CFS
+
+Accommodation IDs to consider: A001-A160
+
+Output format:
+{
+  "D081": ["A001", "A005", "A012", ...],
+  "D082": ["A001", "A005", "A012", ...],
+  "D083": ["A001", "A005", "A012", ...],
+  "D084": ["A001", "A005", "A012", ...],
+  "D085": ["A001", "A005", "A012", ...],
+  "D086": ["A001", "A005", "A012", ...],
+  "D087": ["A001", "A005", "A012", ...],
+  "D088": ["A001", "A005", "A012", ...],
+  "D089": ["A001", "A005", "A012", ...],
+  "D090": ["A001", "A005", "A012", ...],
+}
+
+----------------------------------------
+
+Prompt 10:
+For these disabilities, identify which accommodations from the list would help each one.
+Consider the nature of each disability and match appropriate accommodations.
+
+Disabilities:
+- D091: POTS
+- D092: Mast cell activation syndrome
+- D093: Speech impediment
+- D094: Stutter
+- D095: Aphasia
+- D096: Selective mutism
+- D097: Voice disorders
+- D098: Language disorders
+- D099: Pregnancy
+- D100: Broken bones
+
+Accommodation IDs to consider: A001-A160
+
+Output format:
+{
+  "D091": ["A001", "A005", "A012", ...],
+  "D092": ["A001", "A005", "A012", ...],
+  "D093": ["A001", "A005", "A012", ...],
+  "D094": ["A001", "A005", "A012", ...],
+  "D095": ["A001", "A005", "A012", ...],
+  "D096": ["A001", "A005", "A012", ...],
+  "D097": ["A001", "A005", "A012", ...],
+  "D098": ["A001", "A005", "A012", ...],
+  "D099": ["A001", "A005", "A012", ...],
+  "D100": ["A001", "A005", "A012", ...],
+}
+
+----------------------------------------
+
+Prompt 11:
+For these disabilities, identify which accommodations from the list would help each one.
+Consider the nature of each disability and match appropriate accommodations.
+
+Disabilities:
+- D101: Surgery recovery
+- D102: Concussion
+- D103: Temporary illness
+- D104: Injury recovery
+- D105: Burns
+- D106: Sprains
+
+Accommodation IDs to consider: A001-A160
+
+Output format:
+{
+  "D101": ["A001", "A005", "A012", ...],
+  "D102": ["A001", "A005", "A012", ...],
+  "D103": ["A001", "A005", "A012", ...],
+  "D104": ["A001", "A005", "A012", ...],
+  "D105": ["A001", "A005", "A012", ...],
+  "D106": ["A001", "A005", "A012", ...],
+}
+
+----------------------------------------
+
+
+PART 2: LIMITATION → ACCOMMODATIONS
+----------------------------------------
+
+Prompt 1:
+For these functional limitations, identify accommodations that address each one.
+
+Limitations:
+- L001: Concentration difficulty
+- L002: Memory impairment
+- L003: Processing speed
+- L004: Executive function
+- L005: Attention regulation
+- L006: Task initiation
+- L007: Task completion
+- L008: Organization skills
+- L009: Time management
+- L010: Prioritization
+- L011: Decision making
+- L012: Problem solving
+- L013: Abstract thinking
+- L014: Sequential processing
+- L015: Multi-tasking
+
+Match with appropriate accommodations from A001-A160
+
+Output format:
+{
+  "L001": ["A..."],
+  "L002": ["A..."],
+  "L003": ["A..."],
+  "L004": ["A..."],
+  "L005": ["A..."],
+  "L006": ["A..."],
+  "L007": ["A..."],
+  "L008": ["A..."],
+  "L009": ["A..."],
+  "L010": ["A..."],
+  "L011": ["A..."],
+  "L012": ["A..."],
+  "L013": ["A..."],
+  "L014": ["A..."],
+  "L015": ["A..."],
+}
+
+----------------------------------------
+
+Prompt 2:
+For these functional limitations, identify accommodations that address each one.
+
+Limitations:
+- L016: Information retention
+- L017: Learning new tasks
+- L018: Following instructions
+- L019: Reading comprehension
+- L020: Writing ability
+- L021: Mathematical calculations
+- L022: Standing
+- L023: Sitting
+- L024: Walking
+- L025: Climbing stairs
+- L026: Balancing
+- L027: Bending
+- L028: Kneeling
+- L029: Reaching
+- L030: Grasping
+
+Match with appropriate accommodations from A001-A160
+
+Output format:
+{
+  "L016": ["A..."],
+  "L017": ["A..."],
+  "L018": ["A..."],
+  "L019": ["A..."],
+  "L020": ["A..."],
+  "L021": ["A..."],
+  "L022": ["A..."],
+  "L023": ["A..."],
+  "L024": ["A..."],
+  "L025": ["A..."],
+  "L026": ["A..."],
+  "L027": ["A..."],
+  "L028": ["A..."],
+  "L029": ["A..."],
+  "L030": ["A..."],
+}
+
+----------------------------------------
+
+Prompt 3:
+For these functional limitations, identify accommodations that address each one.
+
+Limitations:
+- L031: Fine motor control
+- L032: Lifting
+- L033: Carrying
+- L034: Pushing
+- L035: Pulling
+- L036: Typing
+- L037: Hand strength
+- L038: Grip strength
+- L039: Arm movement
+- L040: Leg movement
+- L041: Stamina
+- L042: Endurance
+- L043: Fatigue
+- L044: Pain management
+- L045: Temperature regulation
+
+Match with appropriate accommodations from A001-A160
+
+Output format:
+{
+  "L031": ["A..."],
+  "L032": ["A..."],
+  "L033": ["A..."],
+  "L034": ["A..."],
+  "L035": ["A..."],
+  "L036": ["A..."],
+  "L037": ["A..."],
+  "L038": ["A..."],
+  "L039": ["A..."],
+  "L040": ["A..."],
+  "L041": ["A..."],
+  "L042": ["A..."],
+  "L043": ["A..."],
+  "L044": ["A..."],
+  "L045": ["A..."],
+}
+
+----------------------------------------
+
+Prompt 4:
+For these functional limitations, identify accommodations that address each one.
+
+Limitations:
+- L046: Mobility
+- L047: Transfer ability
+- L048: Vision
+- L049: Hearing
+- L050: Touch sensitivity
+- L051: Light sensitivity
+- L052: Sound sensitivity
+- L053: Smell sensitivity
+- L054: Taste sensitivity
+- L055: Proprioception
+- L056: Vestibular function
+- L057: Depth perception
+- L058: Color discrimination
+- L059: Night vision
+- L060: Peripheral vision
+
+Match with appropriate accommodations from A001-A160
+
+Output format:
+{
+  "L046": ["A..."],
+  "L047": ["A..."],
+  "L048": ["A..."],
+  "L049": ["A..."],
+  "L050": ["A..."],
+  "L051": ["A..."],
+  "L052": ["A..."],
+  "L053": ["A..."],
+  "L054": ["A..."],
+  "L055": ["A..."],
+  "L056": ["A..."],
+  "L057": ["A..."],
+  "L058": ["A..."],
+  "L059": ["A..."],
+  "L060": ["A..."],
+}
+
+----------------------------------------
+
+Prompt 5:
+For these functional limitations, identify accommodations that address each one.
+
+Limitations:
+- L061: Visual processing
+- L062: Auditory processing
+- L063: Sensory integration
+- L064: Verbal communication
+- L065: Written communication
+- L066: Non-verbal communication
+- L067: Understanding speech
+- L068: Speech production
+- L069: Voice modulation
+- L070: Language processing
+- L071: Social cues interpretation
+- L072: Eye contact
+- L073: Facial expressions
+- L074: Body language
+- L075: Phone communication
+
+Match with appropriate accommodations from A001-A160
+
+Output format:
+{
+  "L061": ["A..."],
+  "L062": ["A..."],
+  "L063": ["A..."],
+  "L064": ["A..."],
+  "L065": ["A..."],
+  "L066": ["A..."],
+  "L067": ["A..."],
+  "L068": ["A..."],
+  "L069": ["A..."],
+  "L070": ["A..."],
+  "L071": ["A..."],
+  "L072": ["A..."],
+  "L073": ["A..."],
+  "L074": ["A..."],
+  "L075": ["A..."],
+}
+
+----------------------------------------
+
+Prompt 6:
+For these functional limitations, identify accommodations that address each one.
+
+Limitations:
+- L076: Emotion regulation
+- L077: Stress tolerance
+- L078: Anxiety management
+- L079: Mood stability
+- L080: Impulse control
+- L081: Frustration tolerance
+- L082: Social interaction
+- L083: Interpersonal skills
+- L084: Conflict resolution
+- L085: Coping with change
+- L086: Routine disruption tolerance
+- L087: Sensory overload
+- L088: Medication side effects
+- L089: Treatment schedules
+- L090: Symptom management
+
+Match with appropriate accommodations from A001-A160
+
+Output format:
+{
+  "L076": ["A..."],
+  "L077": ["A..."],
+  "L078": ["A..."],
+  "L079": ["A..."],
+  "L080": ["A..."],
+  "L081": ["A..."],
+  "L082": ["A..."],
+  "L083": ["A..."],
+  "L084": ["A..."],
+  "L085": ["A..."],
+  "L086": ["A..."],
+  "L087": ["A..."],
+  "L088": ["A..."],
+  "L089": ["A..."],
+  "L090": ["A..."],
+}
+
+----------------------------------------
+
+Prompt 7:
+For these functional limitations, identify accommodations that address each one.
+
+Limitations:
+- L091: Immune system function
+- L092: Allergic reactions
+- L093: Chemical sensitivity
+- L094: Food restrictions
+- L095: Bathroom frequency
+- L096: Blood sugar regulation
+- L097: Blood pressure regulation
+- L098: Seizure management
+- L099: Migraine triggers
+
+Match with appropriate accommodations from A001-A160
+
+Output format:
+{
+  "L091": ["A..."],
+  "L092": ["A..."],
+  "L093": ["A..."],
+  "L094": ["A..."],
+  "L095": ["A..."],
+  "L096": ["A..."],
+  "L097": ["A..."],
+  "L098": ["A..."],
+  "L099": ["A..."],
+}
+
+----------------------------------------
+
+
+PART 3: BARRIER → ACCOMMODATIONS
+----------------------------------------
+
+Prompt 1:
+For these workplace barriers, identify accommodations that remove or mitigate each barrier.
+
+Barriers:
+- B001: Stairs without ramps
+- B002: Narrow doorways
+- B003: Heavy doors
+- B004: Inaccessible parking
+- B005: Distance from parking
+- B006: Uneven surfaces
+- B007: High shelves
+- B008: Low clearances
+- B009: Inadequate lighting
+- B010: Fluorescent lighting
+- B011: Glare
+- B012: Visual clutter
+- B013: Open office layout
+- B014: Lack of private space
+- B015: Temperature extremes
+
+Output format with accommodation IDs:
+{
+  "B001": ["A..."],
+  "B002": ["A..."],
+  "B003": ["A..."],
+  "B004": ["A..."],
+  "B005": ["A..."],
+  "B006": ["A..."],
+  "B007": ["A..."],
+  "B008": ["A..."],
+  "B009": ["A..."],
+  "B010": ["A..."],
+  "B011": ["A..."],
+  "B012": ["A..."],
+  "B013": ["A..."],
+  "B014": ["A..."],
+  "B015": ["A..."],
+}
+
+Prompt 2:
+For these workplace barriers, identify accommodations that remove or mitigate each barrier.
+
+Barriers:
+- B016: Poor air quality
+- B017: Chemical odors
+- B018: Fragrances
+- B019: Noise levels
+- B020: Echo/acoustics
+- B021: Vibrations
+- B022: Crowded spaces
+- B023: Fast-paced environment
+- B024: Inaccessible software
+- B025: Complex interfaces
+- B026: Small text
+- B027: Poor contrast
+- B028: Lack of keyboard navigation
+- B029: No screen reader compatibility
+- B030: Video without captions
+
+Output format with accommodation IDs:
+{
+  "B016": ["A..."],
+  "B017": ["A..."],
+  "B018": ["A..."],
+  "B019": ["A..."],
+  "B020": ["A..."],
+  "B021": ["A..."],
+  "B022": ["A..."],
+  "B023": ["A..."],
+  "B024": ["A..."],
+  "B025": ["A..."],
+  "B026": ["A..."],
+  "B027": ["A..."],
+  "B028": ["A..."],
+  "B029": ["A..."],
+  "B030": ["A..."],
+}
+
+Prompt 3:
+For these workplace barriers, identify accommodations that remove or mitigate each barrier.
+
+Barriers:
+- B031: Audio without transcripts
+- B032: Time limits
+- B033: CAPTCHA challenges
+- B034: Touch-only interfaces
+- B035: Required mouse use
+- B036: Incompatible assistive technology
+- B037: Outdated technology
+- B038: Phone-only contact
+- B039: In-person only meetings
+- B040: No written materials
+- B041: Complex language
+- B042: Fast-paced speech
+- B043: Background noise in calls
+- B044: No visual aids
+- B045: Lack of clarity in instructions
+
+Output format with accommodation IDs:
+{
+  "B031": ["A..."],
+  "B032": ["A..."],
+  "B033": ["A..."],
+  "B034": ["A..."],
+  "B035": ["A..."],
+  "B036": ["A..."],
+  "B037": ["A..."],
+  "B038": ["A..."],
+  "B039": ["A..."],
+  "B040": ["A..."],
+  "B041": ["A..."],
+  "B042": ["A..."],
+  "B043": ["A..."],
+  "B044": ["A..."],
+  "B045": ["A..."],
+}
+
+Prompt 4:
+For these workplace barriers, identify accommodations that remove or mitigate each barrier.
+
+Barriers:
+- B046: Ambiguous expectations
+- B047: Unstructured information
+- B048: Information overload
+- B049: Short notice changes
+- B050: Inflexible schedules
+- B051: Rigid attendance policies
+- B052: No remote work option
+- B053: Mandatory overtime
+- B054: Rotating shifts
+- B055: Travel requirements
+- B056: Strict dress codes
+- B057: No break flexibility
+- B058: Performance metrics
+- B059: Speed requirements
+- B060: Multitasking demands
+
+Output format with accommodation IDs:
+{
+  "B046": ["A..."],
+  "B047": ["A..."],
+  "B048": ["A..."],
+  "B049": ["A..."],
+  "B050": ["A..."],
+  "B051": ["A..."],
+  "B052": ["A..."],
+  "B053": ["A..."],
+  "B054": ["A..."],
+  "B055": ["A..."],
+  "B056": ["A..."],
+  "B057": ["A..."],
+  "B058": ["A..."],
+  "B059": ["A..."],
+  "B060": ["A..."],
+}
+
+Prompt 5:
+For these workplace barriers, identify accommodations that remove or mitigate each barrier.
+
+Barriers:
+- B061: Open-ended deadlines
+- B062: Unclear priorities
+- B063: Inconsistent rules
+- B064: Lack of structure
+- B065: Stigma
+- B066: Lack of awareness
+- B067: Stereotypes
+- B068: Discrimination
+- B069: Isolation
+- B070: Lack of support
+- B071: Negative attitudes
+- B072: Microaggressions
+- B073: Forced disclosure
+- B074: Privacy concerns
+- B075: Lack of role models
+
+Output format with accommodation IDs:
+{
+  "B061": ["A..."],
+  "B062": ["A..."],
+  "B063": ["A..."],
+  "B064": ["A..."],
+  "B065": ["A..."],
+  "B066": ["A..."],
+  "B067": ["A..."],
+  "B068": ["A..."],
+  "B069": ["A..."],
+  "B070": ["A..."],
+  "B071": ["A..."],
+  "B072": ["A..."],
+  "B073": ["A..."],
+  "B074": ["A..."],
+  "B075": ["A..."],
+}
+
+Prompt 6:
+For these workplace barriers, identify accommodations that remove or mitigate each barrier.
+
+Barriers:
+- B076: Communication style differences
+- B077: Social expectations
+- B078: Networking events
+- B079: Team building activities
+- B080: Mandatory social events
+- B081: Complex accommodation process
+- B082: Lack of HR knowledge
+- B083: Budget constraints
+- B084: Delayed responses
+- B085: Denial of requests
+- B086: Retaliation fears
+- B087: Documentation requirements
+- B088: Medical proof demands
+- B089: Legal complexity
+- B090: Insurance limitations
+
+Output format with accommodation IDs:
+{
+  "B076": ["A..."],
+  "B077": ["A..."],
+  "B078": ["A..."],
+  "B079": ["A..."],
+  "B080": ["A..."],
+  "B081": ["A..."],
+  "B082": ["A..."],
+  "B083": ["A..."],
+  "B084": ["A..."],
+  "B085": ["A..."],
+  "B086": ["A..."],
+  "B087": ["A..."],
+  "B088": ["A..."],
+  "B089": ["A..."],
+  "B090": ["A..."],
+}
+
+Prompt 7:
+For these workplace barriers, identify accommodations that remove or mitigate each barrier.
+
+Barriers:
+- B091: Lack of precedent
+- B092: Organizational resistance
+
+Output format with accommodation IDs:
+{
+  "B091": ["A..."],
+  "B092": ["A..."],
+}
+
+
+PART 4: WORK FUNCTION → ACCOMMODATIONS
+----------------------------------------
+
+Prompt 1:
+For these work functions, identify accommodations that help perform each function.
+
+Functions:
+- F001: Answering phones
+- F002: Making phone calls
+- F003: Video conferencing
+- F004: Leading meetings
+- F005: Participating in meetings
+- F006: Presenting
+- F007: Public speaking
+- F008: Customer service
+- F009: Sales calls
+- F010: Negotiating
+- F011: Conflict resolution
+- F012: Team collaboration
+- F013: Writing emails
+- F014: Writing reports
+- F015: Creating documentation
+
+Output format:
+{
+  "F001": ["A..."],
+  "F002": ["A..."],
+  "F003": ["A..."],
+  "F004": ["A..."],
+  "F005": ["A..."],
+  "F006": ["A..."],
+  "F007": ["A..."],
+  "F008": ["A..."],
+  "F009": ["A..."],
+  "F010": ["A..."],
+  "F011": ["A..."],
+  "F012": ["A..."],
+  "F013": ["A..."],
+  "F014": ["A..."],
+  "F015": ["A..."],
+}
+
+Prompt 2:
+For these work functions, identify accommodations that help perform each function.
+
+Functions:
+- F016: Reading documents
+- F017: Reviewing contracts
+- F018: Proofreading
+- F019: Data analysis
+- F020: Problem solving
+- F021: Decision making
+- F022: Strategic planning
+- F023: Project planning
+- F024: Research
+- F025: Critical thinking
+- F026: Creative thinking
+- F027: Innovation
+- F028: Budget management
+- F029: Financial analysis
+- F030: Risk assessment
+
+Output format:
+{
+  "F016": ["A..."],
+  "F017": ["A..."],
+  "F018": ["A..."],
+  "F019": ["A..."],
+  "F020": ["A..."],
+  "F021": ["A..."],
+  "F022": ["A..."],
+  "F023": ["A..."],
+  "F024": ["A..."],
+  "F025": ["A..."],
+  "F026": ["A..."],
+  "F027": ["A..."],
+  "F028": ["A..."],
+  "F029": ["A..."],
+  "F030": ["A..."],
+}
+
+Prompt 3:
+For these work functions, identify accommodations that help perform each function.
+
+Functions:
+- F031: Quality control
+- F032: Process improvement
+- F033: Troubleshooting
+- F034: Computer use
+- F035: Software operation
+- F036: Data entry
+- F037: Programming
+- F038: System administration
+- F039: Database management
+- F040: Graphic design
+- F041: CAD/technical drawing
+- F042: Video editing
+- F043: Equipment operation
+- F044: Machine operation
+- F045: Tool use
+
+Output format:
+{
+  "F031": ["A..."],
+  "F032": ["A..."],
+  "F033": ["A..."],
+  "F034": ["A..."],
+  "F035": ["A..."],
+  "F036": ["A..."],
+  "F037": ["A..."],
+  "F038": ["A..."],
+  "F039": ["A..."],
+  "F040": ["A..."],
+  "F041": ["A..."],
+  "F042": ["A..."],
+  "F043": ["A..."],
+  "F044": ["A..."],
+  "F045": ["A..."],
+}
+
+Prompt 4:
+For these work functions, identify accommodations that help perform each function.
+
+Functions:
+- F046: Laboratory work
+- F047: Technical writing
+- F048: Testing/debugging
+- F049: Scheduling
+- F050: Calendar management
+- F051: Filing
+- F052: Record keeping
+- F053: Inventory management
+- F054: Supply ordering
+- F055: Travel coordination
+- F056: Event planning
+- F057: Meeting coordination
+- F058: Reception duties
+- F059: Mail handling
+- F060: Document scanning
+
+Output format:
+{
+  "F046": ["A..."],
+  "F047": ["A..."],
+  "F048": ["A..."],
+  "F049": ["A..."],
+  "F050": ["A..."],
+  "F051": ["A..."],
+  "F052": ["A..."],
+  "F053": ["A..."],
+  "F054": ["A..."],
+  "F055": ["A..."],
+  "F056": ["A..."],
+  "F057": ["A..."],
+  "F058": ["A..."],
+  "F059": ["A..."],
+  "F060": ["A..."],
+}
+
+Prompt 5:
+For these work functions, identify accommodations that help perform each function.
+
+Functions:
+- F061: Photocopying
+- F062: Time tracking
+- F063: Expense reporting
+- F064: Database updating
+- F065: Lifting objects
+- F066: Carrying items
+- F067: Moving equipment
+- F068: Standing for periods
+- F069: Sitting for periods
+- F070: Walking distances
+- F071: Driving vehicles
+- F072: Operating machinery
+- F073: Manual labor
+- F074: Assembly work
+- F075: Packaging
+
+Output format:
+{
+  "F061": ["A..."],
+  "F062": ["A..."],
+  "F063": ["A..."],
+  "F064": ["A..."],
+  "F065": ["A..."],
+  "F066": ["A..."],
+  "F067": ["A..."],
+  "F068": ["A..."],
+  "F069": ["A..."],
+  "F070": ["A..."],
+  "F071": ["A..."],
+  "F072": ["A..."],
+  "F073": ["A..."],
+  "F074": ["A..."],
+  "F075": ["A..."],
+}
+
+Prompt 6:
+For these work functions, identify accommodations that help perform each function.
+
+Functions:
+- F076: Stocking shelves
+- F077: Cleaning
+- F078: Maintenance
+- F079: Repair work
+- F080: Construction
+- F081: Delivery
+- F082: Loading/unloading
+- F083: Warehouse work
+- F084: Managing staff
+- F085: Training others
+- F086: Mentoring
+- F087: Coaching
+- F088: Performance reviews
+- F089: Hiring
+- F090: Disciplinary actions
+
+Output format:
+{
+  "F076": ["A..."],
+  "F077": ["A..."],
+  "F078": ["A..."],
+  "F079": ["A..."],
+  "F080": ["A..."],
+  "F081": ["A..."],
+  "F082": ["A..."],
+  "F083": ["A..."],
+  "F084": ["A..."],
+  "F085": ["A..."],
+  "F086": ["A..."],
+  "F087": ["A..."],
+  "F088": ["A..."],
+  "F089": ["A..."],
+  "F090": ["A..."],
+}
+
+Prompt 7:
+For these work functions, identify accommodations that help perform each function.
+
+Functions:
+- F091: Team building
+- F092: Networking
+- F093: Relationship building
+- F094: Stakeholder management
+- F095: Vendor management
+- F096: Client relations
+- F097: Patient care
+- F098: Teaching
+- F099: Counseling
+- F100: Legal work
+- F101: Accounting
+- F102: Auditing
+- F103: Marketing
+- F104: Social media management
+- F105: Content creation
+
+Output format:
+{
+  "F091": ["A..."],
+  "F092": ["A..."],
+  "F093": ["A..."],
+  "F094": ["A..."],
+  "F095": ["A..."],
+  "F096": ["A..."],
+  "F097": ["A..."],
+  "F098": ["A..."],
+  "F099": ["A..."],
+  "F100": ["A..."],
+  "F101": ["A..."],
+  "F102": ["A..."],
+  "F103": ["A..."],
+  "F104": ["A..."],
+  "F105": ["A..."],
+}
+
+Prompt 8:
+For these work functions, identify accommodations that help perform each function.
+
+Functions:
+- F106: Translation
+- F107: Research and development
+- F108: Safety inspections
+- F109: Emergency response
+- F110: Security monitoring
+
+Output format:
+{
+  "F106": ["A..."],
+  "F107": ["A..."],
+  "F108": ["A..."],
+  "F109": ["A..."],
+  "F110": ["A..."],
+}
+

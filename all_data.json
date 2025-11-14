@@ -1,0 +1,3424 @@
+{
+  "accommodations": [
+    {
+      "id": "A001",
+      "name": "Flexible work schedule",
+      "category": "Schedule & Time",
+      "description": ""
+    },
+    {
+      "id": "A002",
+      "name": "Modified work hours",
+      "category": "Schedule & Time",
+      "description": ""
+    },
+    {
+      "id": "A003",
+      "name": "Compressed work week",
+      "category": "Schedule & Time",
+      "description": ""
+    },
+    {
+      "id": "A004",
+      "name": "Part-time schedule",
+      "category": "Schedule & Time",
+      "description": ""
+    },
+    {
+      "id": "A005",
+      "name": "Job sharing",
+      "category": "Schedule & Time",
+      "description": ""
+    },
+    {
+      "id": "A006",
+      "name": "Work from home/Remote work",
+      "category": "Schedule & Time",
+      "description": ""
+    },
+    {
+      "id": "A007",
+      "name": "Hybrid schedule",
+      "category": "Schedule & Time",
+      "description": ""
+    },
+    {
+      "id": "A008",
+      "name": "Additional time for tasks",
+      "category": "Schedule & Time",
+      "description": ""
+    },
+    {
+      "id": "A009",
+      "name": "Extended deadlines",
+      "category": "Schedule & Time",
+      "description": ""
+    },
+    {
+      "id": "A010",
+      "name": "Flexible start/end times",
+      "category": "Schedule & Time",
+      "description": ""
+    },
+    {
+      "id": "A011",
+      "name": "Four-day work week",
+      "category": "Schedule & Time",
+      "description": ""
+    },
+    {
+      "id": "A012",
+      "name": "Split shift schedule",
+      "category": "Schedule & Time",
+      "description": ""
+    },
+    {
+      "id": "A013",
+      "name": "Additional breaks",
+      "category": "Breaks & Rest",
+      "description": ""
+    },
+    {
+      "id": "A014",
+      "name": "Longer meal breaks",
+      "category": "Breaks & Rest",
+      "description": ""
+    },
+    {
+      "id": "A015",
+      "name": "Rest periods as needed",
+      "category": "Breaks & Rest",
+      "description": ""
+    },
+    {
+      "id": "A016",
+      "name": "Scheduled medication breaks",
+      "category": "Breaks & Rest",
+      "description": ""
+    },
+    {
+      "id": "A017",
+      "name": "Movement breaks",
+      "category": "Breaks & Rest",
+      "description": ""
+    },
+    {
+      "id": "A018",
+      "name": "Quiet rest area access",
+      "category": "Breaks & Rest",
+      "description": ""
+    },
+    {
+      "id": "A019",
+      "name": "Lying down during breaks",
+      "category": "Breaks & Rest",
+      "description": ""
+    },
+    {
+      "id": "A020",
+      "name": "Frequent short breaks",
+      "category": "Breaks & Rest",
+      "description": ""
+    },
+    {
+      "id": "A021",
+      "name": "Extended lunch break",
+      "category": "Breaks & Rest",
+      "description": ""
+    },
+    {
+      "id": "A022",
+      "name": "Private office",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A023",
+      "name": "Quiet workspace",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A024",
+      "name": "Adjustable desk/workstation",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A025",
+      "name": "Ergonomic chair",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A026",
+      "name": "Standing desk",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A027",
+      "name": "Footrest",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A028",
+      "name": "Document holder",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A029",
+      "name": "Adjustable monitor arm",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A030",
+      "name": "Ergonomic keyboard and mouse",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A031",
+      "name": "Wrist supports",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A032",
+      "name": "Anti-fatigue mat",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A033",
+      "name": "Back support cushion",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A034",
+      "name": "Accessible parking space",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A035",
+      "name": "Reserved parking near entrance",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A036",
+      "name": "Workspace near restroom",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A037",
+      "name": "Temperature control",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A038",
+      "name": "Air purifier",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A039",
+      "name": "Humidifier/dehumidifier",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A040",
+      "name": "Natural lighting",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A041",
+      "name": "Task lighting",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A042",
+      "name": "Reduced fluorescent lighting",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A043",
+      "name": "Window blinds/shades",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A044",
+      "name": "Glare guards for screens",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "A045",
+      "name": "Blue light filters",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A046",
+      "name": "Noise-canceling headphones",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A047",
+      "name": "White noise machine",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A048",
+      "name": "Sound masking system",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A049",
+      "name": "Earplugs",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A050",
+      "name": "Visual barriers/partitions",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A051",
+      "name": "Reduced visual clutter",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A052",
+      "name": "Minimal décor workspace",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A053",
+      "name": "Fragrance-free workplace policy",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A054",
+      "name": "Alternative to fluorescent lighting",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A055",
+      "name": "Dimmer switches",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A056",
+      "name": "Colored overlays for reading",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A057",
+      "name": "Large print materials",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A058",
+      "name": "Screen magnification software",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A059",
+      "name": "Screen reader software",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A060",
+      "name": "Voice recognition software",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A061",
+      "name": "Braille display",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "A062",
+      "name": "Tactile markers",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "A063",
+      "name": "Written instructions",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "A064",
+      "name": "Visual aids and demonstrations",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "A065",
+      "name": "Record meetings",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "A066",
+      "name": "Meeting agendas in advance",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "A067",
+      "name": "Meeting notes provided",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "A068",
+      "name": "One-on-one meetings instead of group",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "A069",
+      "name": "Email instead of phone calls",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "A070",
+      "name": "Text-based communication",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "A071",
+      "name": "Video calls with captions",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "A072",
+      "name": "Sign language interpreter",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "A073",
+      "name": "Real-time captioning (CART)",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "A074",
+      "name": "Communication device",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "A075",
+      "name": "Picture communication boards",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "A076",
+      "name": "Alternative communication methods",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "A077",
+      "name": "Extra time to respond",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A078",
+      "name": "Task prioritization assistance",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A079",
+      "name": "Written task lists",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A080",
+      "name": "Checklists",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A081",
+      "name": "Color-coding systems",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A082",
+      "name": "Calendar reminders",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A083",
+      "name": "Task management software",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A084",
+      "name": "Reduced interruptions",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A085",
+      "name": "Uninterrupted work time",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A086",
+      "name": "Modified job duties",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A087",
+      "name": "Job restructuring",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A088",
+      "name": "Job coaching",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A089",
+      "name": "Mentoring",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A090",
+      "name": "Buddy system",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A091",
+      "name": "Regular feedback sessions",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A092",
+      "name": "Performance review modifications",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A093",
+      "name": "Reduced workload",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A094",
+      "name": "Gradual return to work",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A095",
+      "name": "Modified performance standards",
+      "category": "Cognitive & Mental Health",
+      "description": ""
+    },
+    {
+      "id": "A096",
+      "name": "Dual monitors",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A097",
+      "name": "Larger monitor",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A098",
+      "name": "Adjustable monitor brightness",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A099",
+      "name": "Speech-to-text software",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A100",
+      "name": "Text-to-speech software",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A101",
+      "name": "Mind mapping software",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A102",
+      "name": "Time management apps",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A103",
+      "name": "Noise apps (brown/white/pink noise)",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A104",
+      "name": "Focus apps/website blockers",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A105",
+      "name": "Automated task reminders",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A106",
+      "name": "Digital note-taking tools",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A107",
+      "name": "Voice recorder",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A108",
+      "name": "Smart pen",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A109",
+      "name": "Telephone headset",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A110",
+      "name": "Amplified telephone",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A111",
+      "name": "TTY/TDD device",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A112",
+      "name": "Video phone",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A113",
+      "name": "Instant messaging platform",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A114",
+      "name": "Project management software",
+      "category": "Technology & Equipment",
+      "description": ""
+    },
+    {
+      "id": "A115",
+      "name": "Additional training time",
+      "category": "Training & Support",
+      "description": ""
+    },
+    {
+      "id": "A116",
+      "name": "Modified training materials",
+      "category": "Training & Support",
+      "description": ""
+    },
+    {
+      "id": "A117",
+      "name": "One-on-one training",
+      "category": "Training & Support",
+      "description": ""
+    },
+    {
+      "id": "A118",
+      "name": "Hands-on training",
+      "category": "Training & Support",
+      "description": ""
+    },
+    {
+      "id": "A119",
+      "name": "Video training materials",
+      "category": "Training & Support",
+      "description": ""
+    },
+    {
+      "id": "A120",
+      "name": "Written training materials",
+      "category": "Training & Support",
+      "description": ""
+    },
+    {
+      "id": "A121",
+      "name": "Repeated instructions",
+      "category": "Training & Support",
+      "description": ""
+    },
+    {
+      "id": "A122",
+      "name": "Skills refresher training",
+      "category": "Training & Support",
+      "description": ""
+    },
+    {
+      "id": "A123",
+      "name": "Cross-training opportunities",
+      "category": "Training & Support",
+      "description": ""
+    },
+    {
+      "id": "A124",
+      "name": "Professional development accommodations",
+      "category": "Training & Support",
+      "description": ""
+    },
+    {
+      "id": "A125",
+      "name": "Time off for medical appointments",
+      "category": "Medical & Health",
+      "description": ""
+    },
+    {
+      "id": "A126",
+      "name": "Flexible sick leave",
+      "category": "Medical & Health",
+      "description": ""
+    },
+    {
+      "id": "A127",
+      "name": "Work from home when symptomatic",
+      "category": "Medical & Health",
+      "description": ""
+    },
+    {
+      "id": "A128",
+      "name": "On-site medical care",
+      "category": "Medical & Health",
+      "description": ""
+    },
+    {
+      "id": "A129",
+      "name": "First floor workspace",
+      "category": "Medical & Health",
+      "description": ""
+    },
+    {
+      "id": "A130",
+      "name": "Proximity to medical facilities",
+      "category": "Medical & Health",
+      "description": ""
+    },
+    {
+      "id": "A131",
+      "name": "Refrigerator access for medication",
+      "category": "Medical & Health",
+      "description": ""
+    },
+    {
+      "id": "A132",
+      "name": "Private space for medical needs",
+      "category": "Medical & Health",
+      "description": ""
+    },
+    {
+      "id": "A133",
+      "name": "Service animal",
+      "category": "Medical & Health",
+      "description": ""
+    },
+    {
+      "id": "A134",
+      "name": "Emotional support animal policy",
+      "category": "Medical & Health",
+      "description": ""
+    },
+    {
+      "id": "A135",
+      "name": "Mobility aids (wheelchair, walker, cane)",
+      "category": "Physical Assistance",
+      "description": ""
+    },
+    {
+      "id": "A136",
+      "name": "Transfer aids",
+      "category": "Physical Assistance",
+      "description": ""
+    },
+    {
+      "id": "A137",
+      "name": "Reaching tools",
+      "category": "Physical Assistance",
+      "description": ""
+    },
+    {
+      "id": "A138",
+      "name": "Page turner",
+      "category": "Physical Assistance",
+      "description": ""
+    },
+    {
+      "id": "A139",
+      "name": "Book holder",
+      "category": "Physical Assistance",
+      "description": ""
+    },
+    {
+      "id": "A140",
+      "name": "Writing aids",
+      "category": "Physical Assistance",
+      "description": ""
+    },
+    {
+      "id": "A141",
+      "name": "Modified desk height",
+      "category": "Physical Assistance",
+      "description": ""
+    },
+    {
+      "id": "A142",
+      "name": "Adjustable keyboard tray",
+      "category": "Physical Assistance",
+      "description": ""
+    },
+    {
+      "id": "A143",
+      "name": "Voice-activated equipment",
+      "category": "Physical Assistance",
+      "description": ""
+    },
+    {
+      "id": "A144",
+      "name": "Hands-free telephone",
+      "category": "Physical Assistance",
+      "description": ""
+    },
+    {
+      "id": "A145",
+      "name": "Automatic door openers",
+      "category": "Physical Assistance",
+      "description": ""
+    },
+    {
+      "id": "A146",
+      "name": "Ramps",
+      "category": "Physical Assistance",
+      "description": ""
+    },
+    {
+      "id": "A147",
+      "name": "Elevator access",
+      "category": "Physical Assistance",
+      "description": ""
+    },
+    {
+      "id": "A148",
+      "name": "Wider doorways",
+      "category": "Physical Assistance",
+      "description": ""
+    },
+    {
+      "id": "A149",
+      "name": "Accessible restroom",
+      "category": "Physical Assistance",
+      "description": ""
+    },
+    {
+      "id": "A150",
+      "name": "Grab bars",
+      "category": "Physical Assistance",
+      "description": ""
+    },
+    {
+      "id": "A151",
+      "name": "Dress code modifications",
+      "category": "Policy Modifications",
+      "description": ""
+    },
+    {
+      "id": "A152",
+      "name": "Attendance policy modifications",
+      "category": "Policy Modifications",
+      "description": ""
+    },
+    {
+      "id": "A153",
+      "name": "Leave policy modifications",
+      "category": "Policy Modifications",
+      "description": ""
+    },
+    {
+      "id": "A154",
+      "name": "Performance standard modifications",
+      "category": "Policy Modifications",
+      "description": ""
+    },
+    {
+      "id": "A155",
+      "name": "Testing accommodations",
+      "category": "Policy Modifications",
+      "description": ""
+    },
+    {
+      "id": "A156",
+      "name": "Interview accommodations",
+      "category": "Policy Modifications",
+      "description": ""
+    },
+    {
+      "id": "A157",
+      "name": "Alternative discipline procedures",
+      "category": "Policy Modifications",
+      "description": ""
+    },
+    {
+      "id": "A158",
+      "name": "Modified travel requirements",
+      "category": "Policy Modifications",
+      "description": ""
+    },
+    {
+      "id": "A159",
+      "name": "Reassignment to vacant position",
+      "category": "Policy Modifications",
+      "description": ""
+    },
+    {
+      "id": "A160",
+      "name": "Temporary light duty",
+      "category": "Policy Modifications",
+      "description": ""
+    }
+  ],
+  "disabilities": [
+    {
+      "id": "D001",
+      "name": "ADHD",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D002",
+      "name": "Autism Spectrum Disorder",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D003",
+      "name": "Dyslexia",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D004",
+      "name": "Dyscalculia",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D005",
+      "name": "Dysgraphia",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D006",
+      "name": "Dyspraxia",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D007",
+      "name": "Learning disabilities",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D008",
+      "name": "Intellectual disability",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D009",
+      "name": "Traumatic brain injury",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D010",
+      "name": "Stroke",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D011",
+      "name": "Epilepsy",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D012",
+      "name": "Tourette syndrome",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D013",
+      "name": "Alzheimer's disease",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D014",
+      "name": "Dementia",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D015",
+      "name": "Parkinson's disease",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D016",
+      "name": "Multiple sclerosis",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D017",
+      "name": "ALS (Lou Gehrig's disease)",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D018",
+      "name": "Huntington's disease",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D019",
+      "name": "Cerebral palsy",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D020",
+      "name": "Muscular dystrophy",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D021",
+      "name": "Myasthenia gravis",
+      "category": "Neurological/Cognitive",
+      "description": ""
+    },
+    {
+      "id": "D022",
+      "name": "Depression",
+      "category": "Mental Health",
+      "description": ""
+    },
+    {
+      "id": "D023",
+      "name": "Anxiety disorders",
+      "category": "Mental Health",
+      "description": ""
+    },
+    {
+      "id": "D024",
+      "name": "Bipolar disorder",
+      "category": "Mental Health",
+      "description": ""
+    },
+    {
+      "id": "D025",
+      "name": "PTSD",
+      "category": "Mental Health",
+      "description": ""
+    },
+    {
+      "id": "D026",
+      "name": "OCD",
+      "category": "Mental Health",
+      "description": ""
+    },
+    {
+      "id": "D027",
+      "name": "Panic disorder",
+      "category": "Mental Health",
+      "description": ""
+    },
+    {
+      "id": "D028",
+      "name": "Social anxiety disorder",
+      "category": "Mental Health",
+      "description": ""
+    },
+    {
+      "id": "D029",
+      "name": "Schizophrenia",
+      "category": "Mental Health",
+      "description": ""
+    },
+    {
+      "id": "D030",
+      "name": "Borderline personality disorder",
+      "category": "Mental Health",
+      "description": ""
+    },
+    {
+      "id": "D031",
+      "name": "Eating disorders",
+      "category": "Mental Health",
+      "description": ""
+    },
+    {
+      "id": "D032",
+      "name": "Substance use disorder",
+      "category": "Mental Health",
+      "description": ""
+    },
+    {
+      "id": "D033",
+      "name": "Adjustment disorder",
+      "category": "Mental Health",
+      "description": ""
+    },
+    {
+      "id": "D034",
+      "name": "Dissociative disorders",
+      "category": "Mental Health",
+      "description": ""
+    },
+    {
+      "id": "D035",
+      "name": "Sleep disorders",
+      "category": "Mental Health",
+      "description": ""
+    },
+    {
+      "id": "D036",
+      "name": "Blindness",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "D037",
+      "name": "Low vision",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "D038",
+      "name": "Color blindness",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "D039",
+      "name": "Deafness",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "D040",
+      "name": "Hard of hearing",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "D041",
+      "name": "Deaf-blindness",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "D042",
+      "name": "Auditory processing disorder",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "D043",
+      "name": "Tinnitus",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "D044",
+      "name": "Vestibular disorders",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "D045",
+      "name": "Sensory processing disorder",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "D046",
+      "name": "Amputation",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D047",
+      "name": "Paralysis",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D048",
+      "name": "Spinal cord injury",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D049",
+      "name": "Back injury",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D050",
+      "name": "Repetitive strain injury",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D051",
+      "name": "Carpal tunnel syndrome",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D052",
+      "name": "Arthritis",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D053",
+      "name": "Rheumatoid arthritis",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D054",
+      "name": "Osteoarthritis",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D055",
+      "name": "Fibromyalgia",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D056",
+      "name": "Chronic fatigue syndrome",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D057",
+      "name": "Ehlers-Danlos syndrome",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D058",
+      "name": "Lupus",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D059",
+      "name": "Spina bifida",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D060",
+      "name": "Scoliosis",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D061",
+      "name": "Dwarfism",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D062",
+      "name": "Limb difference",
+      "category": "Physical/Mobility",
+      "description": ""
+    },
+    {
+      "id": "D063",
+      "name": "Diabetes",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D064",
+      "name": "Heart disease",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D065",
+      "name": "Asthma",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D066",
+      "name": "COPD",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D067",
+      "name": "Crohn's disease",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D068",
+      "name": "Ulcerative colitis",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D069",
+      "name": "IBS",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D070",
+      "name": "Celiac disease",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D071",
+      "name": "Food allergies",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D072",
+      "name": "Multiple chemical sensitivity",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D073",
+      "name": "Chronic migraines",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D074",
+      "name": "Chronic pain",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D075",
+      "name": "Endometriosis",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D076",
+      "name": "PCOS",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D077",
+      "name": "Thyroid disorders",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D078",
+      "name": "Addison's disease",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D079",
+      "name": "Cushing's syndrome",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D080",
+      "name": "Kidney disease",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D081",
+      "name": "Liver disease",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D082",
+      "name": "Cancer",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D083",
+      "name": "HIV/AIDS",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D084",
+      "name": "Hepatitis",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D085",
+      "name": "Sickle cell disease",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D086",
+      "name": "Hemophilia",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D087",
+      "name": "Cystic fibrosis",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D088",
+      "name": "Lyme disease",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D089",
+      "name": "Long COVID",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D090",
+      "name": "ME/CFS",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D091",
+      "name": "POTS",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D092",
+      "name": "Mast cell activation syndrome",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D093",
+      "name": "Speech impediment",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D094",
+      "name": "Stutter",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D095",
+      "name": "Aphasia",
+      "category": "Chronic Health",
+      "description": ""
+    },
+    {
+      "id": "D096",
+      "name": "Selective mutism",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "D097",
+      "name": "Voice disorders",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "D098",
+      "name": "Language disorders",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "D099",
+      "name": "Pregnancy",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "D100",
+      "name": "Broken bones",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "D101",
+      "name": "Surgery recovery",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "D102",
+      "name": "Concussion",
+      "category": "Temporary",
+      "description": ""
+    },
+    {
+      "id": "D103",
+      "name": "Temporary illness",
+      "category": "Temporary",
+      "description": ""
+    },
+    {
+      "id": "D104",
+      "name": "Injury recovery",
+      "category": "Temporary",
+      "description": ""
+    },
+    {
+      "id": "D105",
+      "name": "Burns",
+      "category": "Temporary",
+      "description": ""
+    },
+    {
+      "id": "D106",
+      "name": "Sprains",
+      "category": "Temporary",
+      "description": ""
+    }
+  ],
+  "limitations": [
+    {
+      "id": "L001",
+      "name": "Concentration difficulty",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L002",
+      "name": "Memory impairment",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L003",
+      "name": "Processing speed",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L004",
+      "name": "Executive function",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L005",
+      "name": "Attention regulation",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L006",
+      "name": "Task initiation",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L007",
+      "name": "Task completion",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L008",
+      "name": "Organization skills",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L009",
+      "name": "Time management",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L010",
+      "name": "Prioritization",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L011",
+      "name": "Decision making",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L012",
+      "name": "Problem solving",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L013",
+      "name": "Abstract thinking",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L014",
+      "name": "Sequential processing",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L015",
+      "name": "Multi-tasking",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L016",
+      "name": "Information retention",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L017",
+      "name": "Learning new tasks",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L018",
+      "name": "Following instructions",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L019",
+      "name": "Reading comprehension",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L020",
+      "name": "Writing ability",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L021",
+      "name": "Mathematical calculations",
+      "category": "Cognitive",
+      "description": ""
+    },
+    {
+      "id": "L022",
+      "name": "Standing",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L023",
+      "name": "Sitting",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L024",
+      "name": "Walking",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L025",
+      "name": "Climbing stairs",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L026",
+      "name": "Balancing",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L027",
+      "name": "Bending",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L028",
+      "name": "Kneeling",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L029",
+      "name": "Reaching",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L030",
+      "name": "Grasping",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L031",
+      "name": "Fine motor control",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L032",
+      "name": "Lifting",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L033",
+      "name": "Carrying",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L034",
+      "name": "Pushing",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L035",
+      "name": "Pulling",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L036",
+      "name": "Typing",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L037",
+      "name": "Hand strength",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L038",
+      "name": "Grip strength",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L039",
+      "name": "Arm movement",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L040",
+      "name": "Leg movement",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L041",
+      "name": "Stamina",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L042",
+      "name": "Endurance",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L043",
+      "name": "Fatigue",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L044",
+      "name": "Pain management",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L045",
+      "name": "Temperature regulation",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L046",
+      "name": "Mobility",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L047",
+      "name": "Transfer ability",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "L048",
+      "name": "Vision",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "L049",
+      "name": "Hearing",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "L050",
+      "name": "Touch sensitivity",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "L051",
+      "name": "Light sensitivity",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "L052",
+      "name": "Sound sensitivity",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "L053",
+      "name": "Smell sensitivity",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "L054",
+      "name": "Taste sensitivity",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "L055",
+      "name": "Proprioception",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "L056",
+      "name": "Vestibular function",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "L057",
+      "name": "Depth perception",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "L058",
+      "name": "Color discrimination",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "L059",
+      "name": "Night vision",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "L060",
+      "name": "Peripheral vision",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "L061",
+      "name": "Visual processing",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "L062",
+      "name": "Auditory processing",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "L063",
+      "name": "Sensory integration",
+      "category": "Sensory",
+      "description": ""
+    },
+    {
+      "id": "L064",
+      "name": "Verbal communication",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "L065",
+      "name": "Written communication",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "L066",
+      "name": "Non-verbal communication",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "L067",
+      "name": "Understanding speech",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "L068",
+      "name": "Speech production",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "L069",
+      "name": "Voice modulation",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "L070",
+      "name": "Language processing",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "L071",
+      "name": "Social cues interpretation",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "L072",
+      "name": "Eye contact",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "L073",
+      "name": "Facial expressions",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "L074",
+      "name": "Body language",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "L075",
+      "name": "Phone communication",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "L076",
+      "name": "Emotion regulation",
+      "category": "Emotional/Behavioral",
+      "description": ""
+    },
+    {
+      "id": "L077",
+      "name": "Stress tolerance",
+      "category": "Emotional/Behavioral",
+      "description": ""
+    },
+    {
+      "id": "L078",
+      "name": "Anxiety management",
+      "category": "Emotional/Behavioral",
+      "description": ""
+    },
+    {
+      "id": "L079",
+      "name": "Mood stability",
+      "category": "Emotional/Behavioral",
+      "description": ""
+    },
+    {
+      "id": "L080",
+      "name": "Impulse control",
+      "category": "Emotional/Behavioral",
+      "description": ""
+    },
+    {
+      "id": "L081",
+      "name": "Frustration tolerance",
+      "category": "Emotional/Behavioral",
+      "description": ""
+    },
+    {
+      "id": "L082",
+      "name": "Social interaction",
+      "category": "Emotional/Behavioral",
+      "description": ""
+    },
+    {
+      "id": "L083",
+      "name": "Interpersonal skills",
+      "category": "Emotional/Behavioral",
+      "description": ""
+    },
+    {
+      "id": "L084",
+      "name": "Conflict resolution",
+      "category": "Emotional/Behavioral",
+      "description": ""
+    },
+    {
+      "id": "L085",
+      "name": "Coping with change",
+      "category": "Emotional/Behavioral",
+      "description": ""
+    },
+    {
+      "id": "L086",
+      "name": "Routine disruption tolerance",
+      "category": "Emotional/Behavioral",
+      "description": ""
+    },
+    {
+      "id": "L087",
+      "name": "Sensory overload",
+      "category": "Emotional/Behavioral",
+      "description": ""
+    },
+    {
+      "id": "L088",
+      "name": "Medication side effects",
+      "category": "Medical/Health",
+      "description": ""
+    },
+    {
+      "id": "L089",
+      "name": "Treatment schedules",
+      "category": "Medical/Health",
+      "description": ""
+    },
+    {
+      "id": "L090",
+      "name": "Symptom management",
+      "category": "Medical/Health",
+      "description": ""
+    },
+    {
+      "id": "L091",
+      "name": "Immune system function",
+      "category": "Medical/Health",
+      "description": ""
+    },
+    {
+      "id": "L092",
+      "name": "Allergic reactions",
+      "category": "Medical/Health",
+      "description": ""
+    },
+    {
+      "id": "L093",
+      "name": "Chemical sensitivity",
+      "category": "Medical/Health",
+      "description": ""
+    },
+    {
+      "id": "L094",
+      "name": "Food restrictions",
+      "category": "Medical/Health",
+      "description": ""
+    },
+    {
+      "id": "L095",
+      "name": "Bathroom frequency",
+      "category": "Medical/Health",
+      "description": ""
+    },
+    {
+      "id": "L096",
+      "name": "Blood sugar regulation",
+      "category": "Medical/Health",
+      "description": ""
+    },
+    {
+      "id": "L097",
+      "name": "Blood pressure regulation",
+      "category": "Medical/Health",
+      "description": ""
+    },
+    {
+      "id": "L098",
+      "name": "Seizure management",
+      "category": "Medical/Health",
+      "description": ""
+    },
+    {
+      "id": "L099",
+      "name": "Migraine triggers",
+      "category": "Medical/Health",
+      "description": ""
+    }
+  ],
+  "barriers": [
+    {
+      "id": "B001",
+      "name": "Stairs without ramps",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B002",
+      "name": "Narrow doorways",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B003",
+      "name": "Heavy doors",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B004",
+      "name": "Inaccessible parking",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B005",
+      "name": "Distance from parking",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B006",
+      "name": "Uneven surfaces",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B007",
+      "name": "High shelves",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B008",
+      "name": "Low clearances",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B009",
+      "name": "Inadequate lighting",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B010",
+      "name": "Fluorescent lighting",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B011",
+      "name": "Glare",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B012",
+      "name": "Visual clutter",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B013",
+      "name": "Open office layout",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B014",
+      "name": "Lack of private space",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B015",
+      "name": "Temperature extremes",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B016",
+      "name": "Poor air quality",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B017",
+      "name": "Chemical odors",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B018",
+      "name": "Fragrances",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B019",
+      "name": "Noise levels",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B020",
+      "name": "Echo/acoustics",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B021",
+      "name": "Vibrations",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B022",
+      "name": "Crowded spaces",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B023",
+      "name": "Fast-paced environment",
+      "category": "Physical Environment",
+      "description": ""
+    },
+    {
+      "id": "B024",
+      "name": "Inaccessible software",
+      "category": "Technology",
+      "description": ""
+    },
+    {
+      "id": "B025",
+      "name": "Complex interfaces",
+      "category": "Technology",
+      "description": ""
+    },
+    {
+      "id": "B026",
+      "name": "Small text",
+      "category": "Technology",
+      "description": ""
+    },
+    {
+      "id": "B027",
+      "name": "Poor contrast",
+      "category": "Technology",
+      "description": ""
+    },
+    {
+      "id": "B028",
+      "name": "Lack of keyboard navigation",
+      "category": "Technology",
+      "description": ""
+    },
+    {
+      "id": "B029",
+      "name": "No screen reader compatibility",
+      "category": "Technology",
+      "description": ""
+    },
+    {
+      "id": "B030",
+      "name": "Video without captions",
+      "category": "Technology",
+      "description": ""
+    },
+    {
+      "id": "B031",
+      "name": "Audio without transcripts",
+      "category": "Technology",
+      "description": ""
+    },
+    {
+      "id": "B032",
+      "name": "Time limits",
+      "category": "Technology",
+      "description": ""
+    },
+    {
+      "id": "B033",
+      "name": "CAPTCHA challenges",
+      "category": "Technology",
+      "description": ""
+    },
+    {
+      "id": "B034",
+      "name": "Touch-only interfaces",
+      "category": "Technology",
+      "description": ""
+    },
+    {
+      "id": "B035",
+      "name": "Required mouse use",
+      "category": "Technology",
+      "description": ""
+    },
+    {
+      "id": "B036",
+      "name": "Incompatible assistive technology",
+      "category": "Technology",
+      "description": ""
+    },
+    {
+      "id": "B037",
+      "name": "Outdated technology",
+      "category": "Technology",
+      "description": ""
+    },
+    {
+      "id": "B038",
+      "name": "Phone-only contact",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "B039",
+      "name": "In-person only meetings",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "B040",
+      "name": "No written materials",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "B041",
+      "name": "Complex language",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "B042",
+      "name": "Fast-paced speech",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "B043",
+      "name": "Background noise in calls",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "B044",
+      "name": "No visual aids",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "B045",
+      "name": "Lack of clarity in instructions",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "B046",
+      "name": "Ambiguous expectations",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "B047",
+      "name": "Unstructured information",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "B048",
+      "name": "Information overload",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "B049",
+      "name": "Short notice changes",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "B050",
+      "name": "Inflexible schedules",
+      "category": "Policies/Procedures",
+      "description": ""
+    },
+    {
+      "id": "B051",
+      "name": "Rigid attendance policies",
+      "category": "Policies/Procedures",
+      "description": ""
+    },
+    {
+      "id": "B052",
+      "name": "No remote work option",
+      "category": "Policies/Procedures",
+      "description": ""
+    },
+    {
+      "id": "B053",
+      "name": "Mandatory overtime",
+      "category": "Policies/Procedures",
+      "description": ""
+    },
+    {
+      "id": "B054",
+      "name": "Rotating shifts",
+      "category": "Policies/Procedures",
+      "description": ""
+    },
+    {
+      "id": "B055",
+      "name": "Travel requirements",
+      "category": "Policies/Procedures",
+      "description": ""
+    },
+    {
+      "id": "B056",
+      "name": "Strict dress codes",
+      "category": "Policies/Procedures",
+      "description": ""
+    },
+    {
+      "id": "B057",
+      "name": "No break flexibility",
+      "category": "Policies/Procedures",
+      "description": ""
+    },
+    {
+      "id": "B058",
+      "name": "Performance metrics",
+      "category": "Policies/Procedures",
+      "description": ""
+    },
+    {
+      "id": "B059",
+      "name": "Speed requirements",
+      "category": "Policies/Procedures",
+      "description": ""
+    },
+    {
+      "id": "B060",
+      "name": "Multitasking demands",
+      "category": "Policies/Procedures",
+      "description": ""
+    },
+    {
+      "id": "B061",
+      "name": "Open-ended deadlines",
+      "category": "Policies/Procedures",
+      "description": ""
+    },
+    {
+      "id": "B062",
+      "name": "Unclear priorities",
+      "category": "Policies/Procedures",
+      "description": ""
+    },
+    {
+      "id": "B063",
+      "name": "Inconsistent rules",
+      "category": "Policies/Procedures",
+      "description": ""
+    },
+    {
+      "id": "B064",
+      "name": "Lack of structure",
+      "category": "Policies/Procedures",
+      "description": ""
+    },
+    {
+      "id": "B065",
+      "name": "Stigma",
+      "category": "Social/Cultural",
+      "description": ""
+    },
+    {
+      "id": "B066",
+      "name": "Lack of awareness",
+      "category": "Social/Cultural",
+      "description": ""
+    },
+    {
+      "id": "B067",
+      "name": "Stereotypes",
+      "category": "Social/Cultural",
+      "description": ""
+    },
+    {
+      "id": "B068",
+      "name": "Discrimination",
+      "category": "Social/Cultural",
+      "description": ""
+    },
+    {
+      "id": "B069",
+      "name": "Isolation",
+      "category": "Social/Cultural",
+      "description": ""
+    },
+    {
+      "id": "B070",
+      "name": "Lack of support",
+      "category": "Social/Cultural",
+      "description": ""
+    },
+    {
+      "id": "B071",
+      "name": "Negative attitudes",
+      "category": "Social/Cultural",
+      "description": ""
+    },
+    {
+      "id": "B072",
+      "name": "Microaggressions",
+      "category": "Social/Cultural",
+      "description": ""
+    },
+    {
+      "id": "B073",
+      "name": "Forced disclosure",
+      "category": "Social/Cultural",
+      "description": ""
+    },
+    {
+      "id": "B074",
+      "name": "Privacy concerns",
+      "category": "Social/Cultural",
+      "description": ""
+    },
+    {
+      "id": "B075",
+      "name": "Lack of role models",
+      "category": "Social/Cultural",
+      "description": ""
+    },
+    {
+      "id": "B076",
+      "name": "Communication style differences",
+      "category": "Social/Cultural",
+      "description": ""
+    },
+    {
+      "id": "B077",
+      "name": "Social expectations",
+      "category": "Social/Cultural",
+      "description": ""
+    },
+    {
+      "id": "B078",
+      "name": "Networking events",
+      "category": "Social/Cultural",
+      "description": ""
+    },
+    {
+      "id": "B079",
+      "name": "Team building activities",
+      "category": "Social/Cultural",
+      "description": ""
+    },
+    {
+      "id": "B080",
+      "name": "Mandatory social events",
+      "category": "Systemic",
+      "description": ""
+    },
+    {
+      "id": "B081",
+      "name": "Complex accommodation process",
+      "category": "Systemic",
+      "description": ""
+    },
+    {
+      "id": "B082",
+      "name": "Lack of HR knowledge",
+      "category": "Systemic",
+      "description": ""
+    },
+    {
+      "id": "B083",
+      "name": "Budget constraints",
+      "category": "Systemic",
+      "description": ""
+    },
+    {
+      "id": "B084",
+      "name": "Delayed responses",
+      "category": "Systemic",
+      "description": ""
+    },
+    {
+      "id": "B085",
+      "name": "Denial of requests",
+      "category": "Systemic",
+      "description": ""
+    },
+    {
+      "id": "B086",
+      "name": "Retaliation fears",
+      "category": "Systemic",
+      "description": ""
+    },
+    {
+      "id": "B087",
+      "name": "Documentation requirements",
+      "category": "Systemic",
+      "description": ""
+    },
+    {
+      "id": "B088",
+      "name": "Medical proof demands",
+      "category": "Systemic",
+      "description": ""
+    },
+    {
+      "id": "B089",
+      "name": "Legal complexity",
+      "category": "Systemic",
+      "description": ""
+    },
+    {
+      "id": "B090",
+      "name": "Insurance limitations",
+      "category": "Systemic",
+      "description": ""
+    },
+    {
+      "id": "B091",
+      "name": "Lack of precedent",
+      "category": "Systemic",
+      "description": ""
+    },
+    {
+      "id": "B092",
+      "name": "Organizational resistance",
+      "category": "Systemic",
+      "description": ""
+    }
+  ],
+  "functions": [
+    {
+      "id": "F001",
+      "name": "Answering phones",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F002",
+      "name": "Making phone calls",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F003",
+      "name": "Video conferencing",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F004",
+      "name": "Leading meetings",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F005",
+      "name": "Participating in meetings",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F006",
+      "name": "Presenting",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F007",
+      "name": "Public speaking",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F008",
+      "name": "Customer service",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F009",
+      "name": "Sales calls",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F010",
+      "name": "Negotiating",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F011",
+      "name": "Conflict resolution",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F012",
+      "name": "Team collaboration",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F013",
+      "name": "Writing emails",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F014",
+      "name": "Writing reports",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F015",
+      "name": "Creating documentation",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F016",
+      "name": "Reading documents",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F017",
+      "name": "Reviewing contracts",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F018",
+      "name": "Proofreading",
+      "category": "Communication",
+      "description": ""
+    },
+    {
+      "id": "F019",
+      "name": "Data analysis",
+      "category": "Cognitive/Analytical",
+      "description": ""
+    },
+    {
+      "id": "F020",
+      "name": "Problem solving",
+      "category": "Cognitive/Analytical",
+      "description": ""
+    },
+    {
+      "id": "F021",
+      "name": "Decision making",
+      "category": "Cognitive/Analytical",
+      "description": ""
+    },
+    {
+      "id": "F022",
+      "name": "Strategic planning",
+      "category": "Cognitive/Analytical",
+      "description": ""
+    },
+    {
+      "id": "F023",
+      "name": "Project planning",
+      "category": "Cognitive/Analytical",
+      "description": ""
+    },
+    {
+      "id": "F024",
+      "name": "Research",
+      "category": "Cognitive/Analytical",
+      "description": ""
+    },
+    {
+      "id": "F025",
+      "name": "Critical thinking",
+      "category": "Cognitive/Analytical",
+      "description": ""
+    },
+    {
+      "id": "F026",
+      "name": "Creative thinking",
+      "category": "Cognitive/Analytical",
+      "description": ""
+    },
+    {
+      "id": "F027",
+      "name": "Innovation",
+      "category": "Cognitive/Analytical",
+      "description": ""
+    },
+    {
+      "id": "F028",
+      "name": "Budget management",
+      "category": "Cognitive/Analytical",
+      "description": ""
+    },
+    {
+      "id": "F029",
+      "name": "Financial analysis",
+      "category": "Cognitive/Analytical",
+      "description": ""
+    },
+    {
+      "id": "F030",
+      "name": "Risk assessment",
+      "category": "Cognitive/Analytical",
+      "description": ""
+    },
+    {
+      "id": "F031",
+      "name": "Quality control",
+      "category": "Cognitive/Analytical",
+      "description": ""
+    },
+    {
+      "id": "F032",
+      "name": "Process improvement",
+      "category": "Cognitive/Analytical",
+      "description": ""
+    },
+    {
+      "id": "F033",
+      "name": "Troubleshooting",
+      "category": "Cognitive/Analytical",
+      "description": ""
+    },
+    {
+      "id": "F034",
+      "name": "Computer use",
+      "category": "Technical",
+      "description": ""
+    },
+    {
+      "id": "F035",
+      "name": "Software operation",
+      "category": "Technical",
+      "description": ""
+    },
+    {
+      "id": "F036",
+      "name": "Data entry",
+      "category": "Technical",
+      "description": ""
+    },
+    {
+      "id": "F037",
+      "name": "Programming",
+      "category": "Technical",
+      "description": ""
+    },
+    {
+      "id": "F038",
+      "name": "System administration",
+      "category": "Technical",
+      "description": ""
+    },
+    {
+      "id": "F039",
+      "name": "Database management",
+      "category": "Technical",
+      "description": ""
+    },
+    {
+      "id": "F040",
+      "name": "Graphic design",
+      "category": "Technical",
+      "description": ""
+    },
+    {
+      "id": "F041",
+      "name": "CAD/technical drawing",
+      "category": "Technical",
+      "description": ""
+    },
+    {
+      "id": "F042",
+      "name": "Video editing",
+      "category": "Technical",
+      "description": ""
+    },
+    {
+      "id": "F043",
+      "name": "Equipment operation",
+      "category": "Technical",
+      "description": ""
+    },
+    {
+      "id": "F044",
+      "name": "Machine operation",
+      "category": "Technical",
+      "description": ""
+    },
+    {
+      "id": "F045",
+      "name": "Tool use",
+      "category": "Technical",
+      "description": ""
+    },
+    {
+      "id": "F046",
+      "name": "Laboratory work",
+      "category": "Technical",
+      "description": ""
+    },
+    {
+      "id": "F047",
+      "name": "Technical writing",
+      "category": "Technical",
+      "description": ""
+    },
+    {
+      "id": "F048",
+      "name": "Testing/debugging",
+      "category": "Technical",
+      "description": ""
+    },
+    {
+      "id": "F049",
+      "name": "Scheduling",
+      "category": "Administrative",
+      "description": ""
+    },
+    {
+      "id": "F050",
+      "name": "Calendar management",
+      "category": "Administrative",
+      "description": ""
+    },
+    {
+      "id": "F051",
+      "name": "Filing",
+      "category": "Administrative",
+      "description": ""
+    },
+    {
+      "id": "F052",
+      "name": "Record keeping",
+      "category": "Administrative",
+      "description": ""
+    },
+    {
+      "id": "F053",
+      "name": "Inventory management",
+      "category": "Administrative",
+      "description": ""
+    },
+    {
+      "id": "F054",
+      "name": "Supply ordering",
+      "category": "Administrative",
+      "description": ""
+    },
+    {
+      "id": "F055",
+      "name": "Travel coordination",
+      "category": "Administrative",
+      "description": ""
+    },
+    {
+      "id": "F056",
+      "name": "Event planning",
+      "category": "Administrative",
+      "description": ""
+    },
+    {
+      "id": "F057",
+      "name": "Meeting coordination",
+      "category": "Administrative",
+      "description": ""
+    },
+    {
+      "id": "F058",
+      "name": "Reception duties",
+      "category": "Administrative",
+      "description": ""
+    },
+    {
+      "id": "F059",
+      "name": "Mail handling",
+      "category": "Administrative",
+      "description": ""
+    },
+    {
+      "id": "F060",
+      "name": "Document scanning",
+      "category": "Administrative",
+      "description": ""
+    },
+    {
+      "id": "F061",
+      "name": "Photocopying",
+      "category": "Administrative",
+      "description": ""
+    },
+    {
+      "id": "F062",
+      "name": "Time tracking",
+      "category": "Administrative",
+      "description": ""
+    },
+    {
+      "id": "F063",
+      "name": "Expense reporting",
+      "category": "Administrative",
+      "description": ""
+    },
+    {
+      "id": "F064",
+      "name": "Database updating",
+      "category": "Administrative",
+      "description": ""
+    },
+    {
+      "id": "F065",
+      "name": "Lifting objects",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F066",
+      "name": "Carrying items",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F067",
+      "name": "Moving equipment",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F068",
+      "name": "Standing for periods",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F069",
+      "name": "Sitting for periods",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F070",
+      "name": "Walking distances",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F071",
+      "name": "Driving vehicles",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F072",
+      "name": "Operating machinery",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F073",
+      "name": "Manual labor",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F074",
+      "name": "Assembly work",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F075",
+      "name": "Packaging",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F076",
+      "name": "Stocking shelves",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F077",
+      "name": "Cleaning",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F078",
+      "name": "Maintenance",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F079",
+      "name": "Repair work",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F080",
+      "name": "Construction",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F081",
+      "name": "Delivery",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F082",
+      "name": "Loading/unloading",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F083",
+      "name": "Warehouse work",
+      "category": "Physical",
+      "description": ""
+    },
+    {
+      "id": "F084",
+      "name": "Managing staff",
+      "category": "Interpersonal",
+      "description": ""
+    },
+    {
+      "id": "F085",
+      "name": "Training others",
+      "category": "Interpersonal",
+      "description": ""
+    },
+    {
+      "id": "F086",
+      "name": "Mentoring",
+      "category": "Interpersonal",
+      "description": ""
+    },
+    {
+      "id": "F087",
+      "name": "Coaching",
+      "category": "Interpersonal",
+      "description": ""
+    },
+    {
+      "id": "F088",
+      "name": "Performance reviews",
+      "category": "Interpersonal",
+      "description": ""
+    },
+    {
+      "id": "F089",
+      "name": "Hiring",
+      "category": "Interpersonal",
+      "description": ""
+    },
+    {
+      "id": "F090",
+      "name": "Disciplinary actions",
+      "category": "Interpersonal",
+      "description": ""
+    },
+    {
+      "id": "F091",
+      "name": "Team building",
+      "category": "Interpersonal",
+      "description": ""
+    },
+    {
+      "id": "F092",
+      "name": "Networking",
+      "category": "Interpersonal",
+      "description": ""
+    },
+    {
+      "id": "F093",
+      "name": "Relationship building",
+      "category": "Interpersonal",
+      "description": ""
+    },
+    {
+      "id": "F094",
+      "name": "Stakeholder management",
+      "category": "Interpersonal",
+      "description": ""
+    },
+    {
+      "id": "F095",
+      "name": "Vendor management",
+      "category": "Interpersonal",
+      "description": ""
+    },
+    {
+      "id": "F096",
+      "name": "Client relations",
+      "category": "Interpersonal",
+      "description": ""
+    },
+    {
+      "id": "F097",
+      "name": "Patient care",
+      "category": "Specialized",
+      "description": ""
+    },
+    {
+      "id": "F098",
+      "name": "Teaching",
+      "category": "Specialized",
+      "description": ""
+    },
+    {
+      "id": "F099",
+      "name": "Counseling",
+      "category": "Specialized",
+      "description": ""
+    },
+    {
+      "id": "F100",
+      "name": "Legal work",
+      "category": "Specialized",
+      "description": ""
+    },
+    {
+      "id": "F101",
+      "name": "Accounting",
+      "category": "Specialized",
+      "description": ""
+    },
+    {
+      "id": "F102",
+      "name": "Auditing",
+      "category": "Specialized",
+      "description": ""
+    },
+    {
+      "id": "F103",
+      "name": "Marketing",
+      "category": "Specialized",
+      "description": ""
+    },
+    {
+      "id": "F104",
+      "name": "Social media management",
+      "category": "Specialized",
+      "description": ""
+    },
+    {
+      "id": "F105",
+      "name": "Content creation",
+      "category": "Specialized",
+      "description": ""
+    },
+    {
+      "id": "F106",
+      "name": "Translation",
+      "category": "Specialized",
+      "description": ""
+    },
+    {
+      "id": "F107",
+      "name": "Research and development",
+      "category": "Specialized",
+      "description": ""
+    },
+    {
+      "id": "F108",
+      "name": "Safety inspections",
+      "category": "Specialized",
+      "description": ""
+    },
+    {
+      "id": "F109",
+      "name": "Emergency response",
+      "category": "Specialized",
+      "description": ""
+    },
+    {
+      "id": "F110",
+      "name": "Security monitoring",
+      "category": "Specialized",
+      "description": ""
+    }
+  ],
+  "relationships": {
+    "disability_accommodations": {},
+    "limitation_accommodations": {},
+    "barrier_accommodations": {},
+    "function_accommodations": {},
+    "disability_limitations": {},
+    "limitation_barriers": {},
+    "disability_barriers": {},
+    "limitation_functions": {}
+  }
+}

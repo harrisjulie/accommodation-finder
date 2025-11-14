@@ -1,0 +1,662 @@
+[
+  {
+    "id": "F001",
+    "name": "Answering phones",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F002",
+    "name": "Making phone calls",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F003",
+    "name": "Video conferencing",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F004",
+    "name": "Leading meetings",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F005",
+    "name": "Participating in meetings",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F006",
+    "name": "Presenting",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F007",
+    "name": "Public speaking",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F008",
+    "name": "Customer service",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F009",
+    "name": "Sales calls",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F010",
+    "name": "Negotiating",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F011",
+    "name": "Conflict resolution",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F012",
+    "name": "Team collaboration",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F013",
+    "name": "Writing emails",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F014",
+    "name": "Writing reports",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F015",
+    "name": "Creating documentation",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F016",
+    "name": "Reading documents",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F017",
+    "name": "Reviewing contracts",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F018",
+    "name": "Proofreading",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "F019",
+    "name": "Data analysis",
+    "category": "Cognitive/Analytical",
+    "description": ""
+  },
+  {
+    "id": "F020",
+    "name": "Problem solving",
+    "category": "Cognitive/Analytical",
+    "description": ""
+  },
+  {
+    "id": "F021",
+    "name": "Decision making",
+    "category": "Cognitive/Analytical",
+    "description": ""
+  },
+  {
+    "id": "F022",
+    "name": "Strategic planning",
+    "category": "Cognitive/Analytical",
+    "description": ""
+  },
+  {
+    "id": "F023",
+    "name": "Project planning",
+    "category": "Cognitive/Analytical",
+    "description": ""
+  },
+  {
+    "id": "F024",
+    "name": "Research",
+    "category": "Cognitive/Analytical",
+    "description": ""
+  },
+  {
+    "id": "F025",
+    "name": "Critical thinking",
+    "category": "Cognitive/Analytical",
+    "description": ""
+  },
+  {
+    "id": "F026",
+    "name": "Creative thinking",
+    "category": "Cognitive/Analytical",
+    "description": ""
+  },
+  {
+    "id": "F027",
+    "name": "Innovation",
+    "category": "Cognitive/Analytical",
+    "description": ""
+  },
+  {
+    "id": "F028",
+    "name": "Budget management",
+    "category": "Cognitive/Analytical",
+    "description": ""
+  },
+  {
+    "id": "F029",
+    "name": "Financial analysis",
+    "category": "Cognitive/Analytical",
+    "description": ""
+  },
+  {
+    "id": "F030",
+    "name": "Risk assessment",
+    "category": "Cognitive/Analytical",
+    "description": ""
+  },
+  {
+    "id": "F031",
+    "name": "Quality control",
+    "category": "Cognitive/Analytical",
+    "description": ""
+  },
+  {
+    "id": "F032",
+    "name": "Process improvement",
+    "category": "Cognitive/Analytical",
+    "description": ""
+  },
+  {
+    "id": "F033",
+    "name": "Troubleshooting",
+    "category": "Cognitive/Analytical",
+    "description": ""
+  },
+  {
+    "id": "F034",
+    "name": "Computer use",
+    "category": "Technical",
+    "description": ""
+  },
+  {
+    "id": "F035",
+    "name": "Software operation",
+    "category": "Technical",
+    "description": ""
+  },
+  {
+    "id": "F036",
+    "name": "Data entry",
+    "category": "Technical",
+    "description": ""
+  },
+  {
+    "id": "F037",
+    "name": "Programming",
+    "category": "Technical",
+    "description": ""
+  },
+  {
+    "id": "F038",
+    "name": "System administration",
+    "category": "Technical",
+    "description": ""
+  },
+  {
+    "id": "F039",
+    "name": "Database management",
+    "category": "Technical",
+    "description": ""
+  },
+  {
+    "id": "F040",
+    "name": "Graphic design",
+    "category": "Technical",
+    "description": ""
+  },
+  {
+    "id": "F041",
+    "name": "CAD/technical drawing",
+    "category": "Technical",
+    "description": ""
+  },
+  {
+    "id": "F042",
+    "name": "Video editing",
+    "category": "Technical",
+    "description": ""
+  },
+  {
+    "id": "F043",
+    "name": "Equipment operation",
+    "category": "Technical",
+    "description": ""
+  },
+  {
+    "id": "F044",
+    "name": "Machine operation",
+    "category": "Technical",
+    "description": ""
+  },
+  {
+    "id": "F045",
+    "name": "Tool use",
+    "category": "Technical",
+    "description": ""
+  },
+  {
+    "id": "F046",
+    "name": "Laboratory work",
+    "category": "Technical",
+    "description": ""
+  },
+  {
+    "id": "F047",
+    "name": "Technical writing",
+    "category": "Technical",
+    "description": ""
+  },
+  {
+    "id": "F048",
+    "name": "Testing/debugging",
+    "category": "Technical",
+    "description": ""
+  },
+  {
+    "id": "F049",
+    "name": "Scheduling",
+    "category": "Administrative",
+    "description": ""
+  },
+  {
+    "id": "F050",
+    "name": "Calendar management",
+    "category": "Administrative",
+    "description": ""
+  },
+  {
+    "id": "F051",
+    "name": "Filing",
+    "category": "Administrative",
+    "description": ""
+  },
+  {
+    "id": "F052",
+    "name": "Record keeping",
+    "category": "Administrative",
+    "description": ""
+  },
+  {
+    "id": "F053",
+    "name": "Inventory management",
+    "category": "Administrative",
+    "description": ""
+  },
+  {
+    "id": "F054",
+    "name": "Supply ordering",
+    "category": "Administrative",
+    "description": ""
+  },
+  {
+    "id": "F055",
+    "name": "Travel coordination",
+    "category": "Administrative",
+    "description": ""
+  },
+  {
+    "id": "F056",
+    "name": "Event planning",
+    "category": "Administrative",
+    "description": ""
+  },
+  {
+    "id": "F057",
+    "name": "Meeting coordination",
+    "category": "Administrative",
+    "description": ""
+  },
+  {
+    "id": "F058",
+    "name": "Reception duties",
+    "category": "Administrative",
+    "description": ""
+  },
+  {
+    "id": "F059",
+    "name": "Mail handling",
+    "category": "Administrative",
+    "description": ""
+  },
+  {
+    "id": "F060",
+    "name": "Document scanning",
+    "category": "Administrative",
+    "description": ""
+  },
+  {
+    "id": "F061",
+    "name": "Photocopying",
+    "category": "Administrative",
+    "description": ""
+  },
+  {
+    "id": "F062",
+    "name": "Time tracking",
+    "category": "Administrative",
+    "description": ""
+  },
+  {
+    "id": "F063",
+    "name": "Expense reporting",
+    "category": "Administrative",
+    "description": ""
+  },
+  {
+    "id": "F064",
+    "name": "Database updating",
+    "category": "Administrative",
+    "description": ""
+  },
+  {
+    "id": "F065",
+    "name": "Lifting objects",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F066",
+    "name": "Carrying items",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F067",
+    "name": "Moving equipment",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F068",
+    "name": "Standing for periods",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F069",
+    "name": "Sitting for periods",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F070",
+    "name": "Walking distances",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F071",
+    "name": "Driving vehicles",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F072",
+    "name": "Operating machinery",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F073",
+    "name": "Manual labor",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F074",
+    "name": "Assembly work",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F075",
+    "name": "Packaging",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F076",
+    "name": "Stocking shelves",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F077",
+    "name": "Cleaning",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F078",
+    "name": "Maintenance",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F079",
+    "name": "Repair work",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F080",
+    "name": "Construction",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F081",
+    "name": "Delivery",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F082",
+    "name": "Loading/unloading",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F083",
+    "name": "Warehouse work",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "F084",
+    "name": "Managing staff",
+    "category": "Interpersonal",
+    "description": ""
+  },
+  {
+    "id": "F085",
+    "name": "Training others",
+    "category": "Interpersonal",
+    "description": ""
+  },
+  {
+    "id": "F086",
+    "name": "Mentoring",
+    "category": "Interpersonal",
+    "description": ""
+  },
+  {
+    "id": "F087",
+    "name": "Coaching",
+    "category": "Interpersonal",
+    "description": ""
+  },
+  {
+    "id": "F088",
+    "name": "Performance reviews",
+    "category": "Interpersonal",
+    "description": ""
+  },
+  {
+    "id": "F089",
+    "name": "Hiring",
+    "category": "Interpersonal",
+    "description": ""
+  },
+  {
+    "id": "F090",
+    "name": "Disciplinary actions",
+    "category": "Interpersonal",
+    "description": ""
+  },
+  {
+    "id": "F091",
+    "name": "Team building",
+    "category": "Interpersonal",
+    "description": ""
+  },
+  {
+    "id": "F092",
+    "name": "Networking",
+    "category": "Interpersonal",
+    "description": ""
+  },
+  {
+    "id": "F093",
+    "name": "Relationship building",
+    "category": "Interpersonal",
+    "description": ""
+  },
+  {
+    "id": "F094",
+    "name": "Stakeholder management",
+    "category": "Interpersonal",
+    "description": ""
+  },
+  {
+    "id": "F095",
+    "name": "Vendor management",
+    "category": "Interpersonal",
+    "description": ""
+  },
+  {
+    "id": "F096",
+    "name": "Client relations",
+    "category": "Interpersonal",
+    "description": ""
+  },
+  {
+    "id": "F097",
+    "name": "Patient care",
+    "category": "Specialized",
+    "description": ""
+  },
+  {
+    "id": "F098",
+    "name": "Teaching",
+    "category": "Specialized",
+    "description": ""
+  },
+  {
+    "id": "F099",
+    "name": "Counseling",
+    "category": "Specialized",
+    "description": ""
+  },
+  {
+    "id": "F100",
+    "name": "Legal work",
+    "category": "Specialized",
+    "description": ""
+  },
+  {
+    "id": "F101",
+    "name": "Accounting",
+    "category": "Specialized",
+    "description": ""
+  },
+  {
+    "id": "F102",
+    "name": "Auditing",
+    "category": "Specialized",
+    "description": ""
+  },
+  {
+    "id": "F103",
+    "name": "Marketing",
+    "category": "Specialized",
+    "description": ""
+  },
+  {
+    "id": "F104",
+    "name": "Social media management",
+    "category": "Specialized",
+    "description": ""
+  },
+  {
+    "id": "F105",
+    "name": "Content creation",
+    "category": "Specialized",
+    "description": ""
+  },
+  {
+    "id": "F106",
+    "name": "Translation",
+    "category": "Specialized",
+    "description": ""
+  },
+  {
+    "id": "F107",
+    "name": "Research and development",
+    "category": "Specialized",
+    "description": ""
+  },
+  {
+    "id": "F108",
+    "name": "Safety inspections",
+    "category": "Specialized",
+    "description": ""
+  },
+  {
+    "id": "F109",
+    "name": "Emergency response",
+    "category": "Specialized",
+    "description": ""
+  },
+  {
+    "id": "F110",
+    "name": "Security monitoring",
+    "category": "Specialized",
+    "description": ""
+  }
+]
