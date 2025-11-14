@@ -662,21 +662,28 @@
         
         function switchMode(mode) {
             currentMode = mode;
-            
+
             // Update buttons
-            document.querySelectorAll('.mode-btn').forEach(btn => {
+            document.querySelectorAll('.mode-btn').forEach((btn, index) => {
                 btn.classList.remove('active');
                 btn.setAttribute('aria-selected', 'false');
             });
-            event.target.classList.add('active');
-            event.target.setAttribute('aria-selected', 'true');
-            
+
+            // Find and activate the button for this mode
+            const modes = ['disability', 'limitation', 'barrier', 'function'];
+            const modeIndex = modes.indexOf(mode);
+            const buttons = document.querySelectorAll('.mode-btn');
+            if (buttons[modeIndex]) {
+                buttons[modeIndex].classList.add('active');
+                buttons[modeIndex].setAttribute('aria-selected', 'true');
+            }
+
             // Show/hide panels
             document.querySelectorAll('.search-panel').forEach(panel => {
                 panel.classList.remove('active');
             });
             document.getElementById(`${mode}-panel`).classList.add('active');
-            
+
             clearResults();
         }
         
