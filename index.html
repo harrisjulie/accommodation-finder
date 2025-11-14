@@ -705,7 +705,7 @@
         
         function createSearchPanels() {
             const container = document.getElementById('search-panels');
-            
+
             // Create panels for each search type
             const panels = [
                 {
@@ -733,7 +733,7 @@
                     items: db.functions
                 }
             ];
-            
+
             panels.forEach(panel => {
                 const div = document.createElement('div');
                 div.id = `${panel.id}-panel`;
@@ -743,15 +743,15 @@
                         <label for="${panel.id}-search" class="search-label">
                             ${panel.label}:
                         </label>
-                        <input type="search" 
-                               id="${panel.id}-search" 
-                               class="search-input" 
+                        <input type="search"
+                               id="${panel.id}-search"
+                               class="search-input"
                                placeholder="${panel.placeholder}"
                                onkeyup="searchByType('${panel.id}', this.value)">
                     </div>
-                    
+
                     <div class="quick-options">
-                        <span class="options-label">Select from list (${panel.items.length} options):</span>
+                        <span class="options-label" id="${panel.id}-options-label">Select from list (${panel.items.length} options):</span>
                         <div class="option-list" id="${panel.id}-options">
                             ${panel.items.map(item => `
                                 <button class="option-btn" onclick="selectItem('${panel.id}', '${item.id}')">
@@ -765,6 +765,106 @@
             });
 
             // Initialize button states
+            updateOptionButtonStates();
+        }
+
+        function getFilteredItems(type) {
+            // Get all items of this type
+            const allItems = db[type === 'disability' ? 'disabilities' :
+                               type === 'limitation' ? 'limitations' :
+                               type === 'barrier' ? 'barriers' : 'functions'];
+
+            // If nothing is selected anywhere, show all items
+            const hasAnySelection = Object.values(selectedCriteria).some(arr => arr.length > 0);
+            if (!hasAnySelection) {
+                return allItems;
+            }
+
+            // If this type has selections, include all items (so users can deselect)
+            if (selectedCriteria[type].length > 0) {
+                return allItems;
+            }
+
+            // Filter based on selections in other categories
+            let relevantIds = new Set();
+
+            // For limitations: show only those related to selected disabilities
+            if (type === 'limitation' && selectedCriteria.disability.length > 0) {
+                selectedCriteria.disability.forEach(disability => {
+                    const limitationIds = relationships.disability_limitations?.[disability.id] || [];
+                    limitationIds.forEach(id => relevantIds.add(id));
+                });
+
+                // If we have limitation IDs from disabilities, filter to those
+                if (relevantIds.size > 0) {
+                    return allItems.filter(item => relevantIds.has(item.id));
+                }
+            }
+
+            // For all types: filter by accommodation overlap
+            // Get all accommodation IDs from current selections
+            let selectedAccommodations = new Set();
+
+            for (const [selType, items] of Object.entries(selectedCriteria)) {
+                if (items.length === 0 || selType === type) continue;
+
+                const relKey = `${selType}_accommodations`;
+                items.forEach(item => {
+                    const accIds = relationships[relKey]?.[item.id] || [];
+                    accIds.forEach(id => selectedAccommodations.add(id));
+                });
+            }
+
+            // If we have selected accommodations, only show items that share some
+            if (selectedAccommodations.size > 0) {
+                const relKey = `${type}_accommodations`;
+                return allItems.filter(item => {
+                    const itemAccIds = relationships[relKey]?.[item.id] || [];
+                    return itemAccIds.some(id => selectedAccommodations.has(id));
+                });
+            }
+
+            return allItems;
+        }
+
+        function refreshOptionsDisplay(type) {
+            // Get filtered items for this type
+            const filteredItems = getFilteredItems(type);
+
+            // Update the label to show filtered count
+            const label = document.getElementById(`${type}-options-label`);
+            const allItems = db[type === 'disability' ? 'disabilities' :
+                               type === 'limitation' ? 'limitations' :
+                               type === 'barrier' ? 'barriers' : 'functions'];
+
+            if (filteredItems.length === allItems.length) {
+                label.textContent = `Select from list (${allItems.length} options):`;
+            } else {
+                label.textContent = `Showing ${filteredItems.length} of ${allItems.length} options (filtered by selections):`;
+            }
+
+            // Get current search query
+            const searchInput = document.getElementById(`${type}-search`);
+            const query = searchInput ? searchInput.value.toLowerCase() : '';
+
+            // Apply search filter if there's a query
+            let displayItems = filteredItems;
+            if (query && query.length >= 1) {
+                displayItems = filteredItems.filter(item =>
+                    item.name.toLowerCase().includes(query)
+                );
+            }
+
+            // Update the options display
+            const optionList = document.getElementById(`${type}-options`);
+            optionList.innerHTML = displayItems.map(item => `
+                <button class="option-btn"
+                        onclick="selectItem('${type}', '${item.id}')">
+                    ${item.name}
+                </button>
+            `).join('');
+
+            // Update button states
             updateOptionButtonStates();
         }
         
@@ -792,34 +892,15 @@
             });
             document.getElementById(`${mode}-panel`).classList.add('active');
 
+            // Refresh the options display for the current mode to show filtered items
+            refreshOptionsDisplay(mode);
+
             // Don't clear results - let selections persist across tabs
         }
         
         function searchByType(type, query) {
-            // Filter the displayed options based on search query
-            const items = db[type === 'disability' ? 'disabilities' :
-                           type === 'limitation' ? 'limitations' :
-                           type === 'barrier' ? 'barriers' : 'functions'];
-
-            let matches = items;
-            if (query && query.length >= 1) {
-                query = query.toLowerCase();
-                matches = items.filter(item =>
-                    item.name.toLowerCase().includes(query)
-                );
-            }
-
-            // Update the option buttons to show only matches
-            const optionList = document.getElementById(`${type}-options`);
-            optionList.innerHTML = matches.map(item => `
-                <button class="option-btn"
-                        onclick="selectItem('${type}', '${item.id}')">
-                    ${item.name}
-                </button>
-            `).join('');
-
-            // Update button states to reflect selections
-            updateOptionButtonStates();
+            // Use refreshOptionsDisplay which handles both filtering and search
+            refreshOptionsDisplay(type);
         }
 
         function selectItem(type, id) {
@@ -843,6 +924,9 @@
             // Update UI and results
             updateSelectedCriteriaDisplay();
             updateFilteredResults();
+
+            // Refresh all option displays to show filtered items
+            refreshAllOptionsDisplays();
         }
 
         function isItemSelected(type, id) {
@@ -921,6 +1005,7 @@
             selectedCriteria[type] = selectedCriteria[type].filter(s => s.id !== id);
             updateSelectedCriteriaDisplay();
             updateFilteredResults();
+            refreshAllOptionsDisplays();
         }
 
         function clearAllSelections() {
@@ -932,6 +1017,15 @@
             };
             updateSelectedCriteriaDisplay();
             clearResults();
+            refreshAllOptionsDisplays();
+        }
+
+        function refreshAllOptionsDisplays() {
+            // Refresh options in all panels
+            const types = ['disability', 'limitation', 'barrier', 'function'];
+            types.forEach(type => {
+                refreshOptionsDisplay(type);
+            });
         }
 
         function updateFilteredResults() {
