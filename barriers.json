@@ -550,5 +550,215 @@
     "name": "Organizational resistance",
     "category": "Systemic",
     "description": ""
+  },
+  {
+    "id": "B093",
+    "name": "Air Quality/Irritants",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B094",
+    "name": "Stress",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B095",
+    "name": "Use Cognitive Function",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B096",
+    "name": "Manipulate Items",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B097",
+    "name": "Move Items/People",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B098",
+    "name": "Operate Equipment/Vehicles",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B099",
+    "name": "Work Site Access",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B100",
+    "name": "Commute",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B101",
+    "name": "Access Information",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B102",
+    "name": "Safety Standards",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B103",
+    "name": "________________",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B104",
+    "name": "Categories",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B105",
+    "name": "Acquired Immune Deficiency Syndrome (AIDS)/Human Immunodeficiency Virus (HIV)",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B106",
+    "name": "Allergies",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B107",
+    "name": "Amputation",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B108",
+    "name": "Anxiety/Panic Disorder",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B109",
+    "name": "Attention Deficit Disorder or Attnetion Deficit/Hyperactivity Disorder",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B110",
+    "name": "Blood Disorders",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B111",
+    "name": "Body Size",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B112",
+    "name": "Brain Injury",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B113",
+    "name": "Cause Known - Speech",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B114",
+    "name": "Cause Unknown - Hearing",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B115",
+    "name": "Congenital",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B116",
+    "name": "Gastrointestinal Disorders",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B117",
+    "name": "HEadaches",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B118",
+    "name": "Hearing Impairment",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B119",
+    "name": "Heart Condition",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B120",
+    "name": "Height",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B121",
+    "name": "Intellectual Disability",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B122",
+    "name": "Learning Disability",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B123",
+    "name": "Palsy",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B124",
+    "name": "Paralysis",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B125",
+    "name": "Reproductive Impairments",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B126",
+    "name": "Speech Impairment",
+    "category": "Environmental",
+    "description": ""
+  },
+  {
+    "id": "B127",
+    "name": "Substance Use Disorder",
+    "category": "Environmental",
+    "description": ""
   }
 ]

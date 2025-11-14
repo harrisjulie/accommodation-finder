@@ -634,5 +634,239 @@
     "name": "Sprains",
     "category": "Temporary",
     "description": ""
+  },
+  {
+    "id": "D107",
+    "name": "Aging",
+    "category": "Other",
+    "description": ""
+  },
+  {
+    "id": "D108",
+    "name": "Albinism",
+    "category": "Visual",
+    "description": ""
+  },
+  {
+    "id": "D109",
+    "name": "Alcoholism",
+    "category": "Other",
+    "description": ""
+  },
+  {
+    "id": "D110",
+    "name": "Amyotrophic Lateral Sclerosis (ALS)/Lou Gehrig's Disease",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D111",
+    "name": "Ataxia",
+    "category": "Other",
+    "description": ""
+  },
+  {
+    "id": "D112",
+    "name": "Back Impairment",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D113",
+    "name": "Bladder Impairment",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D114",
+    "name": "Body Odor",
+    "category": "Other",
+    "description": ""
+  },
+  {
+    "id": "D115",
+    "name": "Cataplexy",
+    "category": "Other",
+    "description": ""
+  },
+  {
+    "id": "D116",
+    "name": "Charcot-Marie-Tooth",
+    "category": "Other",
+    "description": ""
+  },
+  {
+    "id": "D117",
+    "name": "Colorblind/Color Vision Deficiency",
+    "category": "Visual",
+    "description": ""
+  },
+  {
+    "id": "D118",
+    "name": "Cumulative Trauma Conditions",
+    "category": "Other",
+    "description": ""
+  },
+  {
+    "id": "D119",
+    "name": "Drug Addiction",
+    "category": "Other",
+    "description": ""
+  },
+  {
+    "id": "D120",
+    "name": "Dystonia",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D121",
+    "name": "Essential Tremors",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D122",
+    "name": "Fetal Alcohol Syndrome",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D123",
+    "name": "Fragrance Sensitivity",
+    "category": "Allergies/Sensitivities",
+    "description": ""
+  },
+  {
+    "id": "D124",
+    "name": "Gastroesophageal Reflux Disease (GERD, Acid Reflux, Heartburn)",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D125",
+    "name": "Gastrointestinal Disorders",
+    "category": "Other",
+    "description": ""
+  },
+  {
+    "id": "D126",
+    "name": "Guillain Barre' Syndrome",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D127",
+    "name": "Hearing Impairment",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D128",
+    "name": "Heart Condition",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D129",
+    "name": "Human Immunodeficiency Virus (HIV)",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D130",
+    "name": "Latex Allergy",
+    "category": "Allergies/Sensitivities",
+    "description": ""
+  },
+  {
+    "id": "D131",
+    "name": "Leg Impairment",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D132",
+    "name": "Little Person",
+    "category": "Other",
+    "description": ""
+  },
+  {
+    "id": "D133",
+    "name": "Mental Health Conditions",
+    "category": "Mental Health",
+    "description": ""
+  },
+  {
+    "id": "D134",
+    "name": "Obesity",
+    "category": "Other",
+    "description": ""
+  },
+  {
+    "id": "D135",
+    "name": "Paraplegia",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D136",
+    "name": "Phobias",
+    "category": "Mental Health",
+    "description": ""
+  },
+  {
+    "id": "D137",
+    "name": "Poliomyelitis (Polio)/Post Polio",
+    "category": "Other",
+    "description": ""
+  },
+  {
+    "id": "D138",
+    "name": "Quadriplegia",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D139",
+    "name": "Reflex Sympathetic Dystrophy (RSD)",
+    "category": "Other",
+    "description": ""
+  },
+  {
+    "id": "D140",
+    "name": "Respiratory Impairments",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D141",
+    "name": "Seasonal Affective Disorder (SAD)",
+    "category": "Other",
+    "description": ""
+  },
+  {
+    "id": "D142",
+    "name": "Shingles",
+    "category": "Other",
+    "description": ""
+  },
+  {
+    "id": "D143",
+    "name": "Skin Conditions",
+    "category": "Other",
+    "description": ""
+  },
+  {
+    "id": "D144",
+    "name": "Speech-Language Impairment",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D145",
+    "name": "Vertigo",
+    "category": "Other",
+    "description": ""
   }
 ]
