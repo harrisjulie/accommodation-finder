@@ -307,7 +307,7 @@
   },
   {
     "id": "A052",
-    "name": "Minimal décor workspace",
+    "name": "Minimal d\u00e9cor workspace",
     "category": "Sensory",
     "description": ""
   },
@@ -957,6 +957,2532 @@
     "id": "A160",
     "name": "Temporary light duty",
     "category": "Policy Modifications",
+    "description": ""
+  },
+  {
+    "id": "A161",
+    "name": "Noise Abatement",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A162",
+    "name": "Telework, Work from Home, Working Remotely",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A163",
+    "name": "Worksite Redesign / Modified Workspace",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A164",
+    "name": "Mini Refrigerators/ Electric Coolers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A165",
+    "name": "Air Cleaners & Purifiers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A166",
+    "name": "Anti-Glare Filters for Fluorescent Lights",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A167",
+    "name": "Cubicle Doors, Shields, and Shades",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A168",
+    "name": "Lighting Gel Filters",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A169",
+    "name": "Marginal Functions",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A170",
+    "name": "Modified Break Schedule",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A171",
+    "name": "Odor Control",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A172",
+    "name": "Air Cleaners - Chemical/Odor Removal",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A173",
+    "name": "Air Cleaning Systems",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A174",
+    "name": "Alternative Cleaning Supplies",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A175",
+    "name": "Augmentative and Alternative Communication (AAC) Device",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A176",
+    "name": "Carpet Alternatives, Sealants, and Sustainable Flooring",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A177",
+    "name": "Escape Hoods",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A178",
+    "name": "Floor Cleaning/Stripping Products - Chemical Sensitivity",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A179",
+    "name": "Low/No Odor Paints and Stains",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A180",
+    "name": "Mask Brackets and Frames",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A181",
+    "name": "Masks - Respirator",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A182",
+    "name": "Masks \u2013 General/Chemical/Allergen",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A183",
+    "name": "Outgoing Voice Amplification - Telephone",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A184",
+    "name": "Personal Air Cleaner (Neckworn)",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A185",
+    "name": "Personal On-Site Paging Devices",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A186",
+    "name": "Powered Air Purifying Respirator (PAPR)",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A187",
+    "name": "Disability Awareness/Etiquette Training",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A188",
+    "name": "Touchless Faucets",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A189",
+    "name": "Aide/Assistant/Attendant",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A190",
+    "name": "Periodic Rest Breaks",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A191",
+    "name": "Physical/Social Distancing Signage",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A192",
+    "name": "Sleep Alerting Devices",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A193",
+    "name": "Strobe Lights",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A194",
+    "name": "Supervisory Methods",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A195",
+    "name": "Apps for Concentration",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A196",
+    "name": "Apps for Memory",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A197",
+    "name": "Form Generating Software",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A198",
+    "name": "Recorded Directives, Messages, Materials",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A199",
+    "name": "Sound Absorption and Sound Proof Panels",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A200",
+    "name": "Sun Boxes and Lights",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A201",
+    "name": "Sun Simulating Desk Lamps",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A202",
+    "name": "Timers and Watches",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A203",
+    "name": "Applications (apps)",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A204",
+    "name": "Apps for Organization/ Time Management",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A205",
+    "name": "Electronic Organizers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A206",
+    "name": "PDAs, Notetakers, and Laptops",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A207",
+    "name": "Task Separation",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A208",
+    "name": "Professional Organizers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A209",
+    "name": "Social Skill Builders",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A210",
+    "name": "Support Person",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A211",
+    "name": "Verbal Cues",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A212",
+    "name": "Visual Schedulers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A213",
+    "name": "Color-coded Manuals, Outlines, and Maps",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A214",
+    "name": "Ergonomic Equipment",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A215",
+    "name": "Task Identification",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A216",
+    "name": "Apps for Anxiety and Stress",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A217",
+    "name": "Behavior Modification Techniques",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A218",
+    "name": "Counseling/Therapy",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A219",
+    "name": "Monitor Mirrors",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A220",
+    "name": "Simulated Skylights and Windows",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A221",
+    "name": "Counting/Measuring Aids",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A222",
+    "name": "Electronic Dictionaries",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A223",
+    "name": "Fractional, Decimal, Statistical, or Scientific Calculators",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A224",
+    "name": "Line Guides",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A225",
+    "name": "Training Modifications",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A226",
+    "name": "Bath Chairs",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A227",
+    "name": "Canes",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A228",
+    "name": "Crutches",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A229",
+    "name": "Personal Safety and Fall Alert Devices",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A230",
+    "name": "Rollators and Rolling Walkers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A231",
+    "name": "Scooters",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A232",
+    "name": "Stair Assists",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A233",
+    "name": "Walkers with Seats",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A234",
+    "name": "All-Terrain Wheelchairs",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A235",
+    "name": "Personal Transportation and Mobility Products",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A236",
+    "name": "Aerial Lifts",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A237",
+    "name": "Fall Protection",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A238",
+    "name": "Rolling Safety Ladders",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A239",
+    "name": "Adjustable Drafting Tables",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A240",
+    "name": "Animal Lift Tables",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A241",
+    "name": "Automatic Snow Chains",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A242",
+    "name": "Battery Powered Lift Tables",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A243",
+    "name": "Compact Material Handling",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A244",
+    "name": "Convex Mirrors",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A245",
+    "name": "Ergonomic and Pneumatic Tools",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A246",
+    "name": "Examination and Procedures Chair",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A247",
+    "name": "Long-Handled Mirrors",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A248",
+    "name": "Low Task Chair",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A249",
+    "name": "Manhole Cover Lifts",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A250",
+    "name": "Pickups, Semis, and Heavy Equipment",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A251",
+    "name": "Stools for Cutting Hair",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A252",
+    "name": "Telescoping Cameras",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A253",
+    "name": "Walk-up Changing Tables",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A254",
+    "name": "Ball Transfer Tables",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A255",
+    "name": "Carts",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A256",
+    "name": "Compact Mobile Cranes",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A257",
+    "name": "Lift Gates",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A258",
+    "name": "Lightweight Ladders",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A259",
+    "name": "Patient Lifts (General)",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A260",
+    "name": "Stairclimbing Handtrucks",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A261",
+    "name": "Test Tube Holders",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A262",
+    "name": "Tire Handling",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A263",
+    "name": "Trashcans",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A264",
+    "name": "Truck Mounted Cranes",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A265",
+    "name": "Vacuum Lifts",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A266",
+    "name": "Wheelchair Accessories",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A267",
+    "name": "Winches and Chain Hoists",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A268",
+    "name": "Protective Eyewear",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A269",
+    "name": "Alternative Input Devices",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A270",
+    "name": "Alternative Keyboards",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A271",
+    "name": "Anti-vibration Gloves",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A272",
+    "name": "Articulating Keyboard Trays",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A273",
+    "name": "Automated Filing Systems",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A274",
+    "name": "Cake Decorating and Baking Equipment",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A275",
+    "name": "Deburring Tools",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A276",
+    "name": "Expanded Keyboards",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A277",
+    "name": "Forearm Support",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A278",
+    "name": "Grip Aids",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A279",
+    "name": "Hair Scissors",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A280",
+    "name": "Handheld Computers (General)",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A281",
+    "name": "Hands Free Resuscitation Devices",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A282",
+    "name": "Keyguards",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A283",
+    "name": "Light Switch Extension Handles",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A284",
+    "name": "On-Screen Keyboards",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A285",
+    "name": "One-Handed Keyboard Software",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A286",
+    "name": "Pipettes",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A287",
+    "name": "Scribe/Notetaker",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A288",
+    "name": "Talking Bar Code Scanner/Reader",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A289",
+    "name": "Talking Money Identifier",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A290",
+    "name": "Tool Balancers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A291",
+    "name": "Van Conversion",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A292",
+    "name": "Auto-dialers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A293",
+    "name": "Headsets",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A294",
+    "name": "Left Hand-Dominant Keyboards",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A295",
+    "name": "Reachers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A296",
+    "name": "Money Handling Products",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A297",
+    "name": "Mop Buckets",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A298",
+    "name": "Mops and Mop Handles",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A299",
+    "name": "Steering Grips",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A300",
+    "name": "Vacuum Pickup Tools",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A301",
+    "name": "Typing / Keyboarding Aids",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A302",
+    "name": "Lifting",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A303",
+    "name": "Engine Lifts and Lift Plates",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A304",
+    "name": "Drywall and Wallboard Lifts",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A305",
+    "name": "Lifters and Carriers for Mobility Aids",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A306",
+    "name": "Accessible Baby Changing Stations",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A307",
+    "name": "Large-Rated Wheelchair Lifts",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A308",
+    "name": "Pool Lifts",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A309",
+    "name": "Powered Bath Lifts",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A310",
+    "name": "Joystick Driving Systems",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A311",
+    "name": "Left-Foot Gas Pedal",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A312",
+    "name": "Pedal Extenders",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A313",
+    "name": "Adjustable Workstations for Industrial Settings",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A314",
+    "name": "Ergonomic and Adjustable Office Chairs",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A315",
+    "name": "Gooseneck and Other Telephone Holders",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A316",
+    "name": "Stand-lean Stools",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A317",
+    "name": "Supine Workstations",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A318",
+    "name": "Workstation Space Heaters",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A319",
+    "name": "Assist Lift Cushions",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A320",
+    "name": "Elevating Lift and Office Chairs",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A321",
+    "name": "Head Support for Wheelchairs",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A322",
+    "name": "Proper Sitting / Standing Techniques",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A323",
+    "name": "Stand Aids",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A324",
+    "name": "Stand-up Wheelchairs",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A325",
+    "name": "Wheelchair Mounts",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A326",
+    "name": "Arm Prosthetics",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A327",
+    "name": "Automatic and Remote Control Blinds",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A328",
+    "name": "Dental and Surgical Instruments",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A329",
+    "name": "Door Knob Grips and Handles",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A330",
+    "name": "Electric Scissors",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A331",
+    "name": "Eye Controlled Alternative Computer Input Devices",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A332",
+    "name": "File Carousels",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A333",
+    "name": "Filing Trays",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A334",
+    "name": "Gardening Equipment",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A335",
+    "name": "Gear Shift Adapter/Extension",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A336",
+    "name": "Graphics Design Software",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A337",
+    "name": "Grooming and Dressing Aids",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A338",
+    "name": "One-Hand Syringes",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A339",
+    "name": "Shoulder Supports for Telephone Handsets",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A340",
+    "name": "Ten Keypads",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A341",
+    "name": "Tongue Touch Keyboards/Mice",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A342",
+    "name": "Word Prediction/Completion and Macro Software",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A343",
+    "name": "Boat Access",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A344",
+    "name": "Foldable / Transport Wheelchairs",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A345",
+    "name": "Reclining Wheelchairs",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A346",
+    "name": "Walkers for Tall Individuals",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A347",
+    "name": "Wheelchairs for Small Stature",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A348",
+    "name": "Electric Stapler",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A349",
+    "name": "Folding Steps",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A350",
+    "name": "Height Adjustable Table Legs",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A351",
+    "name": "Large-Rated Small Step Ladders",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A352",
+    "name": "Mechanic's Seats and Creepers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A353",
+    "name": "Sewing Aids for Individuals with Vision Impairment",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A354",
+    "name": "Seat Belts & Seat Belt Extenders",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A355",
+    "name": "Swivel Seats and Seat Extenders",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A356",
+    "name": "Talking Cash Register",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A357",
+    "name": "Talking Coin Counter/Sorter",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A358",
+    "name": "Talking Credit Card Terminal",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A359",
+    "name": "Vehicle Rear Vision System",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A360",
+    "name": "Accessible Toilets and Toilet Seats",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A361",
+    "name": "Braille and/or ADA Signage",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A362",
+    "name": "High Visibility Floor Tape and Paint",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A363",
+    "name": "Smart Locks/Keyless Entry Locks",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A364",
+    "name": "Stair Tread/Textured Tape",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A365",
+    "name": "Adjustable and Ergonomic School Desks and Equipment",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A366",
+    "name": "Chair Mats",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A367",
+    "name": "Chairs for Little People",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A368",
+    "name": "Chairs for People who are Tall",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A369",
+    "name": "Forward Leaning Chairs",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A370",
+    "name": "Mousing Surfaces",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A371",
+    "name": "Work Platforms",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A372",
+    "name": "Zero Gravity (reclining) Chairs",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A373",
+    "name": "Desk Organizers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A374",
+    "name": "Desk Pedal Exercisers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A375",
+    "name": "Fidget Devices",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A376",
+    "name": "Focus Enhancement",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A377",
+    "name": "Task Flow Chart",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A378",
+    "name": "Rest Area/Private Space",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A379",
+    "name": "Executive Functioning Deficits",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A380",
+    "name": "Fitness Trackers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A381",
+    "name": "Smart Watches",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A382",
+    "name": "Written Forms and Prompts",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A383",
+    "name": "Break Reminder Software",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A384",
+    "name": "Labels/Bulletin Board",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A385",
+    "name": "Medication Reminders",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A386",
+    "name": "Memory Software",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A387",
+    "name": "Notepad or White Board",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A388",
+    "name": "On-Screen \"Ruler\" / Strip",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A389",
+    "name": "Note Collection Software and Technology",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A390",
+    "name": "Organization/Prioritization Skills",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A391",
+    "name": "Employee Assistance Program",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A392",
+    "name": "Communicate Another Way",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A393",
+    "name": "Complying with Behavior and Conduct Rules",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A394",
+    "name": "Instant Messaging and Texting Solutions for Businesses",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A395",
+    "name": "Positive Feedback",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A396",
+    "name": "Telepresence",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A397",
+    "name": "Padded Edging",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A398",
+    "name": "Extra Grip Gloves",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A399",
+    "name": "Vehicle Lifts and Manipulators",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A400",
+    "name": "Power Lift IV Stands",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A401",
+    "name": "Fans",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A402",
+    "name": "Chairs with Head Support",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A403",
+    "name": "Fluorescent Light Tube Covers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A404",
+    "name": "Light Filtering Glasses",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A405",
+    "name": "Sun/UV Protective Clothing",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A406",
+    "name": "Vehicle Window Tinting and Shades",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A407",
+    "name": "Adjustable Pedicure Chairs",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A408",
+    "name": "Chairs and Stools for Medical Services",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A409",
+    "name": "Clean Room Stools",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A410",
+    "name": "Lumbar Cushions",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A411",
+    "name": "Treadmill / Pedal Workstations",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A412",
+    "name": "Apps for Sleep/ Fatigue",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A413",
+    "name": "Air Deflectors",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A414",
+    "name": "Cold Resistant Gloves",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A415",
+    "name": "Cooling Clothing",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A416",
+    "name": "Heated Clothing",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A417",
+    "name": "Heated Ergonomic and Computer Products",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A418",
+    "name": "Heated Gloves",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A419",
+    "name": "Portable Air Conditioners",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A420",
+    "name": "Ridesharing/Carpooling",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A421",
+    "name": "Personal Visors",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A422",
+    "name": "Transparent Window Shades",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A423",
+    "name": "UV Protection Shelters",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A424",
+    "name": "Apps for Miscellaneous Mental Health / Control of Anger & Emotions",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A425",
+    "name": "Habit Monitoring",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A426",
+    "name": "Tangible Rewards",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A427",
+    "name": "Visual Performance Charts",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A428",
+    "name": "Interacting with Co-Workers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A429",
+    "name": "Working Effectively with Supervisors",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A430",
+    "name": "Accessible Mobile Phones",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A431",
+    "name": "Alternative Mice - Limiting Tremors",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A432",
+    "name": "Amplified Stethoscopes and Related Products",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A433",
+    "name": "Assistive Listening Devices (personal)",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A434",
+    "name": "Audio Description / Image Description Services",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A435",
+    "name": "Bone Conduction Technology",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A436",
+    "name": "Braille Notetakers and Personal Digital Assistants",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A437",
+    "name": "Braille Printers & Embossers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A438",
+    "name": "CART Services",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A439",
+    "name": "Closed Circuit TV (CCTV)",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A440",
+    "name": "Color Contrast Overlays",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A441",
+    "name": "Color Vision Deficiency Information & Products",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A442",
+    "name": "External Computer Screen Magnification",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A443",
+    "name": "Large Button Phones",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A444",
+    "name": "Large Visual Display for Telephone",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A445",
+    "name": "LCD Pen Tablet Displays",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A446",
+    "name": "Literacy Skills Development",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A447",
+    "name": "Low Vision Enhancement Products",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A448",
+    "name": "(Hand or Stand)",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A449",
+    "name": "Paging Products & Services",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A450",
+    "name": "Portable or Handheld Readers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A451",
+    "name": "Prism Glasses/Bed Spectacles",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A452",
+    "name": "Real-time and Off-line Captioning Services",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A453",
+    "name": "Screen Reading Software and Training",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A454",
+    "name": "Talking Color Detector",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A455",
+    "name": "Talking Global Positioning Systems (GPS) and Maps",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A456",
+    "name": "Talking Scales",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A457",
+    "name": "Talking Thermometers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A458",
+    "name": "Verbal Responses",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A459",
+    "name": "Folding Wall Partitions and Room Dividers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A460",
+    "name": "Communication Access Technologies",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A461",
+    "name": "Anti-Glare/Radiation Filters for Computer Screens",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A462",
+    "name": "Countdown Timers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A463",
+    "name": "Apps for Individuals with Bipolar Disorder",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A464",
+    "name": "Office Chairs with Brakes and Locking Casters",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A465",
+    "name": "Power Assist for Manual Wheelchairs",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A466",
+    "name": "Custom Shoes",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A467",
+    "name": "Cut and Puncture Resistant Gloves and Sleeves",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A468",
+    "name": "Designated Responders",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A469",
+    "name": "Steel Toe Shoes & Toe Guards",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A470",
+    "name": "Workplace Safety",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A471",
+    "name": "Safety-Related Equipment for Little People",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A472",
+    "name": "Machine Guards and Shields",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A473",
+    "name": "Plan of Action",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A474",
+    "name": "Large-Rated Harnesses",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A475",
+    "name": "Established Routes of Travel for Heavy Equipment/Vehicles",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A476",
+    "name": "Braille Labelers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A477",
+    "name": "Computer Phone Software",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A478",
+    "name": "Detectable Warning Surfaces",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A479",
+    "name": "Keyboard Tops and Labels",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A480",
+    "name": "Optical Character Recognition (OCR) Systems - Scan",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A481",
+    "name": "Qualified Reader",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A482",
+    "name": "Telephone Light Sensor",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A483",
+    "name": "Writing/Editing Software",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A484",
+    "name": "Accessible Vehicles",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A485",
+    "name": "Apps for Individuals Who are Deaf or Hard of Hearing",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A486",
+    "name": "Cyclist's Mirror",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A487",
+    "name": "TTY - Portable",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A488",
+    "name": "TTYs (Text Telephones)",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A489",
+    "name": "Video Relay Services (VRS)",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A490",
+    "name": "Video Remote Interpreting Services (VRI)",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A491",
+    "name": "Bluetooth Products",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A492",
+    "name": "Captioned Telephone Calls",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A493",
+    "name": "Cellular Telephone Technology: Deaf & Hard of Hearing",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A494",
+    "name": "Hearing Carry Over (HCO) TTYs",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A495",
+    "name": "Neckloops",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A496",
+    "name": "Telephone Amplification",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A497",
+    "name": "Voice-Carry-Over (VCO) Telephones",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A498",
+    "name": "Face-to-Face",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A499",
+    "name": "Effect of/Receive Medical Treatment",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A500",
+    "name": "Alternative Alarm Clocks",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A501",
+    "name": "Bed Shaker Alarms",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A502",
+    "name": "Dawn Simulators",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A503",
+    "name": "Rolling Alarm Clocks",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A504",
+    "name": "Vibrating Watches/Alarms",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A505",
+    "name": "Wake-Up Call Services",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A506",
+    "name": "Attendance Issues",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A507",
+    "name": "Policy Implementation",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A508",
+    "name": "Head-mounted Magnifiers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A509",
+    "name": "Low Vision Office Supplies",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A510",
+    "name": "Portable Video/Electronic Magnifiers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A511",
+    "name": "Screen Magnification and Screen Reading Combined",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A512",
+    "name": "Tactile Graphics & Maps",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A513",
+    "name": "Talking Blood Glucose Monitors",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A514",
+    "name": "Corner and Edge Cushions",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A515",
+    "name": "Respiratory Distress/Breathing Problem",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A516",
+    "name": "Masks - Smoke Allergy",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A517",
+    "name": "Computer Access",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A518",
+    "name": "Industry Specific",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A519",
+    "name": "Worksite Access",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A520",
+    "name": "Braille TTY",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A521",
+    "name": "Word Processing Software",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A522",
+    "name": "Construction Calculators",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A523",
+    "name": "Large Display Calculators or Adding Machines",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A524",
+    "name": "Large Display Thermometers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A525",
+    "name": "Mathematics Software",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A526",
+    "name": "Talking Tape Measures",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A527",
+    "name": "Reading / Highlighting Products",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A528",
+    "name": "Reading Pen",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A529",
+    "name": "Text Reader",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A530",
+    "name": "Proofreading/ Copyediting Assistance",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A531",
+    "name": "Reference Books",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A532",
+    "name": "Apps for Learning Disabilities",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A533",
+    "name": "Apps for Mathematics",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A534",
+    "name": "Apps for Reading",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A535",
+    "name": "Electronic Book (e-Book) Readers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A536",
+    "name": "Apps for Note Taking/ Writing",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A537",
+    "name": "Learning Job Tasks",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A538",
+    "name": "Meeting Productivity Standards",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A539",
+    "name": "Tactile Timepieces/Watches",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A540",
+    "name": "Leg Extenders for Walkers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A541",
+    "name": "Alternative Spray Can Holders/Guns",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A542",
+    "name": "Disposable Gloves for Small Hands",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A543",
+    "name": "Move Items/People",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A544",
+    "name": "Bump Caps",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A545",
+    "name": "Dry Erase/ Whiteboard Product Alternatives",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A546",
+    "name": "Natural and Synthetic Fragrance-free Hand Soap",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A547",
+    "name": "Pet Dander Control",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A548",
+    "name": "Respiratory Health Management",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A549",
+    "name": "Accessing Computers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A550",
+    "name": "Accessing Telephones",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A551",
+    "name": "Magnifying Materials",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A552",
+    "name": "Locator Dots",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A553",
+    "name": "Industry Work",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A554",
+    "name": "Office Work",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A555",
+    "name": "Personal Mobility",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A556",
+    "name": "Telescopic Handle Attachments",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A557",
+    "name": "Voice Recognition Memory Devices",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A558",
+    "name": "Coach Steps",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A559",
+    "name": "Compact Ladders",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A560",
+    "name": "Extended Tractor Steps",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A561",
+    "name": "Ladders (General)",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A562",
+    "name": "Elbow and Knee Protection",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A563",
+    "name": "Low Positioned Stools",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A564",
+    "name": "Cart Dumpers",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A565",
+    "name": "Wheelchair Push Extension Handles",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A566",
+    "name": "Office Setting",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A567",
+    "name": "Fluency Devices",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A568",
+    "name": "Access Information",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A569",
+    "name": "Gripping and Grasping",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A570",
+    "name": "In-Person/Remote",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A571",
+    "name": "Healthcare",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A572",
+    "name": "Building Accessibility Products",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A573",
+    "name": "Odor Absorption",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A574",
+    "name": "Apps for Addiction/ Alcoholism",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A575",
+    "name": "Face-to Face Communication",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A576",
+    "name": "Two-Way Radio With Texting",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A577",
+    "name": "Voicemail Transcription: Voice to Text",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A578",
+    "name": "Relay Conference Captioning (RCC)",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A579",
+    "name": "Group or Face-to Face",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A580",
+    "name": "Roadwork Assistance",
+    "category": "Workplace",
+    "description": ""
+  },
+  {
+    "id": "A581",
+    "name": "Large-Rated Toilet",
+    "category": "Workplace",
     "description": ""
   }
 ]

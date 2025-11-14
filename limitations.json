@@ -592,5 +592,257 @@
     "name": "Migraine triggers",
     "category": "Medical/Health",
     "description": ""
+  },
+  {
+    "id": "L100",
+    "name": "Coughing Excessively",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L101",
+    "name": "Dietary Needs",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L102",
+    "name": "Headache",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L103",
+    "name": "Nausea",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L104",
+    "name": "Respiratory Distress/Breathing Problem",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L105",
+    "name": "Skin Rash/Blisters/Sores",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L106",
+    "name": "Managing Time",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L107",
+    "name": "Memory Loss",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L108",
+    "name": "Organizing/Planning/Prioritizing",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L109",
+    "name": "Effect of/Receive Medical Treatment",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L110",
+    "name": "Feeling/Sensing",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L111",
+    "name": "Handling/Fingering",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L112",
+    "name": "Operating Foot Control",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L113",
+    "name": "Use of One Hand/Arm",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L114",
+    "name": "Attentiveness/Concentration",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L115",
+    "name": "Take Medication",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L116",
+    "name": "Overall Body Coordination",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L117",
+    "name": "Sleeping/Stay Awake",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L118",
+    "name": "Disruptive Behavior",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L119",
+    "name": "Social Skills",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L120",
+    "name": "Control of Anger/Emotions",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L121",
+    "name": "Erratic/Inconsistent Behavior",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L122",
+    "name": "Non-compliant Behavior",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L123",
+    "name": "Overall Body Weakness/Strength",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L124",
+    "name": "Blind - Total",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L125",
+    "name": "Seizure Activity",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L126",
+    "name": "Suppressed Immune System",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L127",
+    "name": "Drooling",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L128",
+    "name": "Toileting/Grooming Issue",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L129",
+    "name": "Deaf - One Ear",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L130",
+    "name": "Dizziness",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L131",
+    "name": "Mental Confusion",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L132",
+    "name": "Unable to Work Alone",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L133",
+    "name": "Mathematics",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L134",
+    "name": "Writing/Spelling",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L135",
+    "name": "Spasm/Tic/Tremor/Blinking",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L136",
+    "name": "Unintelligible Speech",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L137",
+    "name": "Stuttering Speech Disfluency",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L138",
+    "name": "Body Odor",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L139",
+    "name": "Weak Speech",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L140",
+    "name": "Ringing in the Ears",
+    "category": "Functional",
+    "description": ""
+  },
+  {
+    "id": "L141",
+    "name": "Body Size",
+    "category": "Functional",
+    "description": ""
   }
 ]
