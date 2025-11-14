@@ -1,0 +1,596 @@
+[
+  {
+    "id": "L001",
+    "name": "Concentration difficulty",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L002",
+    "name": "Memory impairment",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L003",
+    "name": "Processing speed",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L004",
+    "name": "Executive function",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L005",
+    "name": "Attention regulation",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L006",
+    "name": "Task initiation",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L007",
+    "name": "Task completion",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L008",
+    "name": "Organization skills",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L009",
+    "name": "Time management",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L010",
+    "name": "Prioritization",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L011",
+    "name": "Decision making",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L012",
+    "name": "Problem solving",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L013",
+    "name": "Abstract thinking",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L014",
+    "name": "Sequential processing",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L015",
+    "name": "Multi-tasking",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L016",
+    "name": "Information retention",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L017",
+    "name": "Learning new tasks",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L018",
+    "name": "Following instructions",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L019",
+    "name": "Reading comprehension",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L020",
+    "name": "Writing ability",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L021",
+    "name": "Mathematical calculations",
+    "category": "Cognitive",
+    "description": ""
+  },
+  {
+    "id": "L022",
+    "name": "Standing",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L023",
+    "name": "Sitting",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L024",
+    "name": "Walking",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L025",
+    "name": "Climbing stairs",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L026",
+    "name": "Balancing",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L027",
+    "name": "Bending",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L028",
+    "name": "Kneeling",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L029",
+    "name": "Reaching",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L030",
+    "name": "Grasping",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L031",
+    "name": "Fine motor control",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L032",
+    "name": "Lifting",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L033",
+    "name": "Carrying",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L034",
+    "name": "Pushing",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L035",
+    "name": "Pulling",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L036",
+    "name": "Typing",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L037",
+    "name": "Hand strength",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L038",
+    "name": "Grip strength",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L039",
+    "name": "Arm movement",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L040",
+    "name": "Leg movement",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L041",
+    "name": "Stamina",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L042",
+    "name": "Endurance",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L043",
+    "name": "Fatigue",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L044",
+    "name": "Pain management",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L045",
+    "name": "Temperature regulation",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L046",
+    "name": "Mobility",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L047",
+    "name": "Transfer ability",
+    "category": "Physical",
+    "description": ""
+  },
+  {
+    "id": "L048",
+    "name": "Vision",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "L049",
+    "name": "Hearing",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "L050",
+    "name": "Touch sensitivity",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "L051",
+    "name": "Light sensitivity",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "L052",
+    "name": "Sound sensitivity",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "L053",
+    "name": "Smell sensitivity",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "L054",
+    "name": "Taste sensitivity",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "L055",
+    "name": "Proprioception",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "L056",
+    "name": "Vestibular function",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "L057",
+    "name": "Depth perception",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "L058",
+    "name": "Color discrimination",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "L059",
+    "name": "Night vision",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "L060",
+    "name": "Peripheral vision",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "L061",
+    "name": "Visual processing",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "L062",
+    "name": "Auditory processing",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "L063",
+    "name": "Sensory integration",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "L064",
+    "name": "Verbal communication",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "L065",
+    "name": "Written communication",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "L066",
+    "name": "Non-verbal communication",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "L067",
+    "name": "Understanding speech",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "L068",
+    "name": "Speech production",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "L069",
+    "name": "Voice modulation",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "L070",
+    "name": "Language processing",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "L071",
+    "name": "Social cues interpretation",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "L072",
+    "name": "Eye contact",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "L073",
+    "name": "Facial expressions",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "L074",
+    "name": "Body language",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "L075",
+    "name": "Phone communication",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "L076",
+    "name": "Emotion regulation",
+    "category": "Emotional/Behavioral",
+    "description": ""
+  },
+  {
+    "id": "L077",
+    "name": "Stress tolerance",
+    "category": "Emotional/Behavioral",
+    "description": ""
+  },
+  {
+    "id": "L078",
+    "name": "Anxiety management",
+    "category": "Emotional/Behavioral",
+    "description": ""
+  },
+  {
+    "id": "L079",
+    "name": "Mood stability",
+    "category": "Emotional/Behavioral",
+    "description": ""
+  },
+  {
+    "id": "L080",
+    "name": "Impulse control",
+    "category": "Emotional/Behavioral",
+    "description": ""
+  },
+  {
+    "id": "L081",
+    "name": "Frustration tolerance",
+    "category": "Emotional/Behavioral",
+    "description": ""
+  },
+  {
+    "id": "L082",
+    "name": "Social interaction",
+    "category": "Emotional/Behavioral",
+    "description": ""
+  },
+  {
+    "id": "L083",
+    "name": "Interpersonal skills",
+    "category": "Emotional/Behavioral",
+    "description": ""
+  },
+  {
+    "id": "L084",
+    "name": "Conflict resolution",
+    "category": "Emotional/Behavioral",
+    "description": ""
+  },
+  {
+    "id": "L085",
+    "name": "Coping with change",
+    "category": "Emotional/Behavioral",
+    "description": ""
+  },
+  {
+    "id": "L086",
+    "name": "Routine disruption tolerance",
+    "category": "Emotional/Behavioral",
+    "description": ""
+  },
+  {
+    "id": "L087",
+    "name": "Sensory overload",
+    "category": "Emotional/Behavioral",
+    "description": ""
+  },
+  {
+    "id": "L088",
+    "name": "Medication side effects",
+    "category": "Medical/Health",
+    "description": ""
+  },
+  {
+    "id": "L089",
+    "name": "Treatment schedules",
+    "category": "Medical/Health",
+    "description": ""
+  },
+  {
+    "id": "L090",
+    "name": "Symptom management",
+    "category": "Medical/Health",
+    "description": ""
+  },
+  {
+    "id": "L091",
+    "name": "Immune system function",
+    "category": "Medical/Health",
+    "description": ""
+  },
+  {
+    "id": "L092",
+    "name": "Allergic reactions",
+    "category": "Medical/Health",
+    "description": ""
+  },
+  {
+    "id": "L093",
+    "name": "Chemical sensitivity",
+    "category": "Medical/Health",
+    "description": ""
+  },
+  {
+    "id": "L094",
+    "name": "Food restrictions",
+    "category": "Medical/Health",
+    "description": ""
+  },
+  {
+    "id": "L095",
+    "name": "Bathroom frequency",
+    "category": "Medical/Health",
+    "description": ""
+  },
+  {
+    "id": "L096",
+    "name": "Blood sugar regulation",
+    "category": "Medical/Health",
+    "description": ""
+  },
+  {
+    "id": "L097",
+    "name": "Blood pressure regulation",
+    "category": "Medical/Health",
+    "description": ""
+  },
+  {
+    "id": "L098",
+    "name": "Seizure management",
+    "category": "Medical/Health",
+    "description": ""
+  },
+  {
+    "id": "L099",
+    "name": "Migraine triggers",
+    "category": "Medical/Health",
+    "description": ""
+  }
+]

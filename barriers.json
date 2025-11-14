@@ -1,0 +1,554 @@
+[
+  {
+    "id": "B001",
+    "name": "Stairs without ramps",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B002",
+    "name": "Narrow doorways",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B003",
+    "name": "Heavy doors",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B004",
+    "name": "Inaccessible parking",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B005",
+    "name": "Distance from parking",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B006",
+    "name": "Uneven surfaces",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B007",
+    "name": "High shelves",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B008",
+    "name": "Low clearances",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B009",
+    "name": "Inadequate lighting",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B010",
+    "name": "Fluorescent lighting",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B011",
+    "name": "Glare",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B012",
+    "name": "Visual clutter",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B013",
+    "name": "Open office layout",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B014",
+    "name": "Lack of private space",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B015",
+    "name": "Temperature extremes",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B016",
+    "name": "Poor air quality",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B017",
+    "name": "Chemical odors",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B018",
+    "name": "Fragrances",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B019",
+    "name": "Noise levels",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B020",
+    "name": "Echo/acoustics",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B021",
+    "name": "Vibrations",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B022",
+    "name": "Crowded spaces",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B023",
+    "name": "Fast-paced environment",
+    "category": "Physical Environment",
+    "description": ""
+  },
+  {
+    "id": "B024",
+    "name": "Inaccessible software",
+    "category": "Technology",
+    "description": ""
+  },
+  {
+    "id": "B025",
+    "name": "Complex interfaces",
+    "category": "Technology",
+    "description": ""
+  },
+  {
+    "id": "B026",
+    "name": "Small text",
+    "category": "Technology",
+    "description": ""
+  },
+  {
+    "id": "B027",
+    "name": "Poor contrast",
+    "category": "Technology",
+    "description": ""
+  },
+  {
+    "id": "B028",
+    "name": "Lack of keyboard navigation",
+    "category": "Technology",
+    "description": ""
+  },
+  {
+    "id": "B029",
+    "name": "No screen reader compatibility",
+    "category": "Technology",
+    "description": ""
+  },
+  {
+    "id": "B030",
+    "name": "Video without captions",
+    "category": "Technology",
+    "description": ""
+  },
+  {
+    "id": "B031",
+    "name": "Audio without transcripts",
+    "category": "Technology",
+    "description": ""
+  },
+  {
+    "id": "B032",
+    "name": "Time limits",
+    "category": "Technology",
+    "description": ""
+  },
+  {
+    "id": "B033",
+    "name": "CAPTCHA challenges",
+    "category": "Technology",
+    "description": ""
+  },
+  {
+    "id": "B034",
+    "name": "Touch-only interfaces",
+    "category": "Technology",
+    "description": ""
+  },
+  {
+    "id": "B035",
+    "name": "Required mouse use",
+    "category": "Technology",
+    "description": ""
+  },
+  {
+    "id": "B036",
+    "name": "Incompatible assistive technology",
+    "category": "Technology",
+    "description": ""
+  },
+  {
+    "id": "B037",
+    "name": "Outdated technology",
+    "category": "Technology",
+    "description": ""
+  },
+  {
+    "id": "B038",
+    "name": "Phone-only contact",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "B039",
+    "name": "In-person only meetings",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "B040",
+    "name": "No written materials",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "B041",
+    "name": "Complex language",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "B042",
+    "name": "Fast-paced speech",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "B043",
+    "name": "Background noise in calls",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "B044",
+    "name": "No visual aids",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "B045",
+    "name": "Lack of clarity in instructions",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "B046",
+    "name": "Ambiguous expectations",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "B047",
+    "name": "Unstructured information",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "B048",
+    "name": "Information overload",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "B049",
+    "name": "Short notice changes",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "B050",
+    "name": "Inflexible schedules",
+    "category": "Policies/Procedures",
+    "description": ""
+  },
+  {
+    "id": "B051",
+    "name": "Rigid attendance policies",
+    "category": "Policies/Procedures",
+    "description": ""
+  },
+  {
+    "id": "B052",
+    "name": "No remote work option",
+    "category": "Policies/Procedures",
+    "description": ""
+  },
+  {
+    "id": "B053",
+    "name": "Mandatory overtime",
+    "category": "Policies/Procedures",
+    "description": ""
+  },
+  {
+    "id": "B054",
+    "name": "Rotating shifts",
+    "category": "Policies/Procedures",
+    "description": ""
+  },
+  {
+    "id": "B055",
+    "name": "Travel requirements",
+    "category": "Policies/Procedures",
+    "description": ""
+  },
+  {
+    "id": "B056",
+    "name": "Strict dress codes",
+    "category": "Policies/Procedures",
+    "description": ""
+  },
+  {
+    "id": "B057",
+    "name": "No break flexibility",
+    "category": "Policies/Procedures",
+    "description": ""
+  },
+  {
+    "id": "B058",
+    "name": "Performance metrics",
+    "category": "Policies/Procedures",
+    "description": ""
+  },
+  {
+    "id": "B059",
+    "name": "Speed requirements",
+    "category": "Policies/Procedures",
+    "description": ""
+  },
+  {
+    "id": "B060",
+    "name": "Multitasking demands",
+    "category": "Policies/Procedures",
+    "description": ""
+  },
+  {
+    "id": "B061",
+    "name": "Open-ended deadlines",
+    "category": "Policies/Procedures",
+    "description": ""
+  },
+  {
+    "id": "B062",
+    "name": "Unclear priorities",
+    "category": "Policies/Procedures",
+    "description": ""
+  },
+  {
+    "id": "B063",
+    "name": "Inconsistent rules",
+    "category": "Policies/Procedures",
+    "description": ""
+  },
+  {
+    "id": "B064",
+    "name": "Lack of structure",
+    "category": "Policies/Procedures",
+    "description": ""
+  },
+  {
+    "id": "B065",
+    "name": "Stigma",
+    "category": "Social/Cultural",
+    "description": ""
+  },
+  {
+    "id": "B066",
+    "name": "Lack of awareness",
+    "category": "Social/Cultural",
+    "description": ""
+  },
+  {
+    "id": "B067",
+    "name": "Stereotypes",
+    "category": "Social/Cultural",
+    "description": ""
+  },
+  {
+    "id": "B068",
+    "name": "Discrimination",
+    "category": "Social/Cultural",
+    "description": ""
+  },
+  {
+    "id": "B069",
+    "name": "Isolation",
+    "category": "Social/Cultural",
+    "description": ""
+  },
+  {
+    "id": "B070",
+    "name": "Lack of support",
+    "category": "Social/Cultural",
+    "description": ""
+  },
+  {
+    "id": "B071",
+    "name": "Negative attitudes",
+    "category": "Social/Cultural",
+    "description": ""
+  },
+  {
+    "id": "B072",
+    "name": "Microaggressions",
+    "category": "Social/Cultural",
+    "description": ""
+  },
+  {
+    "id": "B073",
+    "name": "Forced disclosure",
+    "category": "Social/Cultural",
+    "description": ""
+  },
+  {
+    "id": "B074",
+    "name": "Privacy concerns",
+    "category": "Social/Cultural",
+    "description": ""
+  },
+  {
+    "id": "B075",
+    "name": "Lack of role models",
+    "category": "Social/Cultural",
+    "description": ""
+  },
+  {
+    "id": "B076",
+    "name": "Communication style differences",
+    "category": "Social/Cultural",
+    "description": ""
+  },
+  {
+    "id": "B077",
+    "name": "Social expectations",
+    "category": "Social/Cultural",
+    "description": ""
+  },
+  {
+    "id": "B078",
+    "name": "Networking events",
+    "category": "Social/Cultural",
+    "description": ""
+  },
+  {
+    "id": "B079",
+    "name": "Team building activities",
+    "category": "Social/Cultural",
+    "description": ""
+  },
+  {
+    "id": "B080",
+    "name": "Mandatory social events",
+    "category": "Systemic",
+    "description": ""
+  },
+  {
+    "id": "B081",
+    "name": "Complex accommodation process",
+    "category": "Systemic",
+    "description": ""
+  },
+  {
+    "id": "B082",
+    "name": "Lack of HR knowledge",
+    "category": "Systemic",
+    "description": ""
+  },
+  {
+    "id": "B083",
+    "name": "Budget constraints",
+    "category": "Systemic",
+    "description": ""
+  },
+  {
+    "id": "B084",
+    "name": "Delayed responses",
+    "category": "Systemic",
+    "description": ""
+  },
+  {
+    "id": "B085",
+    "name": "Denial of requests",
+    "category": "Systemic",
+    "description": ""
+  },
+  {
+    "id": "B086",
+    "name": "Retaliation fears",
+    "category": "Systemic",
+    "description": ""
+  },
+  {
+    "id": "B087",
+    "name": "Documentation requirements",
+    "category": "Systemic",
+    "description": ""
+  },
+  {
+    "id": "B088",
+    "name": "Medical proof demands",
+    "category": "Systemic",
+    "description": ""
+  },
+  {
+    "id": "B089",
+    "name": "Legal complexity",
+    "category": "Systemic",
+    "description": ""
+  },
+  {
+    "id": "B090",
+    "name": "Insurance limitations",
+    "category": "Systemic",
+    "description": ""
+  },
+  {
+    "id": "B091",
+    "name": "Lack of precedent",
+    "category": "Systemic",
+    "description": ""
+  },
+  {
+    "id": "B092",
+    "name": "Organizational resistance",
+    "category": "Systemic",
+    "description": ""
+  }
+]
