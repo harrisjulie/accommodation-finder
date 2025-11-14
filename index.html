@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accommodation Finder - Comprehensive Database</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #212529;
+            background: #fff;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #000;
+            color: #fff;
+            padding: 8px;
+            text-decoration: none;
+            z-index: 100;
+        }
+        
+        .skip-link:focus {
+            top: 0;
+        }
+        
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #333;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 12px;
+            border-radius: 4px;
+            margin: 20px 0;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .stats {
+            background: #d4edda;
+            color: #155724;
+            padding: 12px;
+            border-radius: 4px;
+            margin: 20px 0;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .search-modes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #dee2e6;
+            padding-bottom: 8px;
+        }
+        
+        .mode-btn {
+            padding: 8px 16px;
+            background: transparent;
+            color: #495057;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.2s;
+        }
+        
+        .mode-btn:hover {
+            background: #f8f9fa;
+        }
+        
+        .mode-btn:focus {
+            outline: 2px solid #0066cc;
+            outline-offset: 2px;
+        }
+        
+        .mode-btn.active {
+            background: #212529;
+            color: #fff;
+            border-color: #212529;
+        }
+        
+        .search-panel {
+            display: none;
+        }
+        
+        .search-panel.active {
+            display: block;
+        }
+        
+        .search-container {
+            margin-bottom: 20px;
+        }
+        
+        .search-label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 2px solid #495057;
+            border-radius: 4px;
+            background: #fff;
+        }
+        
+        .search-input:focus {
+            outline: 2px solid #0066cc;
+            outline-offset: 0;
+            border-color: #0066cc;
+        }
+        
+        .quick-options {
+            margin-bottom: 20px;
+        }
+        
+        .options-label {
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: block;
+        }
+        
+        .option-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            max-height: 150px;
+            overflow-y: auto;
+            padding: 8px;
+            background: #f8f9fa;
+            border-radius: 4px;
+        }
+        
+        .option-btn {
+            padding: 6px 12px;
+            background: #fff;
+            color: #212529;
+            border: 1px solid #495057;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: background 0.2s;
+        }
+        
+        .option-btn:hover {
+            background: #e9ecef;
+        }
+        
+        .option-btn:focus {
+            outline: 2px solid #0066cc;
+            outline-offset: 2px;
+        }
+        
+        .results-header {
+            padding: 10px 0;
+            border-bottom: 1px solid #dee2e6;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .results-count {
+            font-weight: 600;
+        }
+        
+        .export-btn {
+            padding: 6px 12px;
+            background: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        
+        .export-btn:hover {
+            background: #218838;
+        }
+        
+        .export-btn:focus {
+            outline: 2px solid #0066cc;
+            outline-offset: 2px;
+        }
+        
+        .export-btn:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+        }
+        
+        .accommodation-list {
+            list-style: none;
+            padding: 0;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .accommodation-item {
+            display: flex;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .accommodation-item:hover {
+            background: #f8f9fa;
+        }
+        
+        .accommodation-name {
+            flex: 1;
+            cursor: pointer;
+            padding: 4px;
+            color: #0066cc;
+            text-decoration: underline;
+            background: none;
+            border: none;
+            text-align: left;
+            font-size: 1rem;
+        }
+        
+        .accommodation-name:hover {
+            color: #0052a3;
+        }
+        
+        .accommodation-name:focus {
+            outline: 2px solid #0066cc;
+            outline-offset: 2px;
+        }
+        
+        .add-btn {
+            width: 32px;
+            height: 32px;
+            background: #fff;
+            border: 2px solid #28a745;
+            border-radius: 4px;
+            cursor: pointer;
+            color: #28a745;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+            transition: all 0.2s;
+        }
+        
+        .add-btn:hover {
+            background: #28a745;
+            color: #fff;
+        }
+        
+        .add-btn:focus {
+            outline: 2px solid #0066cc;
+            outline-offset: 2px;
+        }
+        
+        .add-btn.added {
+            background: #28a745;
+            color: #fff;
+        }
+        
+        .add-btn.added::before {
+            content: "✓";
+        }
+        
+        .add-btn:not(.added)::before {
+            content: "+";
+        }
+        
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+        
+        .list-status {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 16px;
+            background: #212529;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+        
+        .list-status:focus {
+            outline: 2px solid #0066cc;
+            outline-offset: 2px;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+        }
+        
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .modal-content {
+            background: #fff;
+            border-radius: 4px;
+            max-width: 600px;
+            width: 100%;
+            max-height: 80vh;
+            overflow-y: auto;
+            padding: 20px;
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .modal-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        
+        .close-btn {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 4px;
+            color: #6c757d;
+        }
+        
+        .close-btn:focus {
+            outline: 2px solid #0066cc;
+            outline-offset: 2px;
+        }
+        
+        .empty-message {
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+        }
+        
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                transition: none !important;
+                animation: none !important;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            
+            .search-modes {
+                gap: 4px;
+            }
+            
+            .mode-btn {
+                padding: 6px 10px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
+    <header>
+        <h1>Workplace Accommodation Finder</h1>
+        <div id="database-stats" class="stats" style="display: none;"></div>
+    </header>
+    
+    <div id="loading" class="loading">
+        <div class="spinner"></div>
+        <p>Loading comprehensive database...</p>
+    </div>
+    
+    <div id="error-message" class="error" style="display: none;"></div>
+    
+    <nav class="search-modes" role="tablist" aria-label="Search methods" style="display: none;">
+        <button role="tab" class="mode-btn" onclick="switchMode('disability')" aria-selected="false">
+            By Disability
+        </button>
+        <button role="tab" class="mode-btn" onclick="switchMode('limitation')" aria-selected="false">
+            By Limitation
+        </button>
+        <button role="tab" class="mode-btn" onclick="switchMode('barrier')" aria-selected="false">
+            By Barrier
+        </button>
+        <button role="tab" class="mode-btn" onclick="switchMode('function')" aria-selected="false">
+            By Work Function
+        </button>
+    </nav>
+    
+    <main id="main" style="display: none;">
+        <!-- Search panels will be inserted here -->
+        <div id="search-panels"></div>
+        
+        <div class="results-header">
+            <span class="results-count" id="results-count">
+                Select criteria to see accommodations
+            </span>
+            <button class="export-btn" onclick="exportList()" disabled id="export-btn">
+                Export List
+            </button>
+        </div>
+        
+        <div id="results-container">
+            <div class="empty-message">
+                Loading database...
+            </div>
+        </div>
+    </main>
+    
+    <button class="list-status" onclick="showMyList()" style="display: none;" id="list-btn">
+        My List (<span id="list-count">0</span>)
+    </button>
+    
+    <!-- Modals -->
+    <div class="modal" id="detail-modal" role="dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="detail-title">Details</h2>
+                <button class="close-btn" onclick="closeDetail()">&times;</button>
+            </div>
+            <div id="detail-content"></div>
+        </div>
+    </div>
+    
+    <div class="modal" id="list-modal" role="dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">My Accommodation List</h2>
+                <button class="close-btn" onclick="closeList()">&times;</button>
+            </div>
+            <ul id="list-content"></ul>
+            <button class="export-btn" onclick="exportList()" style="margin-top: 20px; width: 100%;">
+                Export This List
+            </button>
+        </div>
+    </div>
+    
+    <script>
+        // GitHub repository configuration
+        const GITHUB_USER = 'harrisjulie';
+        const GITHUB_REPO = 'accommodation_finder';
+        const GITHUB_BRANCH = 'main';
+        const BASE_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}/data/`;
+        
+        // Global database and state
+        let db = {
+            accommodations: [],
+            disabilities: [],
+            limitations: [],
+            barriers: [],
+            functions: []
+        };
+        let relationships = {};
+        let myList = [];
+        let currentMode = null;
+        
+        // Load database from GitHub
+        async function loadDatabase() {
+            try {
+                // Show loading
+                document.getElementById('loading').style.display = 'block';
+                
+                // Fetch all JSON files from GitHub
+                const files = [
+                    'accommodations.json',
+                    'disabilities.json',
+                    'limitations.json',
+                    'barriers.json',
+                    'functions.json',
+                    'relationships.json'
+                ];
+                
+                const promises = files.map(file => 
+                    fetch(BASE_URL + file)
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error(`Failed to load ${file}`);
+                            }
+                            return response.json();
+                        })
+                );
+                
+                const [accommodations, disabilities, limitations, barriers, functions, rels] = await Promise.all(promises);
+                
+                // Store in database
+                db.accommodations = accommodations || [];
+                db.disabilities = disabilities || [];
+                db.limitations = limitations || [];
+                db.barriers = barriers || [];
+                db.functions = functions || [];
+                relationships = rels || {};
+                
+                // Show stats
+                displayStats();
+                
+                // Initialize UI
+                initializeUI();
+                
+                // Hide loading
+                document.getElementById('loading').style.display = 'none';
+                
+            } catch (error) {
+                console.error('Error loading database:', error);
+                showError('Failed to load database. Please check your internet connection and try again.');
+            }
+        }
+        
+        function displayStats() {
+            const stats = document.getElementById('database-stats');
+            stats.innerHTML = `
+                <strong>Database loaded successfully!</strong><br>
+                ${db.accommodations.length} accommodations • 
+                ${db.disabilities.length} disabilities • 
+                ${db.limitations.length} limitations • 
+                ${db.barriers.length} barriers • 
+                ${db.functions.length} work functions
+            `;
+            stats.style.display = 'block';
+        }
+        
+        function showError(message) {
+            document.getElementById('loading').style.display = 'none';
+            const errorDiv = document.getElementById('error-message');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+        
+        function initializeUI() {
+            // Show navigation
+            document.querySelector('.search-modes').style.display = 'flex';
+            document.getElementById('main').style.display = 'block';
+            document.getElementById('list-btn').style.display = 'block';
+            
+            // Create search panels
+            createSearchPanels();
+            
+            // Initialize first tab
+            switchMode('disability');
+        }
+        
+        function createSearchPanels() {
+            const container = document.getElementById('search-panels');
+            
+            // Create panels for each search type
+            const panels = [
+                {
+                    id: 'disability',
+                    label: 'Search by disability or condition',
+                    placeholder: 'e.g., ADHD, anxiety, chronic pain',
+                    items: db.disabilities
+                },
+                {
+                    id: 'limitation',
+                    label: 'Search by functional limitation',
+                    placeholder: 'e.g., concentration, fatigue, mobility',
+                    items: db.limitations
+                },
+                {
+                    id: 'barrier',
+                    label: 'Search by workplace barrier',
+                    placeholder: 'e.g., noise, lighting, schedule',
+                    items: db.barriers
+                },
+                {
+                    id: 'function',
+                    label: 'Search by work function',
+                    placeholder: 'e.g., meetings, phone calls, computer work',
+                    items: db.functions
+                }
+            ];
+            
+            panels.forEach(panel => {
+                const div = document.createElement('div');
+                div.id = `${panel.id}-panel`;
+                div.className = 'search-panel';
+                div.innerHTML = `
+                    <div class="search-container">
+                        <label for="${panel.id}-search" class="search-label">
+                            ${panel.label}:
+                        </label>
+                        <input type="search" 
+                               id="${panel.id}-search" 
+                               class="search-input" 
+                               placeholder="${panel.placeholder}"
+                               onkeyup="searchByType('${panel.id}', this.value)">
+                    </div>
+                    
+                    <div class="quick-options">
+                        <span class="options-label">Select from list (${panel.items.length} options):</span>
+                        <div class="option-list" id="${panel.id}-options">
+                            ${panel.items.map(item => `
+                                <button class="option-btn" onclick="selectItem('${panel.id}', '${item.id}')">
+                                    ${item.name}
+                                </button>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+        }
+        
+        function switchMode(mode) {
+            currentMode = mode;
+            
+            // Update buttons
+            document.querySelectorAll('.mode-btn').forEach(btn => {
+                btn.classList.remove('active');
+                btn.setAttribute('aria-selected', 'false');
+            });
+            event.target.classList.add('active');
+            event.target.setAttribute('aria-selected', 'true');
+            
+            // Show/hide panels
+            document.querySelectorAll('.search-panel').forEach(panel => {
+                panel.classList.remove('active');
+            });
+            document.getElementById(`${mode}-panel`).classList.add('active');
+            
+            clearResults();
+        }
+        
+        function searchByType(type, query) {
+            if (query.length < 2) {
+                clearResults();
+                return;
+            }
+            
+            query = query.toLowerCase();
+            const items = db[type === 'disability' ? 'disabilities' : 
+                           type === 'limitation' ? 'limitations' :
+                           type === 'barrier' ? 'barriers' : 'functions'];
+            
+            const matches = items.filter(item => 
+                item.name.toLowerCase().includes(query)
+            );
+            
+            // Get accommodation IDs from relationships
+            let accommodationIds = new Set();
+            matches.forEach(item => {
+                const relKey = `${type}_accommodations`;
+                const ids = relationships[relKey]?.[item.id] || [];
+                ids.forEach(id => accommodationIds.add(id));
+            });
+            
+            // Get accommodations
+            const accommodations = Array.from(accommodationIds).map(id =>
+                db.accommodations.find(a => a.id === id)
+            ).filter(a => a);
+            
+            displayResults(accommodations, `Found ${accommodations.length} accommodations for "${query}"`);
+        }
+        
+        function selectItem(type, id) {
+            const item = db[type === 'disability' ? 'disabilities' :
+                          type === 'limitation' ? 'limitations' :
+                          type === 'barrier' ? 'barriers' : 'functions']
+                        .find(i => i.id === id);
+            
+            const relKey = `${type}_accommodations`;
+            const accommodationIds = relationships[relKey]?.[id] || [];
+            
+            const accommodations = accommodationIds.map(aid =>
+                db.accommodations.find(a => a.id === aid)
+            ).filter(a => a);
+            
+            displayResults(accommodations, `${accommodations.length} accommodations for ${item.name}`);
+        }
+        
+        function displayResults(accommodations, message) {
+            const container = document.getElementById('results-container');
+            const count = document.getElementById('results-count');
+            const exportBtn = document.getElementById('export-btn');
+            
+            count.textContent = message;
+            exportBtn.disabled = accommodations.length === 0;
+            
+            if (accommodations.length === 0) {
+                container.innerHTML = '<div class="empty-message">No accommodations found. Try different search terms.</div>';
+                return;
+            }
+            
+            const list = document.createElement('ul');
+            list.className = 'accommodation-list';
+            
+            accommodations.forEach(acc => {
+                const li = document.createElement('li');
+                li.className = 'accommodation-item';
+                li.innerHTML = `
+                    <button class="accommodation-name" 
+                            onclick="showDetail('${acc.id}')">
+                        ${acc.name}
+                    </button>
+                    <button class="add-btn ${myList.includes(acc.id) ? 'added' : ''}"
+                            onclick="toggleList('${acc.id}')">
+                        <span aria-hidden="true"></span>
+                    </button>
+                `;
+                list.appendChild(li);
+            });
+            
+            container.innerHTML = '';
+            container.appendChild(list);
+        }
+        
+        function clearResults() {
+            document.getElementById('results-container').innerHTML = 
+                '<div class="empty-message">Select an option or search above to see accommodations.</div>';
+            document.getElementById('results-count').textContent = 'Select criteria to see accommodations';
+            document.getElementById('export-btn').disabled = true;
+        }
+        
+        function showDetail(id) {
+            const acc = db.accommodations.find(a => a.id === id);
+            if (!acc) return;
+            
+            document.getElementById('detail-title').textContent = acc.name;
+            document.getElementById('detail-content').innerHTML = `
+                <p><strong>Category:</strong> ${acc.category || 'General'}</p>
+                <p><strong>Description:</strong> ${acc.description || 'No description available'}</p>
+                <button class="add-btn ${myList.includes(id) ? 'added' : ''}"
+                        onclick="toggleList('${id}')"
+                        style="margin-top: 20px;">
+                    ${myList.includes(id) ? 'Remove from list' : 'Add to list'}
+                </button>
+            `;
+            document.getElementById('detail-modal').classList.add('active');
+        }
+        
+        function closeDetail() {
+            document.getElementById('detail-modal').classList.remove('active');
+        }
+        
+        function toggleList(id) {
+            const index = myList.indexOf(id);
+            if (index > -1) {
+                myList.splice(index, 1);
+            } else {
+                myList.push(id);
+            }
+            
+            // Update buttons
+            document.querySelectorAll('.add-btn').forEach(btn => {
+                if (btn.getAttribute('onclick')?.includes(id)) {
+                    if (myList.includes(id)) {
+                        btn.classList.add('added');
+                    } else {
+                        btn.classList.remove('added');
+                    }
+                }
+            });
+            
+            updateListCount();
+        }
+        
+        function updateListCount() {
+            document.getElementById('list-count').textContent = myList.length;
+        }
+        
+        function showMyList() {
+            const content = document.getElementById('list-content');
+            
+            if (myList.length === 0) {
+                content.innerHTML = '<li>Your list is empty. Add accommodations from search results.</li>';
+            } else {
+                content.innerHTML = myList.map(id => {
+                    const acc = db.accommodations.find(a => a.id === id);
+                    return acc ? `<li>${acc.name}</li>` : '';
+                }).join('');
+            }
+            
+            document.getElementById('list-modal').classList.add('active');
+        }
+        
+        function closeList() {
+            document.getElementById('list-modal').classList.remove('active');
+        }
+        
+        function exportList() {
+            const accommodations = myList.map(id =>
+                db.accommodations.find(a => a.id === id)
+            ).filter(a => a);
+            
+            if (accommodations.length === 0) {
+                alert('No accommodations to export.');
+                return;
+            }
+            
+            let text = "WORKPLACE ACCOMMODATIONS LIST\n";
+            text += "Generated: " + new Date().toLocaleDateString() + "\n\n";
+            
+            accommodations.forEach(acc => {
+                text += `• ${acc.name}\n`;
+                if (acc.description) {
+                    text += `  ${acc.description}\n`;
+                }
+                text += "\n";
+            });
+            
+            const blob = new Blob([text], {type: 'text/plain'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'accommodations.txt';
+            a.click();
+            URL.revokeObjectURL(url);
+            
+            closeList();
+        }
+        
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadDatabase();
+            updateListCount();
+        });
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeDetail();
+                closeList();
+            }
+        });
+    </script>
+</body>
+</html>

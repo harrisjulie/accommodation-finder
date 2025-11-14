@@ -1,0 +1,638 @@
+[
+  {
+    "id": "D001",
+    "name": "ADHD",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D002",
+    "name": "Autism Spectrum Disorder",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D003",
+    "name": "Dyslexia",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D004",
+    "name": "Dyscalculia",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D005",
+    "name": "Dysgraphia",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D006",
+    "name": "Dyspraxia",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D007",
+    "name": "Learning disabilities",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D008",
+    "name": "Intellectual disability",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D009",
+    "name": "Traumatic brain injury",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D010",
+    "name": "Stroke",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D011",
+    "name": "Epilepsy",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D012",
+    "name": "Tourette syndrome",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D013",
+    "name": "Alzheimer's disease",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D014",
+    "name": "Dementia",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D015",
+    "name": "Parkinson's disease",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D016",
+    "name": "Multiple sclerosis",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D017",
+    "name": "ALS (Lou Gehrig's disease)",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D018",
+    "name": "Huntington's disease",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D019",
+    "name": "Cerebral palsy",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D020",
+    "name": "Muscular dystrophy",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D021",
+    "name": "Myasthenia gravis",
+    "category": "Neurological/Cognitive",
+    "description": ""
+  },
+  {
+    "id": "D022",
+    "name": "Depression",
+    "category": "Mental Health",
+    "description": ""
+  },
+  {
+    "id": "D023",
+    "name": "Anxiety disorders",
+    "category": "Mental Health",
+    "description": ""
+  },
+  {
+    "id": "D024",
+    "name": "Bipolar disorder",
+    "category": "Mental Health",
+    "description": ""
+  },
+  {
+    "id": "D025",
+    "name": "PTSD",
+    "category": "Mental Health",
+    "description": ""
+  },
+  {
+    "id": "D026",
+    "name": "OCD",
+    "category": "Mental Health",
+    "description": ""
+  },
+  {
+    "id": "D027",
+    "name": "Panic disorder",
+    "category": "Mental Health",
+    "description": ""
+  },
+  {
+    "id": "D028",
+    "name": "Social anxiety disorder",
+    "category": "Mental Health",
+    "description": ""
+  },
+  {
+    "id": "D029",
+    "name": "Schizophrenia",
+    "category": "Mental Health",
+    "description": ""
+  },
+  {
+    "id": "D030",
+    "name": "Borderline personality disorder",
+    "category": "Mental Health",
+    "description": ""
+  },
+  {
+    "id": "D031",
+    "name": "Eating disorders",
+    "category": "Mental Health",
+    "description": ""
+  },
+  {
+    "id": "D032",
+    "name": "Substance use disorder",
+    "category": "Mental Health",
+    "description": ""
+  },
+  {
+    "id": "D033",
+    "name": "Adjustment disorder",
+    "category": "Mental Health",
+    "description": ""
+  },
+  {
+    "id": "D034",
+    "name": "Dissociative disorders",
+    "category": "Mental Health",
+    "description": ""
+  },
+  {
+    "id": "D035",
+    "name": "Sleep disorders",
+    "category": "Mental Health",
+    "description": ""
+  },
+  {
+    "id": "D036",
+    "name": "Blindness",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "D037",
+    "name": "Low vision",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "D038",
+    "name": "Color blindness",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "D039",
+    "name": "Deafness",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "D040",
+    "name": "Hard of hearing",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "D041",
+    "name": "Deaf-blindness",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "D042",
+    "name": "Auditory processing disorder",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "D043",
+    "name": "Tinnitus",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "D044",
+    "name": "Vestibular disorders",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "D045",
+    "name": "Sensory processing disorder",
+    "category": "Sensory",
+    "description": ""
+  },
+  {
+    "id": "D046",
+    "name": "Amputation",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D047",
+    "name": "Paralysis",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D048",
+    "name": "Spinal cord injury",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D049",
+    "name": "Back injury",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D050",
+    "name": "Repetitive strain injury",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D051",
+    "name": "Carpal tunnel syndrome",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D052",
+    "name": "Arthritis",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D053",
+    "name": "Rheumatoid arthritis",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D054",
+    "name": "Osteoarthritis",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D055",
+    "name": "Fibromyalgia",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D056",
+    "name": "Chronic fatigue syndrome",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D057",
+    "name": "Ehlers-Danlos syndrome",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D058",
+    "name": "Lupus",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D059",
+    "name": "Spina bifida",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D060",
+    "name": "Scoliosis",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D061",
+    "name": "Dwarfism",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D062",
+    "name": "Limb difference",
+    "category": "Physical/Mobility",
+    "description": ""
+  },
+  {
+    "id": "D063",
+    "name": "Diabetes",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D064",
+    "name": "Heart disease",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D065",
+    "name": "Asthma",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D066",
+    "name": "COPD",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D067",
+    "name": "Crohn's disease",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D068",
+    "name": "Ulcerative colitis",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D069",
+    "name": "IBS",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D070",
+    "name": "Celiac disease",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D071",
+    "name": "Food allergies",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D072",
+    "name": "Multiple chemical sensitivity",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D073",
+    "name": "Chronic migraines",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D074",
+    "name": "Chronic pain",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D075",
+    "name": "Endometriosis",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D076",
+    "name": "PCOS",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D077",
+    "name": "Thyroid disorders",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D078",
+    "name": "Addison's disease",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D079",
+    "name": "Cushing's syndrome",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D080",
+    "name": "Kidney disease",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D081",
+    "name": "Liver disease",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D082",
+    "name": "Cancer",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D083",
+    "name": "HIV/AIDS",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D084",
+    "name": "Hepatitis",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D085",
+    "name": "Sickle cell disease",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D086",
+    "name": "Hemophilia",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D087",
+    "name": "Cystic fibrosis",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D088",
+    "name": "Lyme disease",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D089",
+    "name": "Long COVID",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D090",
+    "name": "ME/CFS",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D091",
+    "name": "POTS",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D092",
+    "name": "Mast cell activation syndrome",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D093",
+    "name": "Speech impediment",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D094",
+    "name": "Stutter",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D095",
+    "name": "Aphasia",
+    "category": "Chronic Health",
+    "description": ""
+  },
+  {
+    "id": "D096",
+    "name": "Selective mutism",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "D097",
+    "name": "Voice disorders",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "D098",
+    "name": "Language disorders",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "D099",
+    "name": "Pregnancy",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "D100",
+    "name": "Broken bones",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "D101",
+    "name": "Surgery recovery",
+    "category": "Communication",
+    "description": ""
+  },
+  {
+    "id": "D102",
+    "name": "Concussion",
+    "category": "Temporary",
+    "description": ""
+  },
+  {
+    "id": "D103",
+    "name": "Temporary illness",
+    "category": "Temporary",
+    "description": ""
+  },
+  {
+    "id": "D104",
+    "name": "Injury recovery",
+    "category": "Temporary",
+    "description": ""
+  },
+  {
+    "id": "D105",
+    "name": "Burns",
+    "category": "Temporary",
+    "description": ""
+  },
+  {
+    "id": "D106",
+    "name": "Sprains",
+    "category": "Temporary",
+    "description": ""
+  }
+]
