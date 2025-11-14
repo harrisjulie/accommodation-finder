@@ -123,6 +123,94 @@
         .search-panel.active {
             display: block;
         }
+
+        .selected-criteria {
+            background: #f8f9fa;
+            border: 2px solid #dee2e6;
+            border-radius: 4px;
+            padding: 12px;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        .selected-criteria.has-selections {
+            display: block;
+        }
+
+        .criteria-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .criteria-title {
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .clear-all-btn {
+            padding: 4px 12px;
+            background: #dc3545;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85rem;
+        }
+
+        .clear-all-btn:hover {
+            background: #c82333;
+        }
+
+        .clear-all-btn:focus {
+            outline: 2px solid #0066cc;
+            outline-offset: 2px;
+        }
+
+        .criteria-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .criteria-tag {
+            display: inline-flex;
+            align-items: center;
+            background: #fff;
+            border: 1px solid #495057;
+            border-radius: 4px;
+            padding: 4px 8px;
+            font-size: 0.9rem;
+        }
+
+        .criteria-tag-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: #6c757d;
+            margin-right: 6px;
+            font-weight: 600;
+        }
+
+        .remove-tag-btn {
+            background: none;
+            border: none;
+            color: #dc3545;
+            cursor: pointer;
+            font-size: 1.1rem;
+            margin-left: 6px;
+            padding: 0 4px;
+            line-height: 1;
+        }
+
+        .remove-tag-btn:hover {
+            color: #c82333;
+        }
+
+        .remove-tag-btn:focus {
+            outline: 2px solid #0066cc;
+            outline-offset: 2px;
+        }
         
         .search-container {
             margin-bottom: 20px;
@@ -448,6 +536,15 @@
     </nav>
     
     <main id="main" style="display: none;">
+        <!-- Selected criteria display -->
+        <div id="selected-criteria" class="selected-criteria">
+            <div class="criteria-header">
+                <span class="criteria-title">Selected Criteria:</span>
+                <button class="clear-all-btn" onclick="clearAllSelections()">Clear All</button>
+            </div>
+            <div id="criteria-tags" class="criteria-tags"></div>
+        </div>
+
         <!-- Search panels will be inserted here -->
         <div id="search-panels"></div>
         
@@ -513,6 +610,14 @@
         let relationships = {};
         let myList = [];
         let currentMode = null;
+
+        // Track selected criteria across all categories
+        let selectedCriteria = {
+            disability: [],
+            limitation: [],
+            barrier: [],
+            function: []
+        };
         
         // Load database from GitHub
         async function loadDatabase() {
@@ -658,6 +763,9 @@
                 `;
                 container.appendChild(div);
             });
+
+            // Initialize button states
+            updateOptionButtonStates();
         }
         
         function switchMode(mode) {
@@ -684,54 +792,201 @@
             });
             document.getElementById(`${mode}-panel`).classList.add('active');
 
-            clearResults();
+            // Don't clear results - let selections persist across tabs
         }
         
         function searchByType(type, query) {
-            if (query.length < 2) {
-                clearResults();
-                return;
-            }
-            
-            query = query.toLowerCase();
-            const items = db[type === 'disability' ? 'disabilities' : 
+            // Filter the displayed options based on search query
+            const items = db[type === 'disability' ? 'disabilities' :
                            type === 'limitation' ? 'limitations' :
                            type === 'barrier' ? 'barriers' : 'functions'];
-            
-            const matches = items.filter(item => 
-                item.name.toLowerCase().includes(query)
-            );
-            
-            // Get accommodation IDs from relationships
-            let accommodationIds = new Set();
-            matches.forEach(item => {
-                const relKey = `${type}_accommodations`;
-                const ids = relationships[relKey]?.[item.id] || [];
-                ids.forEach(id => accommodationIds.add(id));
-            });
-            
-            // Get accommodations
-            const accommodations = Array.from(accommodationIds).map(id =>
-                db.accommodations.find(a => a.id === id)
-            ).filter(a => a);
-            
-            displayResults(accommodations, `Found ${accommodations.length} accommodations for "${query}"`);
+
+            let matches = items;
+            if (query && query.length >= 1) {
+                query = query.toLowerCase();
+                matches = items.filter(item =>
+                    item.name.toLowerCase().includes(query)
+                );
+            }
+
+            // Update the option buttons to show only matches
+            const optionList = document.getElementById(`${type}-options`);
+            optionList.innerHTML = matches.map(item => `
+                <button class="option-btn"
+                        onclick="selectItem('${type}', '${item.id}')">
+                    ${item.name}
+                </button>
+            `).join('');
+
+            // Update button states to reflect selections
+            updateOptionButtonStates();
         }
-        
+
         function selectItem(type, id) {
             const item = db[type === 'disability' ? 'disabilities' :
                           type === 'limitation' ? 'limitations' :
                           type === 'barrier' ? 'barriers' : 'functions']
                         .find(i => i.id === id);
-            
-            const relKey = `${type}_accommodations`;
-            const accommodationIds = relationships[relKey]?.[id] || [];
-            
-            const accommodations = accommodationIds.map(aid =>
-                db.accommodations.find(a => a.id === aid)
+
+            if (!item) return;
+
+            // Toggle selection
+            const index = selectedCriteria[type].findIndex(s => s.id === id);
+            if (index > -1) {
+                // Remove from selection
+                selectedCriteria[type].splice(index, 1);
+            } else {
+                // Add to selection
+                selectedCriteria[type].push({ id: item.id, name: item.name });
+            }
+
+            // Update UI and results
+            updateSelectedCriteriaDisplay();
+            updateFilteredResults();
+        }
+
+        function isItemSelected(type, id) {
+            return selectedCriteria[type].some(s => s.id === id);
+        }
+
+        function updateSelectedCriteriaDisplay() {
+            const container = document.getElementById('selected-criteria');
+            const tagsContainer = document.getElementById('criteria-tags');
+
+            // Check if any selections exist
+            const hasSelections = Object.values(selectedCriteria).some(arr => arr.length > 0);
+
+            if (hasSelections) {
+                container.classList.add('has-selections');
+            } else {
+                container.classList.remove('has-selections');
+            }
+
+            // Build tags HTML
+            let tagsHTML = '';
+            const typeLabels = {
+                disability: 'Disability',
+                limitation: 'Limitation',
+                barrier: 'Barrier',
+                function: 'Work Function'
+            };
+
+            for (const [type, items] of Object.entries(selectedCriteria)) {
+                items.forEach(item => {
+                    tagsHTML += `
+                        <div class="criteria-tag">
+                            <span class="criteria-tag-label">${typeLabels[type]}</span>
+                            <span>${item.name}</span>
+                            <button class="remove-tag-btn"
+                                    onclick="removeSelection('${type}', '${item.id}')"
+                                    aria-label="Remove ${item.name}">
+                                ×
+                            </button>
+                        </div>
+                    `;
+                });
+            }
+
+            tagsContainer.innerHTML = tagsHTML;
+
+            // Update button states in option lists
+            updateOptionButtonStates();
+        }
+
+        function updateOptionButtonStates() {
+            // Update all option buttons to reflect selection state
+            const types = ['disability', 'limitation', 'barrier', 'function'];
+            types.forEach(type => {
+                const buttons = document.querySelectorAll(`#${type}-options .option-btn`);
+                buttons.forEach(btn => {
+                    const onclick = btn.getAttribute('onclick');
+                    const match = onclick.match(/'([^']+)'/g);
+                    if (match && match.length >= 2) {
+                        const id = match[1].replace(/'/g, '');
+                        if (isItemSelected(type, id)) {
+                            btn.style.background = '#28a745';
+                            btn.style.color = '#fff';
+                            btn.style.borderColor = '#28a745';
+                        } else {
+                            btn.style.background = '#fff';
+                            btn.style.color = '#212529';
+                            btn.style.borderColor = '#495057';
+                        }
+                    }
+                });
+            });
+        }
+
+        function removeSelection(type, id) {
+            selectedCriteria[type] = selectedCriteria[type].filter(s => s.id !== id);
+            updateSelectedCriteriaDisplay();
+            updateFilteredResults();
+        }
+
+        function clearAllSelections() {
+            selectedCriteria = {
+                disability: [],
+                limitation: [],
+                barrier: [],
+                function: []
+            };
+            updateSelectedCriteriaDisplay();
+            clearResults();
+        }
+
+        function updateFilteredResults() {
+            // Get all selected criteria across all types
+            const allSelections = [
+                ...selectedCriteria.disability,
+                ...selectedCriteria.limitation,
+                ...selectedCriteria.barrier,
+                ...selectedCriteria.function
+            ];
+
+            if (allSelections.length === 0) {
+                clearResults();
+                return;
+            }
+
+            // Get accommodation IDs for each selection
+            const accommodationSets = [];
+
+            // Process each type
+            for (const [type, items] of Object.entries(selectedCriteria)) {
+                if (items.length === 0) continue;
+
+                const relKey = `${type}_accommodations`;
+
+                items.forEach(item => {
+                    const ids = relationships[relKey]?.[item.id] || [];
+                    accommodationSets.push(new Set(ids));
+                });
+            }
+
+            // Find intersection of all sets
+            let resultIds;
+            if (accommodationSets.length === 1) {
+                resultIds = accommodationSets[0];
+            } else {
+                resultIds = new Set(
+                    [...accommodationSets[0]].filter(id =>
+                        accommodationSets.every(set => set.has(id))
+                    )
+                );
+            }
+
+            // Get accommodations
+            const accommodations = Array.from(resultIds).map(id =>
+                db.accommodations.find(a => a.id === id)
             ).filter(a => a);
-            
-            displayResults(accommodations, `${accommodations.length} accommodations for ${item.name}`);
+
+            // Sort alphabetically
+            accommodations.sort((a, b) => a.name.localeCompare(b.name));
+
+            const criteriaCount = allSelections.length;
+            const message = `${accommodations.length} accommodation${accommodations.length !== 1 ? 's' : ''} matching ${criteriaCount} criteria`;
+
+            displayResults(accommodations, message);
         }
         
         function displayResults(accommodations, message) {
