@@ -6,19 +6,19 @@
     <title>Workplace Accommodation Finder</title>
     <style>
         :root {
-            --primary: #2c5282;
-            --primary-light: #4299e1;
-            --primary-dark: #1a365d;
-            --accent: #38b2ac;
-            --success: #48bb78;
-            --text: #2d3748;
-            --text-light: #718096;
+            --primary: #2563eb;
+            --primary-dark: #1e40af;
+            --primary-light: #3b82f6;
+            --accent: #10b981;
+            --text: #1f2937;
+            --text-light: #6b7280;
             --bg: #ffffff;
-            --bg-light: #f7fafc;
-            --bg-card: #ffffff;
-            --border: #e2e8f0;
-            --border-focus: #4299e1;
-            --shadow: rgba(0, 0, 0, 0.1);
+            --bg-page: #f9fafb;
+            --border: #e5e7eb;
+            --border-active: #3b82f6;
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
         }
 
         * {
@@ -28,11 +28,11 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
             font-size: 16px;
-            line-height: 1.6;
+            line-height: 1.5;
             color: var(--text);
-            background: var(--bg-light);
+            background: var(--bg-page);
             min-height: 100vh;
         }
 
@@ -44,7 +44,7 @@
             color: white;
             padding: 12px 20px;
             text-decoration: none;
-            border-radius: 4px;
+            border-radius: 6px;
             font-weight: 600;
             z-index: 1000;
         }
@@ -55,46 +55,53 @@
             outline-offset: 2px;
         }
 
+        /* Header */
         header {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-            color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-            box-shadow: 0 2px 8px var(--shadow);
+            background: white;
+            border-bottom: 1px solid var(--border);
+            padding: 1.5rem 0;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
         }
 
         h1 {
             font-size: 1.75rem;
             font-weight: 700;
-            margin-bottom: 0.5rem;
+            color: var(--text);
+            margin-bottom: 0.25rem;
         }
 
         .subtitle {
-            font-size: 1rem;
-            opacity: 0.95;
-            font-weight: 400;
+            color: var(--text-light);
+            font-size: 0.95rem;
         }
 
+        /* Container */
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
-            padding: 2rem 1rem;
+            padding: 2rem;
         }
 
-        /* Loading State */
+        /* Loading */
         .loading {
             text-align: center;
             padding: 4rem 2rem;
         }
 
         .spinner {
-            border: 4px solid var(--border);
-            border-top: 4px solid var(--primary);
+            border: 3px solid var(--border);
+            border-top: 3px solid var(--primary);
             border-radius: 50%;
-            width: 48px;
-            height: 48px;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 1.5rem;
+            width: 40px;
+            height: 40px;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 1rem;
         }
 
         @keyframes spin {
@@ -102,456 +109,7 @@
             100% { transform: rotate(360deg); }
         }
 
-        /* Step Indicator */
-        .step-indicator {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin-bottom: 2rem;
-            padding: 1rem;
-            background: var(--bg-card);
-            border-radius: 8px;
-            box-shadow: 0 1px 3px var(--shadow);
-        }
-
-        .step {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.5rem 1rem;
-            border-radius: 6px;
-            font-size: 0.95rem;
-            font-weight: 500;
-            color: var(--text-light);
-            background: var(--bg-light);
-        }
-
-        .step.active {
-            background: var(--primary);
-            color: white;
-        }
-
-        .step.completed {
-            background: var(--success);
-            color: white;
-        }
-
-        .step-number {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 24px;
-            height: 24px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.3);
-            font-weight: 600;
-            font-size: 0.85rem;
-        }
-
-        /* Main Card */
-        .main-card {
-            background: var(--bg-card);
-            border-radius: 12px;
-            box-shadow: 0 4px 6px var(--shadow);
-            padding: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        .card-header {
-            margin-bottom: 1.5rem;
-        }
-
-        .card-title {
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: var(--primary-dark);
-            margin-bottom: 0.5rem;
-        }
-
-        .card-description {
-            color: var(--text-light);
-            font-size: 1rem;
-            line-height: 1.5;
-        }
-
-        /* Search Box */
-        .search-box {
-            position: relative;
-            margin-bottom: 2rem;
-        }
-
-        .search-input {
-            width: 100%;
-            padding: 1rem 1rem 1rem 3rem;
-            font-size: 1.1rem;
-            border: 2px solid var(--border);
-            border-radius: 8px;
-            transition: all 0.2s;
-            background: var(--bg);
-        }
-
-        .search-input:focus {
-            outline: none;
-            border-color: var(--border-focus);
-            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.1);
-        }
-
-        .search-icon {
-            position: absolute;
-            left: 1rem;
-            top: 50%;
-            transform: translateY(-50%);
-            color: var(--text-light);
-            font-size: 1.25rem;
-        }
-
-        /* Category Grid */
-        .category-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        .category-card {
-            background: var(--bg);
-            border: 2px solid var(--border);
-            border-radius: 8px;
-            padding: 1.5rem;
-            cursor: pointer;
-            transition: all 0.2s;
-            position: relative;
-        }
-
-        .category-card:hover {
-            border-color: var(--primary-light);
-            box-shadow: 0 4px 12px var(--shadow);
-            transform: translateY(-2px);
-        }
-
-        .category-card:focus-within {
-            border-color: var(--border-focus);
-            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.1);
-        }
-
-        .category-card.expanded {
-            border-color: var(--primary);
-            background: var(--bg-light);
-        }
-
-        .category-header {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .category-icon {
-            font-size: 1.5rem;
-        }
-
-        .category-title {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: var(--primary-dark);
-            flex: 1;
-        }
-
-        .category-count {
-            font-size: 0.9rem;
-            color: var(--text-light);
-            background: var(--bg-light);
-            padding: 0.25rem 0.75rem;
-            border-radius: 12px;
-            font-weight: 500;
-        }
-
-        .category-description {
-            color: var(--text-light);
-            font-size: 0.95rem;
-            margin-bottom: 1rem;
-        }
-
-        .expand-btn {
-            width: 100%;
-            padding: 0.75rem;
-            background: var(--primary);
-            color: white;
-            border: none;
-            border-radius: 6px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background 0.2s;
-            font-size: 0.95rem;
-        }
-
-        .expand-btn:hover {
-            background: var(--primary-dark);
-        }
-
-        .expand-btn:focus {
-            outline: 3px solid var(--accent);
-            outline-offset: 2px;
-        }
-
-        /* Item List */
-        .item-list {
-            display: none;
-            margin-top: 1rem;
-            max-height: 300px;
-            overflow-y: auto;
-            border-top: 2px solid var(--border);
-            padding-top: 1rem;
-        }
-
-        .item-list.show {
-            display: block;
-        }
-
-        .item-btn {
-            display: block;
-            width: 100%;
-            padding: 0.75rem 1rem;
-            margin-bottom: 0.5rem;
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            text-align: left;
-            cursor: pointer;
-            transition: all 0.2s;
-            font-size: 0.95rem;
-            color: var(--text);
-        }
-
-        .item-btn:hover {
-            background: var(--bg-light);
-            border-color: var(--primary-light);
-        }
-
-        .item-btn:focus {
-            outline: 2px solid var(--border-focus);
-            outline-offset: 2px;
-        }
-
-        .item-btn.selected {
-            background: var(--primary);
-            color: white;
-            border-color: var(--primary);
-            font-weight: 600;
-        }
-
-        .item-btn.selected:hover {
-            background: var(--primary-dark);
-        }
-
-        /* Selected Items Pills */
-        .selections-container {
-            background: var(--bg-light);
-            border: 2px solid var(--border);
-            border-radius: 8px;
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-            display: none;
-        }
-
-        .selections-container.has-items {
-            display: block;
-        }
-
-        .selections-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1rem;
-        }
-
-        .selections-title {
-            font-weight: 600;
-            font-size: 1.05rem;
-            color: var(--primary-dark);
-        }
-
-        .clear-all-btn {
-            padding: 0.5rem 1rem;
-            background: transparent;
-            color: var(--text-light);
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 0.9rem;
-            transition: all 0.2s;
-        }
-
-        .clear-all-btn:hover {
-            background: #fee;
-            color: #c53030;
-            border-color: #c53030;
-        }
-
-        .clear-all-btn:focus {
-            outline: 2px solid var(--border-focus);
-            outline-offset: 2px;
-        }
-
-        .pill-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.75rem;
-        }
-
-        .pill {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.5rem 1rem;
-            background: white;
-            border: 1px solid var(--primary);
-            border-radius: 20px;
-            font-size: 0.9rem;
-        }
-
-        .pill-label {
-            font-weight: 600;
-            color: var(--primary);
-            text-transform: uppercase;
-            font-size: 0.75rem;
-            margin-right: 0.25rem;
-        }
-
-        .pill-text {
-            color: var(--text);
-        }
-
-        .pill-remove {
-            background: none;
-            border: none;
-            color: var(--text-light);
-            cursor: pointer;
-            font-size: 1.25rem;
-            line-height: 1;
-            padding: 0;
-            margin-left: 0.25rem;
-            transition: color 0.2s;
-        }
-
-        .pill-remove:hover {
-            color: #c53030;
-        }
-
-        .pill-remove:focus {
-            outline: 2px solid var(--border-focus);
-            border-radius: 50%;
-        }
-
-        /* Results Section */
-        .results-section {
-            background: var(--bg-card);
-            border-radius: 12px;
-            box-shadow: 0 4px 6px var(--shadow);
-            padding: 2rem;
-        }
-
-        .results-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1.5rem;
-            padding-bottom: 1rem;
-            border-bottom: 2px solid var(--border);
-        }
-
-        .results-count {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: var(--primary-dark);
-        }
-
-        .export-btn {
-            padding: 0.75rem 1.5rem;
-            background: var(--accent);
-            color: white;
-            border: none;
-            border-radius: 6px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background 0.2s;
-            font-size: 0.95rem;
-        }
-
-        .export-btn:hover:not(:disabled) {
-            background: #2c7a7b;
-        }
-
-        .export-btn:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        .export-btn:focus {
-            outline: 3px solid var(--accent);
-            outline-offset: 2px;
-        }
-
-        .results-grid {
-            display: grid;
-            gap: 1rem;
-        }
-
-        .accommodation-card {
-            padding: 1.25rem;
-            background: var(--bg-light);
-            border: 1px solid var(--border);
-            border-left: 4px solid var(--primary);
-            border-radius: 6px;
-            transition: all 0.2s;
-        }
-
-        .accommodation-card:hover {
-            box-shadow: 0 2px 8px var(--shadow);
-            border-left-color: var(--accent);
-        }
-
-        .accommodation-title {
-            font-weight: 600;
-            color: var(--text);
-            font-size: 1.05rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .accommodation-category {
-            display: inline-block;
-            padding: 0.25rem 0.75rem;
-            background: var(--primary-light);
-            color: white;
-            border-radius: 12px;
-            font-size: 0.85rem;
-            font-weight: 500;
-        }
-
-        .empty-state {
-            text-align: center;
-            padding: 3rem 2rem;
-            color: var(--text-light);
-        }
-
-        .empty-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            opacity: 0.5;
-        }
-
-        .empty-title {
-            font-size: 1.25rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            color: var(--text);
-        }
-
-        .empty-text {
-            font-size: 1rem;
-        }
-
-        /* Alert Messages */
+        /* Alerts */
         .alert {
             padding: 1rem 1.5rem;
             border-radius: 8px;
@@ -564,15 +122,339 @@
         }
 
         .alert-success {
-            background: #c6f6d5;
-            color: #22543d;
-            border: 1px solid #9ae6b4;
+            background: #d1fae5;
+            color: #065f46;
+            border: 1px solid #6ee7b7;
         }
 
         .alert-error {
-            background: #fed7d7;
-            color: #742a2a;
-            border: 1px solid #fc8181;
+            background: #fee2e2;
+            color: #991b1b;
+            border: 1px solid #fca5a5;
+        }
+
+        /* Selections Bar */
+        .selections-bar {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem 1.5rem;
+            margin-bottom: 1.5rem;
+            display: none;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .selections-bar.has-items {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            flex: 1;
+        }
+
+        .pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.4rem 0.75rem;
+            background: var(--primary-light);
+            color: white;
+            border-radius: 16px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .pill-remove {
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 1.1rem;
+            line-height: 1;
+            padding: 0;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+        }
+
+        .pill-remove:hover {
+            opacity: 1;
+        }
+
+        .pill-remove:focus {
+            outline: 2px solid white;
+            border-radius: 50%;
+        }
+
+        .clear-all {
+            padding: 0.5rem 1rem;
+            background: transparent;
+            color: var(--text-light);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            white-space: nowrap;
+            transition: all 0.2s;
+        }
+
+        .clear-all:hover {
+            border-color: #dc2626;
+            color: #dc2626;
+        }
+
+        .clear-all:focus {
+            outline: 2px solid var(--primary);
+            outline-offset: 2px;
+        }
+
+        /* Main Tabs */
+        .main-tabs {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            background: white;
+            padding: 0.5rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .main-tab {
+            flex: 1;
+            padding: 1rem 1.5rem;
+            background: transparent;
+            color: var(--text-light);
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .main-tab:hover {
+            background: var(--bg-page);
+            color: var(--text);
+        }
+
+        .main-tab.active {
+            background: var(--primary);
+            color: white;
+        }
+
+        .main-tab:focus {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        /* Content Area */
+        .content-area {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: var(--shadow-sm);
+            min-height: 400px;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--text-light);
+        }
+
+        .empty-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+
+        .empty-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Category Grid */
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .category-btn {
+            padding: 1.25rem;
+            background: var(--bg-page);
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .category-btn:hover {
+            border-color: var(--primary-light);
+            background: white;
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
+        }
+
+        .category-btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .category-btn:focus {
+            outline: 2px solid var(--primary);
+            outline-offset: 2px;
+        }
+
+        .category-count {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 400;
+            margin-top: 0.25rem;
+            opacity: 0.8;
+        }
+
+        /* Items Grid */
+        .items-section {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--border);
+        }
+
+        .items-header {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 1rem;
+        }
+
+        .items-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 0.75rem;
+        }
+
+        .item-btn {
+            padding: 0.75rem 1rem;
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.9rem;
+            color: var(--text);
+        }
+
+        .item-btn:hover {
+            border-color: var(--primary-light);
+            background: var(--bg-page);
+        }
+
+        .item-btn.selected {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+            font-weight: 600;
+        }
+
+        .item-btn:focus {
+            outline: 2px solid var(--primary);
+            outline-offset: 2px;
+        }
+
+        /* Results Section */
+        .results-section {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--border);
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .results-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .export-btn {
+            padding: 0.75rem 1.5rem;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+
+        .export-btn:hover:not(:disabled) {
+            background: #059669;
+        }
+
+        .export-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .export-btn:focus {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        .accommodations-grid {
+            display: grid;
+            gap: 0.75rem;
+        }
+
+        .accommodation-card {
+            padding: 1rem 1.25rem;
+            background: var(--bg-page);
+            border-left: 3px solid var(--primary);
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .accommodation-card:hover {
+            background: white;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .accommodation-name {
+            font-weight: 500;
+            color: var(--text);
+        }
+
+        .accommodation-category {
+            display: inline-block;
+            margin-top: 0.5rem;
+            padding: 0.25rem 0.75rem;
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            font-size: 0.75rem;
+            color: var(--text-light);
         }
 
         /* Responsive */
@@ -581,33 +463,19 @@
                 padding: 1rem;
             }
 
-            .main-card {
-                padding: 1.5rem;
+            .main-tabs {
+                flex-direction: column;
             }
 
-            .category-grid {
+            .category-grid,
+            .items-grid {
                 grid-template-columns: 1fr;
-            }
-
-            .step-indicator {
-                flex-wrap: wrap;
-                gap: 0.5rem;
-            }
-
-            .step {
-                flex: 1;
-                min-width: 140px;
-                justify-content: center;
-            }
-
-            h1 {
-                font-size: 1.5rem;
             }
 
             .results-header {
                 flex-direction: column;
-                gap: 1rem;
                 align-items: flex-start;
+                gap: 1rem;
             }
 
             .export-btn {
@@ -615,7 +483,7 @@
             }
         }
 
-        /* Accessibility - Reduced Motion */
+        /* Accessibility */
         @media (prefers-reduced-motion: reduce) {
             * {
                 animation-duration: 0.01ms !important;
@@ -624,7 +492,6 @@
             }
         }
 
-        /* High Contrast Mode Support */
         @media (prefers-contrast: high) {
             :root {
                 --border: #000;
@@ -637,173 +504,132 @@
     <a href="#main" class="skip-link">Skip to main content</a>
 
     <header>
-        <h1>🛠️ Workplace Accommodation Finder</h1>
-        <p class="subtitle">Find the right accommodations for your needs</p>
+        <div class="header-content">
+            <h1>Workplace Accommodation Finder</h1>
+            <p class="subtitle">Find effective accommodations tailored to your needs</p>
+        </div>
     </header>
 
     <div id="loading" class="loading">
         <div class="spinner"></div>
-        <p>Loading accommodation database...</p>
+        <p>Loading database...</p>
     </div>
 
-    <div class="alert alert-error" id="error-alert" role="alert"></div>
-    <div class="alert alert-success" id="success-alert" role="alert"></div>
+    <div class="container" style="display: none;" id="app">
+        <div class="alert alert-error" id="error-alert" role="alert"></div>
+        <div class="alert alert-success" id="success-alert" role="alert"></div>
 
-    <main id="main" class="container" style="display: none;">
-        <!-- Step Indicator -->
-        <div class="step-indicator" role="navigation" aria-label="Progress">
-            <div class="step active" id="step-1">
-                <span class="step-number">1</span>
-                <span>Choose Category</span>
-            </div>
-            <div class="step" id="step-2">
-                <span class="step-number">2</span>
-                <span>Make Selections</span>
-            </div>
-            <div class="step" id="step-3">
-                <span class="step-number">3</span>
-                <span>View Results</span>
-            </div>
+        <!-- Selections Bar -->
+        <div class="selections-bar" id="selections-bar">
+            <div class="pills" id="pills"></div>
+            <button class="clear-all" onclick="clearAll()" aria-label="Clear all selections">
+                Clear All
+            </button>
         </div>
 
-        <!-- Selected Items Display -->
-        <div class="selections-container" id="selections-container">
-            <div class="selections-header">
-                <h2 class="selections-title">Your Selections</h2>
-                <button class="clear-all-btn" onclick="clearAllSelections()" aria-label="Clear all selections">
-                    Clear All
-                </button>
-            </div>
-            <div class="pill-container" id="pill-container"></div>
+        <!-- Main Tabs -->
+        <div class="main-tabs" role="tablist">
+            <button class="main-tab" role="tab" onclick="selectMainType('disability')" id="tab-disability">
+                Disabilities
+            </button>
+            <button class="main-tab" role="tab" onclick="selectMainType('limitation')" id="tab-limitation">
+                Limitations
+            </button>
+            <button class="main-tab" role="tab" onclick="selectMainType('barrier')" id="tab-barrier">
+                Barriers
+            </button>
+            <button class="main-tab" role="tab" onclick="selectMainType('function')" id="tab-function">
+                Work Functions
+            </button>
         </div>
 
-        <!-- Main Selection Card -->
-        <div class="main-card">
-            <div class="card-header">
-                <h2 class="card-title">Select Your Starting Point</h2>
-                <p class="card-description">
-                    Choose how you'd like to search for accommodations. You can search by disability,
-                    functional limitation, or workplace barrier. Pick the approach that feels most natural to you.
-                </p>
+        <!-- Content Area -->
+        <main id="main" class="content-area">
+            <div class="empty-state">
+                <div class="empty-icon">👆</div>
+                <h2 class="empty-title">Choose a Starting Point</h2>
+                <p>Select one of the options above to begin finding accommodations</p>
             </div>
-
-            <!-- Search Box -->
-            <div class="search-box">
-                <span class="search-icon" aria-hidden="true">🔍</span>
-                <input
-                    type="search"
-                    class="search-input"
-                    id="global-search"
-                    placeholder="Search disabilities, limitations, or barriers..."
-                    aria-label="Search all categories"
-                    onkeyup="globalSearch(this.value)"
-                >
-            </div>
-
-            <!-- Category Selection Grid -->
-            <div class="category-grid" id="category-grid">
-                <!-- Categories will be inserted here -->
-            </div>
-        </div>
+        </main>
 
         <!-- Results Section -->
-        <div class="results-section" id="results-section">
+        <div class="results-section" id="results-section" style="display: none;">
             <div class="results-header">
-                <h2 class="results-count" id="results-count">
-                    Select criteria to see accommodations
-                </h2>
+                <h2 class="results-title" id="results-title">No accommodations yet</h2>
                 <button class="export-btn" onclick="exportResults()" disabled id="export-btn">
                     📥 Export Results
                 </button>
             </div>
-            <div class="results-grid" id="results-grid">
-                <div class="empty-state">
-                    <div class="empty-icon">💡</div>
-                    <h3 class="empty-title">No selections yet</h3>
-                    <p class="empty-text">
-                        Select a category above and choose one or more items to see relevant workplace accommodations.
-                    </p>
-                </div>
-            </div>
+            <div class="accommodations-grid" id="accommodations-grid"></div>
         </div>
-    </main>
+    </div>
 
     <script>
-        // GitHub repository configuration
+        // Configuration
         const GITHUB_USER = 'harrisjulie';
         const GITHUB_REPO = 'accommodation-finder';
         const GITHUB_BRANCH = 'main';
         const BASE_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}/`;
 
-        // Database
+        // State
         let db = {
             disabilities: [],
             limitations: [],
             barriers: [],
+            functions: [],
             accommodations: []
         };
-
         let relationships = {};
-        let selectedItems = {
-            disability: [],
-            limitation: [],
-            barrier: []
-        };
+        let selections = {};
+        let currentMainType = null;
+        let currentCategory = null;
 
-        // Category definitions with metadata
-        const categories = {
+        // Category definitions
+        const categoryStructure = {
             disability: {
-                title: 'Disability or Condition',
-                icon: '🏥',
-                description: 'Start with a specific disability or health condition',
-                subcategories: {
-                    'Neurological/Cognitive': [],
-                    'Mental Health': [],
-                    'Physical/Mobility': [],
-                    'Visual': [],
-                    'Hearing': [],
-                    'Chronic Health': [],
-                    'Allergies/Sensitivities': [],
-                    'Other': []
-                }
+                'Neurological/Cognitive': [],
+                'Mental Health': [],
+                'Physical/Mobility': [],
+                'Visual': [],
+                'Hearing': [],
+                'Chronic Health': [],
+                'Allergies/Sensitivities': [],
+                'Other': []
             },
             limitation: {
-                title: 'Functional Limitation',
-                icon: '⚡',
-                description: 'Focus on specific functional challenges or limitations',
-                subcategories: {
-                    'Cognitive': [],
-                    'Physical': [],
-                    'Sensory': [],
-                    'Communication': [],
-                    'Environmental': [],
-                    'Other': []
-                }
+                'Cognitive': [],
+                'Physical': [],
+                'Sensory': [],
+                'Communication': [],
+                'Environmental': [],
+                'Other': []
             },
             barrier: {
-                title: 'Workplace Barrier',
-                icon: '🚧',
-                description: 'Identify workplace barriers that need accommodation',
-                subcategories: {
-                    'Physical Environment': [],
-                    'Communication': [],
-                    'Technology': [],
-                    'Policy': [],
-                    'Environmental': [],
-                    'Other': []
-                }
+                'Physical Environment': [],
+                'Communication': [],
+                'Technology': [],
+                'Policy': [],
+                'Environmental': [],
+                'Other': []
+            },
+            function: {
+                'Communication & Interaction': [],
+                'Physical Tasks': [],
+                'Cognitive Tasks': [],
+                'Technology Use': [],
+                'Scheduling & Time': [],
+                'Other': []
             }
         };
 
         // Load database
         async function loadDatabase() {
             try {
-                document.getElementById('loading').style.display = 'block';
-
                 const files = [
                     'disabilities.json',
                     'limitations.json',
                     'barriers.json',
+                    'functions.json',
                     'accommodations.json',
                     'relationships.json'
                 ];
@@ -815,342 +641,325 @@
                     })
                 );
 
-                const [disabilities, limitations, barriers, accommodations, rels] = await Promise.all(promises);
+                const [disabilities, limitations, barriers, functions, accommodations, rels] = await Promise.all(promises);
 
                 db.disabilities = disabilities || [];
                 db.limitations = limitations || [];
                 db.barriers = barriers || [];
+                db.functions = functions || [];
                 db.accommodations = accommodations || [];
                 relationships = rels || {};
 
-                // Organize into subcategories
-                organizeCategories();
-
-                // Initialize UI
-                renderCategories();
+                organizeData();
 
                 document.getElementById('loading').style.display = 'none';
-                document.getElementById('main').style.display = 'block';
+                document.getElementById('app').style.display = 'block';
 
-                showSuccess(`Database loaded! ${disabilities.length} disabilities, ${limitations.length} limitations, ${barriers.length} barriers, ${accommodations.length} accommodations.`);
+                showSuccess('Database loaded successfully!');
 
             } catch (error) {
-                console.error('Error loading database:', error);
-                showError('Failed to load database. Please refresh the page to try again.');
+                console.error('Error:', error);
+                showError('Failed to load database. Please refresh the page.');
             }
         }
 
-        function organizeCategories() {
-            // Organize disabilities by category
-            db.disabilities.forEach(item => {
-                const cat = item.category || 'Other';
-                if (categories.disability.subcategories[cat]) {
-                    categories.disability.subcategories[cat].push(item);
-                } else {
-                    categories.disability.subcategories['Other'].push(item);
-                }
-            });
+        function organizeData() {
+            // Organize items into categories
+            const typeMap = {
+                disability: 'disabilities',
+                limitation: 'limitations',
+                barrier: 'barriers',
+                function: 'functions'
+            };
 
-            // Organize limitations by category
-            db.limitations.forEach(item => {
-                const cat = item.category || 'Other';
-                if (categories.limitation.subcategories[cat]) {
-                    categories.limitation.subcategories[cat].push(item);
-                } else {
-                    categories.limitation.subcategories['Other'].push(item);
-                }
-            });
+            Object.entries(typeMap).forEach(([type, dbKey]) => {
+                db[dbKey].forEach(item => {
+                    const category = item.category || 'Other';
+                    if (categoryStructure[type][category]) {
+                        categoryStructure[type][category].push(item);
+                    } else {
+                        categoryStructure[type]['Other'].push(item);
+                    }
+                });
 
-            // Organize barriers by category
-            db.barriers.forEach(item => {
-                const cat = item.category || 'Other';
-                if (categories.barrier.subcategories[cat]) {
-                    categories.barrier.subcategories[cat].push(item);
-                } else {
-                    categories.barrier.subcategories['Other'].push(item);
-                }
-            });
-
-            // Sort items within each subcategory
-            Object.values(categories).forEach(category => {
-                Object.values(category.subcategories).forEach(items => {
+                // Sort items within categories
+                Object.values(categoryStructure[type]).forEach(items => {
                     items.sort((a, b) => a.name.localeCompare(b.name));
                 });
             });
         }
 
-        function renderCategories() {
-            const grid = document.getElementById('category-grid');
-            grid.innerHTML = '';
+        function selectMainType(type) {
+            currentMainType = type;
+            currentCategory = null;
 
-            Object.entries(categories).forEach(([key, category]) => {
-                const totalItems = Object.values(category.subcategories)
-                    .reduce((sum, items) => sum + items.length, 0);
-
-                const card = document.createElement('div');
-                card.className = 'category-card';
-                card.id = `category-${key}`;
-
-                const subcategoriesHTML = Object.entries(category.subcategories)
-                    .filter(([_, items]) => items.length > 0)
-                    .map(([subcat, items]) => `
-                        <div style="margin-bottom: 0.75rem;">
-                            <div style="font-weight: 600; color: var(--primary); margin-bottom: 0.5rem; font-size: 0.9rem;">
-                                ${subcat} (${items.length})
-                            </div>
-                            <div style="display: grid; gap: 0.5rem;">
-                                ${items.map(item => `
-                                    <button
-                                        class="item-btn ${selectedItems[key].some(s => s.id === item.id) ? 'selected' : ''}"
-                                        onclick="toggleSelection('${key}', '${item.id}')"
-                                        aria-pressed="${selectedItems[key].some(s => s.id === item.id)}"
-                                    >
-                                        ${item.name}
-                                    </button>
-                                `).join('')}
-                            </div>
-                        </div>
-                    `).join('');
-
-                card.innerHTML = `
-                    <div class="category-header">
-                        <span class="category-icon" aria-hidden="true">${category.icon}</span>
-                        <h3 class="category-title">${category.title}</h3>
-                        <span class="category-count">${totalItems}</span>
-                    </div>
-                    <p class="category-description">${category.description}</p>
-                    <button class="expand-btn" onclick="toggleCategory('${key}')" aria-expanded="false">
-                        Browse ${category.title}s
-                    </button>
-                    <div class="item-list" id="items-${key}">
-                        ${subcategoriesHTML}
-                    </div>
-                `;
-
-                grid.appendChild(card);
+            // Update tab buttons
+            document.querySelectorAll('.main-tab').forEach(tab => {
+                tab.classList.remove('active');
             });
+            document.getElementById(`tab-${type}`).classList.add('active');
+
+            // Show categories
+            showCategories(type);
         }
 
-        function toggleCategory(categoryKey) {
-            const card = document.getElementById(`category-${categoryKey}`);
-            const list = document.getElementById(`items-${categoryKey}`);
-            const btn = card.querySelector('.expand-btn');
+        function showCategories(type) {
+            const main = document.getElementById('main');
+            const categories = getFilteredCategories(type);
 
-            const isExpanded = list.classList.contains('show');
+            let html = '<div class="category-grid">';
 
-            // Close all other categories
-            document.querySelectorAll('.item-list').forEach(l => l.classList.remove('show'));
-            document.querySelectorAll('.category-card').forEach(c => c.classList.remove('expanded'));
-            document.querySelectorAll('.expand-btn').forEach(b => {
-                b.textContent = b.textContent.replace('Hide', 'Browse');
-                b.setAttribute('aria-expanded', 'false');
+            Object.entries(categories).forEach(([category, items]) => {
+                if (items.length > 0) {
+                    html += `
+                        <button class="category-btn" onclick="selectCategory('${category}')">
+                            ${category}
+                            <span class="category-count">${items.length} option${items.length !== 1 ? 's' : ''}</span>
+                        </button>
+                    `;
+                }
             });
 
-            if (!isExpanded) {
-                list.classList.add('show');
-                card.classList.add('expanded');
-                btn.textContent = btn.textContent.replace('Browse', 'Hide');
-                btn.setAttribute('aria-expanded', 'true');
+            html += '</div>';
+            main.innerHTML = html;
+        }
 
-                // Scroll to category
-                card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        function getFilteredCategories(type) {
+            // If no selections, show all categories
+            if (Object.keys(selections).length === 0) {
+                return categoryStructure[type];
             }
+
+            // Get relevant item IDs based on current selections
+            const relevantIds = new Set();
+
+            Object.entries(selections).forEach(([selType, selItems]) => {
+                selItems.forEach(selItem => {
+                    // Get accommodations for this selection
+                    const relKey = `${selType}_accommodations`;
+                    const accIds = relationships[relKey]?.[selItem.id] || [];
+
+                    // Find items in current type that share these accommodations
+                    const items = categoryStructure[type];
+                    Object.values(items).flat().forEach(item => {
+                        const itemRelKey = `${type}_accommodations`;
+                        const itemAccIds = relationships[itemRelKey]?.[item.id] || [];
+
+                        // If there's overlap, this item is relevant
+                        if (itemAccIds.some(id => accIds.includes(id))) {
+                            relevantIds.add(item.id);
+                        }
+                    });
+                });
+            });
+
+            // Filter categories to only show relevant items
+            const filtered = {};
+            Object.entries(categoryStructure[type]).forEach(([category, items]) => {
+                filtered[category] = items.filter(item => relevantIds.has(item.id));
+            });
+
+            return filtered;
         }
 
-        function toggleSelection(type, id) {
-            const item = db[type === 'disability' ? 'disabilities' :
-                           type === 'limitation' ? 'limitations' : 'barriers']
-                .find(i => i.id === id);
+        function selectCategory(category) {
+            currentCategory = category;
+            const items = categoryStructure[currentMainType][category];
 
-            if (!item) return;
+            const main = document.getElementById('main');
+            let html = '<div class="category-grid">';
 
-            const index = selectedItems[type].findIndex(s => s.id === id);
+            // Show all categories again
+            Object.entries(getFilteredCategories(currentMainType)).forEach(([cat, catItems]) => {
+                if (catItems.length > 0) {
+                    html += `
+                        <button class="category-btn ${cat === category ? 'active' : ''}" onclick="selectCategory('${cat}')">
+                            ${cat}
+                            <span class="category-count">${catItems.length} option${catItems.length !== 1 ? 's' : ''}</span>
+                        </button>
+                    `;
+                }
+            });
+
+            html += '</div>';
+
+            // Show items in selected category
+            html += `
+                <div class="items-section">
+                    <h3 class="items-header">${category}</h3>
+                    <div class="items-grid">
+            `;
+
+            items.forEach(item => {
+                const isSelected = selections[currentMainType]?.some(s => s.id === item.id);
+                html += `
+                    <button
+                        class="item-btn ${isSelected ? 'selected' : ''}"
+                        onclick="toggleItem('${currentMainType}', '${item.id}')"
+                        aria-pressed="${isSelected}"
+                    >
+                        ${item.name}
+                    </button>
+                `;
+            });
+
+            html += '</div></div>';
+            main.innerHTML = html;
+        }
+
+        function toggleItem(type, id) {
+            if (!selections[type]) {
+                selections[type] = [];
+            }
+
+            const index = selections[type].findIndex(s => s.id === id);
 
             if (index >= 0) {
-                // Remove selection
-                selectedItems[type].splice(index, 1);
+                selections[type].splice(index, 1);
+                if (selections[type].length === 0) {
+                    delete selections[type];
+                }
             } else {
-                // Add selection
-                selectedItems[type].push(item);
+                const item = categoryStructure[type][currentCategory].find(i => i.id === id);
+                if (item) {
+                    selections[type].push(item);
+                }
             }
 
             updateUI();
         }
 
-        function clearAllSelections() {
-            selectedItems = {
-                disability: [],
-                limitation: [],
-                barrier: []
-            };
+        function clearAll() {
+            selections = {};
             updateUI();
         }
 
         function updateUI() {
-            // Update step indicator
-            const hasSelections = Object.values(selectedItems).some(arr => arr.length > 0);
-            document.getElementById('step-1').className = 'step completed';
-            document.getElementById('step-2').className = hasSelections ? 'step completed' : 'step active';
-            document.getElementById('step-3').className = hasSelections ? 'step active' : 'step';
+            updateSelectionBar();
+            updateResults();
 
-            // Update selection pills
-            updateSelectionPills();
-
-            // Update category cards to reflect selections
-            renderCategories();
-
-            // Update results
-            displayResults();
+            // Refresh current view
+            if (currentCategory) {
+                selectCategory(currentCategory);
+            } else if (currentMainType) {
+                showCategories(currentMainType);
+            }
         }
 
-        function updateSelectionPills() {
-            const container = document.getElementById('pill-container');
-            const wrapper = document.getElementById('selections-container');
+        function updateSelectionBar() {
+            const bar = document.getElementById('selections-bar');
+            const pills = document.getElementById('pills');
 
             const allSelections = [];
-            Object.entries(selectedItems).forEach(([type, items]) => {
+            Object.entries(selections).forEach(([type, items]) => {
                 items.forEach(item => {
                     allSelections.push({ type, item });
                 });
             });
 
             if (allSelections.length === 0) {
-                wrapper.classList.remove('has-items');
+                bar.classList.remove('has-items');
                 return;
             }
 
-            wrapper.classList.add('has-items');
+            bar.classList.add('has-items');
 
             const typeLabels = {
                 disability: 'Disability',
                 limitation: 'Limitation',
-                barrier: 'Barrier'
+                barrier: 'Barrier',
+                function: 'Function'
             };
 
-            container.innerHTML = allSelections.map(({ type, item }) => `
+            pills.innerHTML = allSelections.map(({ type, item }) => `
                 <div class="pill">
-                    <span class="pill-label">${typeLabels[type]}</span>
-                    <span class="pill-text">${item.name}</span>
+                    <small>${typeLabels[type]}:</small> ${item.name}
                     <button
                         class="pill-remove"
-                        onclick="toggleSelection('${type}', '${item.id}')"
+                        onclick="removeSelection('${type}', '${item.id}')"
                         aria-label="Remove ${item.name}"
                     >×</button>
                 </div>
             `).join('');
         }
 
-        function displayResults() {
-            const resultsGrid = document.getElementById('results-grid');
-            const resultsCount = document.getElementById('results-count');
+        function removeSelection(type, id) {
+            const index = selections[type]?.findIndex(s => s.id === id);
+            if (index >= 0) {
+                selections[type].splice(index, 1);
+                if (selections[type].length === 0) {
+                    delete selections[type];
+                }
+                updateUI();
+            }
+        }
+
+        function updateResults() {
+            const section = document.getElementById('results-section');
+            const title = document.getElementById('results-title');
+            const grid = document.getElementById('accommodations-grid');
             const exportBtn = document.getElementById('export-btn');
 
-            // Get accommodations based on selections
-            const accommodationIds = new Set();
+            // Get accommodations
+            const accIds = new Set();
 
-            Object.entries(selectedItems).forEach(([type, items]) => {
+            Object.entries(selections).forEach(([type, items]) => {
                 const relKey = `${type}_accommodations`;
                 items.forEach(item => {
-                    const accIds = relationships[relKey]?.[item.id] || [];
-                    accIds.forEach(id => accommodationIds.add(id));
+                    const ids = relationships[relKey]?.[item.id] || [];
+                    ids.forEach(id => accIds.add(id));
                 });
             });
 
-            const accommodations = db.accommodations.filter(acc =>
-                accommodationIds.has(acc.id)
-            ).sort((a, b) => a.name.localeCompare(b.name));
+            const accommodations = db.accommodations
+                .filter(acc => accIds.has(acc.id))
+                .sort((a, b) => a.name.localeCompare(b.name));
 
             if (accommodations.length === 0) {
-                resultsCount.textContent = Object.values(selectedItems).some(arr => arr.length > 0)
-                    ? 'No accommodations found'
-                    : 'Select criteria to see accommodations';
-                exportBtn.disabled = true;
-
-                resultsGrid.innerHTML = `
-                    <div class="empty-state">
-                        <div class="empty-icon">💡</div>
-                        <h3 class="empty-title">${Object.values(selectedItems).some(arr => arr.length > 0) ? 'No matches found' : 'No selections yet'}</h3>
-                        <p class="empty-text">
-                            ${Object.values(selectedItems).some(arr => arr.length > 0)
-                                ? 'Try adjusting your selections to find accommodations.'
-                                : 'Select a category above and choose one or more items to see relevant workplace accommodations.'}
-                        </p>
-                    </div>
-                `;
+                section.style.display = 'none';
                 return;
             }
 
-            resultsCount.textContent = `Found ${accommodations.length} accommodation${accommodations.length !== 1 ? 's' : ''}`;
+            section.style.display = 'block';
+            title.textContent = `${accommodations.length} Accommodation${accommodations.length !== 1 ? 's' : ''} Found`;
             exportBtn.disabled = false;
 
-            resultsGrid.innerHTML = accommodations.map(acc => `
+            grid.innerHTML = accommodations.map(acc => `
                 <div class="accommodation-card">
-                    <div class="accommodation-title">${acc.name}</div>
+                    <div class="accommodation-name">${acc.name}</div>
                     ${acc.category ? `<span class="accommodation-category">${acc.category}</span>` : ''}
                 </div>
             `).join('');
         }
 
-        function globalSearch(query) {
-            query = query.toLowerCase().trim();
-
-            if (!query) {
-                renderCategories();
-                return;
-            }
-
-            // Search across all categories
-            Object.entries(categories).forEach(([key, category]) => {
-                Object.entries(category.subcategories).forEach(([subcat, items]) => {
-                    const filtered = items.filter(item =>
-                        item.name.toLowerCase().includes(query)
-                    );
-                    category.subcategories[subcat] = filtered;
-                });
-            });
-
-            renderCategories();
-
-            // Restore original data after search
-            setTimeout(() => {
-                if (document.getElementById('global-search').value === query) {
-                    return;
-                }
-                organizeCategories();
-            }, 100);
-        }
-
         function exportResults() {
-            const accommodationIds = new Set();
+            const accIds = new Set();
 
-            Object.entries(selectedItems).forEach(([type, items]) => {
+            Object.entries(selections).forEach(([type, items]) => {
                 const relKey = `${type}_accommodations`;
                 items.forEach(item => {
-                    const accIds = relationships[relKey]?.[item.id] || [];
-                    accIds.forEach(id => accommodationIds.add(id));
+                    const ids = relationships[relKey]?.[item.id] || [];
+                    ids.forEach(id => accIds.add(id));
                 });
             });
 
             const accommodations = db.accommodations
-                .filter(acc => accommodationIds.has(acc.id))
+                .filter(acc => accIds.has(acc.id))
                 .sort((a, b) => a.name.localeCompare(b.name));
 
-            if (accommodations.length === 0) return;
-
             let text = 'WORKPLACE ACCOMMODATIONS\n';
-            text += '='.repeat(50) + '\n\n';
+            text += '='.repeat(60) + '\n\n';
 
-            text += 'SELECTED CRITERIA:\n';
-            Object.entries(selectedItems).forEach(([type, items]) => {
-                if (items.length > 0) {
-                    text += `\n${type.toUpperCase()}S:\n`;
-                    items.forEach(item => {
-                        text += `  - ${item.name}\n`;
-                    });
-                }
+            text += 'SELECTIONS:\n\n';
+            Object.entries(selections).forEach(([type, items]) => {
+                text += `${type.toUpperCase()}S:\n`;
+                items.forEach(item => {
+                    text += `  • ${item.name}\n`;
+                });
+                text += '\n';
             });
 
-            text += '\n' + '='.repeat(50) + '\n\n';
+            text += '='.repeat(60) + '\n\n';
             text += `ACCOMMODATIONS (${accommodations.length}):\n\n`;
 
             accommodations.forEach((acc, i) => {
@@ -1169,19 +978,19 @@
             a.click();
             URL.revokeObjectURL(url);
 
-            showSuccess('Results exported successfully!');
+            showSuccess('Results exported!');
         }
 
-        function showError(message) {
+        function showError(msg) {
             const alert = document.getElementById('error-alert');
-            alert.textContent = message;
+            alert.textContent = msg;
             alert.classList.add('show');
             setTimeout(() => alert.classList.remove('show'), 5000);
         }
 
-        function showSuccess(message) {
+        function showSuccess(msg) {
             const alert = document.getElementById('success-alert');
-            alert.textContent = message;
+            alert.textContent = msg;
             alert.classList.add('show');
             setTimeout(() => alert.classList.remove('show'), 3000);
         }
